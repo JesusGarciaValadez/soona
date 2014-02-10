@@ -1,0 +1,12 @@
+#featured-products_block_center .product_desc {
+  margin: 8px 0 0 0; }
+  #featured-products_block_center .product_desc a:hover {
+    text-decoration: none; }
+#featured-products_block_center .crop_background {
+  background: url("../../../img/bottom_pettern.png") repeat-x scroll left bottom transparent;
+  display: block;
+  height: 17px;
+  left: -14px;
+  position: relative;
+  top: -32px;
+  width: 968px; }

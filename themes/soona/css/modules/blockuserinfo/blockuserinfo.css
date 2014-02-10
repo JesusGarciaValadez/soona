@@ -1,0 +1,80 @@
+/* block top user information */
+#header a {
+  font-family: "Futura_Light", Arial, Helvetica; }
+  #header a:hover {
+    color: #866297; }
+
+#header_right #header_user {
+  margin-top: 15px;
+  position: absolute;
+  right: 0; }
+  #header_right #header_user #header_nav {
+    list-style-type: none;
+    float: right; }
+#header_right #header_user.header_user_catalog {
+  margin-top: 15px;
+  min-height: 60px; }
+
+/* cart */
+.lt-ie6 #shopping_cart {
+  width: 130px; }
+
+#shopping_cart .ajax_cart_a {
+  background-image: url("../../../img/sprite.png");
+  background-repeat: no-repeat;
+  background-position: 1px -52px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: block;
+  font-family: "Futura_Light", Arial, Helvetica;
+  padding: 10px 15px 10px 35px; }
+  #shopping_cart .ajax_cart_a:hover {
+    background-position: 1px -92px;
+    text-decoration: none; }
+    #shopping_cart .ajax_cart_a:hover span {
+      text-decoration: none; }
+
+#header_user #shopping_cart .ajax_cart_quantity {
+  font-weight: bold; }
+#header_user #shopping_cart .ajax_cart_total {
+  display: none !important; }
+
+/* user infos */
+#header_user_info {
+  clear: both;
+  display: block;
+  margin: 10px auto 0;
+  padding: 0; }
+  #header_user_info a {
+    display: inline-block;
+    font-family: "Futura_Light", Arial, Helvetica;
+    margin: 0 0 0 6px;
+    /*padding:0px 0 0 28px;*/
+    padding: 0 0 0 6px; }
+    #header_user_info a:hover {
+      color: #866297;
+      text-decoration: none; }
+  #header_user_info a.account {
+    border: none;
+    display: inline;
+    margin: 0;
+    padding: 0; }
+  #header_user_info a.your_account {
+    background: url(../../../img/pipe.png) no-repeat scroll 0 3px transparent; }
+    #header_user_info a.your_account:hover {
+      /*background-position:-230px -223px; */ }
+  #header_user_info a.login {
+    /*background:url(../../../img/pipe.png) no-repeat scroll 0 3px transparent;*/ }
+    #header_user_info a.login:hover {
+      /*background-position:-233px -147px ;*/ }
+  #header_user_info a.logout {
+    background: url(../../../img/pipe.png) no-repeat scroll 0 3px transparent; }
+    #header_user_info a.logout:hover {
+      /*background-position:-233px -185px;*/ }
+
+.header-main .block .block_content {
+  background: none;
+  border-radius: 0; }
+
+.block_userinfo #header_user .shopping_cart_header #header_nav {
+  margin: 0; }

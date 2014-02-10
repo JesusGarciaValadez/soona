@@ -1,0 +1,5224 @@
+{
+"CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+"creatorBuild": "16534",
+"files": {
+	"\/default\/cache\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/cache\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/addresses.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/addresses.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/authentication.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/authentication.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/category.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/category.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/cms.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/cms.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/comparator.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/comparator.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/contact-form.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/contact-form.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/global.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/global.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/grid_prestashop.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/grid_prestashop.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/history.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/history.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/identity.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/identity.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/maintenance.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/maintenance.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/my-account.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/my-account.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/order-opc.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/order-opc.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/product.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/product.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/product_list.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/product_list.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/restricted-country.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/restricted-country.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/rtl.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/rtl.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/scenes.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/scenes.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/sitemap.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/sitemap.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/css\/stores.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/css\/stores.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/img\/arrow_right_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155,
+		"inputAbbreviatedPath": "\/default\/img\/arrow_right_1.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/arrow_right_1.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/arrow_right_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155,
+		"inputAbbreviatedPath": "\/default\/img\/arrow_right_2.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/arrow_right_2.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/arrow_rotate_anticlockwise.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 608,
+		"inputAbbreviatedPath": "\/default\/img\/arrow_rotate_anticlockwise.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/arrow_rotate_anticlockwise.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/bg_404.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5588,
+		"inputAbbreviatedPath": "\/default\/img\/bg_404.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/bg_404.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/bg_account.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 415,
+		"inputAbbreviatedPath": "\/default\/img\/bg_account.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/bg_account.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/bg_address_title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 240,
+		"inputAbbreviatedPath": "\/default\/img\/bg_address_title.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/bg_address_title.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/bg_bt_newsletter_ok.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 572,
+		"inputAbbreviatedPath": "\/default\/img\/bg_bt_newsletter_ok.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/bg_bt_newsletter_ok.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/bg_cart_voucher_submit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 218,
+		"inputAbbreviatedPath": "\/default\/img\/bg_cart_voucher_submit.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/bg_cart_voucher_submit.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/bg_discount_name.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133,
+		"inputAbbreviatedPath": "\/default\/img\/bg_discount_name.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/bg_discount_name.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/bg_form_h3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 254,
+		"inputAbbreviatedPath": "\/default\/img\/bg_form_h3.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/bg_form_h3.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/bg_input.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 141,
+		"inputAbbreviatedPath": "\/default\/img\/bg_input.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/bg_input.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/bg_li_idTabs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 243,
+		"inputAbbreviatedPath": "\/default\/img\/bg_li_idTabs.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/bg_li_idTabs.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/bg_maintenance.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5129,
+		"inputAbbreviatedPath": "\/default\/img\/bg_maintenance.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/bg_maintenance.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/bg_reduction.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 212,
+		"inputAbbreviatedPath": "\/default\/img\/bg_reduction.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/bg_reduction.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/bg_search_input.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 141,
+		"inputAbbreviatedPath": "\/default\/img\/bg_search_input.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/bg_search_input.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/bg_search_submit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 232,
+		"inputAbbreviatedPath": "\/default\/img\/bg_search_submit.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/bg_search_submit.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/bg_table_th.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 274,
+		"inputAbbreviatedPath": "\/default\/img\/bg_table_th.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/bg_table_th.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/block_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 361,
+		"inputAbbreviatedPath": "\/default\/img\/block_bg.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/block_bg.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/block_bg_myaccount.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 394,
+		"inputAbbreviatedPath": "\/default\/img\/block_bg_myaccount.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/block_bg_myaccount.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/block_category_item_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 380,
+		"inputAbbreviatedPath": "\/default\/img\/block_category_item_bg.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/block_category_item_bg.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/block_exclusive_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 375,
+		"inputAbbreviatedPath": "\/default\/img\/block_exclusive_bg.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/block_exclusive_bg.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/block_exclusive_footer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 744,
+		"inputAbbreviatedPath": "\/default\/img\/block_exclusive_footer.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/block_exclusive_footer.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/block_footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207,
+		"inputAbbreviatedPath": "\/default\/img\/block_footer.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/block_footer.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/block_footer_myaccount.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 852,
+		"inputAbbreviatedPath": "\/default\/img\/block_footer_myaccount.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/block_footer_myaccount.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/block_footer_page_footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 357,
+		"inputAbbreviatedPath": "\/default\/img\/block_footer_page_footer.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/block_footer_page_footer.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/block_header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 966,
+		"inputAbbreviatedPath": "\/default\/img\/block_header.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/block_header.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/block_header_exclusive.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 960,
+		"inputAbbreviatedPath": "\/default\/img\/block_header_exclusive.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/block_header_exclusive.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/block_header_exclusive_cart.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1134,
+		"inputAbbreviatedPath": "\/default\/img\/block_header_exclusive_cart.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/block_header_exclusive_cart.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/block_header_large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 777,
+		"inputAbbreviatedPath": "\/default\/img\/block_header_large.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/block_header_large.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/block_header_myaccount.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1851,
+		"inputAbbreviatedPath": "\/default\/img\/block_header_myaccount.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/block_header_myaccount.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/block_languages_top_p_bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 190,
+		"inputAbbreviatedPath": "\/default\/img\/block_languages_top_p_bg.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/block_languages_top_p_bg.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/block_search_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1104,
+		"inputAbbreviatedPath": "\/default\/img\/block_search_bg.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/block_search_bg.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/bullet_alt.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 710,
+		"inputAbbreviatedPath": "\/default\/img\/bullet_alt.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/bullet_alt.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/button-large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1777,
+		"inputAbbreviatedPath": "\/default\/img\/button-large.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/button-large.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/button-medium.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1733,
+		"inputAbbreviatedPath": "\/default\/img\/button-medium.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/button-medium.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/button-medium_exclusive.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1144,
+		"inputAbbreviatedPath": "\/default\/img\/button-medium_exclusive.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/button-medium_exclusive.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/button-mini.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1703,
+		"inputAbbreviatedPath": "\/default\/img\/button-mini.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/button-mini.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/button-small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1727,
+		"inputAbbreviatedPath": "\/default\/img\/button-small.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/button-small.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/flag_new_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 359,
+		"inputAbbreviatedPath": "\/default\/img\/flag_new_bg.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/flag_new_bg.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/form_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 512,
+		"inputAbbreviatedPath": "\/default\/img\/form_bg.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/form_bg.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/icon\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/img\/icon\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/img\/icon\/info.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 166,
+		"inputAbbreviatedPath": "\/default\/img\/icon\/info.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/icon\/info.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/icon\/logout.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1151,
+		"inputAbbreviatedPath": "\/default\/img\/icon\/logout.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/icon\/logout.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/icon\/newsletter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 263,
+		"inputAbbreviatedPath": "\/default\/img\/icon\/newsletter.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/icon\/newsletter.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/icon\/pict_add_cart.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 919,
+		"inputAbbreviatedPath": "\/default\/img\/icon\/pict_add_cart.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/icon\/pict_add_cart.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/icon\/pict_add_wishlist.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 789,
+		"inputAbbreviatedPath": "\/default\/img\/icon\/pict_add_wishlist.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/icon\/pict_add_wishlist.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/icon\/picto_fb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 226,
+		"inputAbbreviatedPath": "\/default\/img\/icon\/picto_fb.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/icon\/picto_fb.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/icon\/sort_asc_white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118,
+		"inputAbbreviatedPath": "\/default\/img\/icon\/sort_asc_white.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/icon\/sort_asc_white.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/icon\/sort_desc_white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 132,
+		"inputAbbreviatedPath": "\/default\/img\/icon\/sort_desc_white.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/icon\/sort_desc_white.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/icon\/zoom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1146,
+		"inputAbbreviatedPath": "\/default\/img\/icon\/zoom.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/icon\/zoom.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/img\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/img\/jquery\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/img\/jquery\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/img\/jquery\/macFFBgHack.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207,
+		"inputAbbreviatedPath": "\/default\/img\/jquery\/macFFBgHack.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/jquery\/macFFBgHack.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/logo_paiement_mastercard.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1880,
+		"inputAbbreviatedPath": "\/default\/img\/logo_paiement_mastercard.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/logo_paiement_mastercard.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/logo_paiement_paypal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2426,
+		"inputAbbreviatedPath": "\/default\/img\/logo_paiement_paypal.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/logo_paiement_paypal.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/logo_paiement_visa.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1700,
+		"inputAbbreviatedPath": "\/default\/img\/logo_paiement_visa.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/logo_paiement_visa.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/pict_cart_block_h4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 451,
+		"inputAbbreviatedPath": "\/default\/img\/pict_cart_block_h4.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/pict_cart_block_h4.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/sitemap-horizontal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100,
+		"inputAbbreviatedPath": "\/default\/img\/sitemap-horizontal.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/sitemap-horizontal.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/tab_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1073,
+		"inputAbbreviatedPath": "\/default\/img\/tab_bg.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/tab_bg.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/tab_bg_selected.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1434,
+		"inputAbbreviatedPath": "\/default\/img\/tab_bg_selected.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/tab_bg_selected.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/tab_bg_selected_short.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8577,
+		"inputAbbreviatedPath": "\/default\/img\/tab_bg_selected_short.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/tab_bg_selected_short.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/tab_bg_short.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8314,
+		"inputAbbreviatedPath": "\/default\/img\/tab_bg_short.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/tab_bg_short.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/img\/title_bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 574,
+		"inputAbbreviatedPath": "\/default\/img\/title_bg.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/img\/title_bg.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/js\/cart-summary.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/js\/cart-summary.js",
+		"outputAbbreviatedPath": "\/default\/js\/cart-summary.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/js\/cms.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/js\/cms.js",
+		"outputAbbreviatedPath": "\/default\/js\/cms.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/js\/contact-form.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/js\/contact-form.js",
+		"outputAbbreviatedPath": "\/default\/js\/contact-form.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/js\/history.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/js\/history.js",
+		"outputAbbreviatedPath": "\/default\/js\/history.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/js\/modules\/blocklayered\/blocklayered.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/js\/modules\/blocklayered\/blocklayered.js",
+		"outputAbbreviatedPath": "\/default\/js\/modules\/blocklayered\/blocklayered.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/js\/modules\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/js\/modules\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/js\/order-address.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/js\/order-address.js",
+		"outputAbbreviatedPath": "\/default\/js\/order-address.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/js\/order-opc.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/js\/order-opc.js",
+		"outputAbbreviatedPath": "\/default\/js\/order-opc.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/js\/product.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/js\/product.js",
+		"outputAbbreviatedPath": "\/default\/js\/product.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/js\/products-comparison.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/js\/products-comparison.js",
+		"outputAbbreviatedPath": "\/default\/js\/products-comparison.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/js\/scenes.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/js\/scenes.js",
+		"outputAbbreviatedPath": "\/default\/js\/scenes.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/js\/stores.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/js\/stores.js",
+		"outputAbbreviatedPath": "\/default\/js\/stores.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/js\/tools.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/js\/tools.js",
+		"outputAbbreviatedPath": "\/default\/js\/tools.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/js\/tools\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/js\/tools\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/js\/tools\/statesManagement.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/js\/tools\/statesManagement.js",
+		"outputAbbreviatedPath": "\/default\/js\/tools\/statesManagement.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/js\/tools\/treeManagement.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/js\/tools\/treeManagement.js",
+		"outputAbbreviatedPath": "\/default\/js\/tools\/treeManagement.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/lang\/es.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/lang\/es.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/lang\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/lang\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/lang\/mx.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/lang\/mx.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/mobile\/css\/global.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/css\/global.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/mobile\/css\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/css\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/mobile\/css\/jqm-docs.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/css\/jqm-docs.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/mobile\/css\/jquery.mobile-1.3.0.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/css\/jquery.mobile-1.3.0.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/mobile\/css\/maintenance.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/css\/maintenance.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/mobile\/img\/ajax-loader.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 340,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/ajax-loader.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/ajax-loader.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/bg_maintenance.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5129,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/bg_maintenance.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/bg_maintenance.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/icon\/addrbook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1146,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/icon\/addrbook.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/icon\/addrbook.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/icon\/favorite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1131,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/icon\/favorite.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/icon\/favorite.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/icon\/gift.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1137,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/icon\/gift.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/icon\/gift.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/icon\/home.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1171,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/icon\/home.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/icon\/home.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/icon\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/icon\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/mobile\/img\/icon\/my-account.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1087,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/icon\/my-account.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/icon\/my-account.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/icon\/order.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1134,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/icon\/order.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/icon\/order.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/icon\/return.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1184,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/icon\/return.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/icon\/return.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/icon\/slip.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1171,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/icon\/slip.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/icon\/slip.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/icon\/userinfos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1153,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/icon\/userinfos.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/icon\/userinfos.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/icon\/voucher.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1260,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/icon\/voucher.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/icon\/voucher.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/icons-18-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1767,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/icons-18-black.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/icons-18-black.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/icons-18-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1806,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/icons-18-white.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/icons-18-white.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/icons-36-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3611,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/icons-36-black.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/icons-36-black.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/icons-36-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3648,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/icons-36-white.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/icons-36-white.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/img_cart.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 863,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/img_cart.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/img_cart.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/mobile\/img\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2275,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/logo.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/logo.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/img\/slider_home.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94497,
+		"inputAbbreviatedPath": "\/default\/mobile\/img\/slider_home.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/mobile\/img\/slider_home.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/default\/mobile\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/mobile\/js\/cart.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/js\/cart.js",
+		"outputAbbreviatedPath": "\/default\/mobile\/js\/cart.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/mobile\/js\/global.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/js\/global.js",
+		"outputAbbreviatedPath": "\/default\/mobile\/js\/global.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/mobile\/js\/history.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/js\/history.js",
+		"outputAbbreviatedPath": "\/default\/mobile\/js\/history.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/mobile\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/mobile\/js\/jqm-docs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/js\/jqm-docs.js",
+		"outputAbbreviatedPath": "\/default\/mobile\/js\/jqm-docs.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/mobile\/js\/jquery.mobile-1.3.0.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/js\/jquery.mobile-1.3.0.min.js",
+		"outputAbbreviatedPath": "\/default\/mobile\/js\/jquery.mobile-1.3.0.min.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/mobile\/js\/jquery.touch-gallery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/js\/jquery.touch-gallery.js",
+		"outputAbbreviatedPath": "\/default\/mobile\/js\/jquery.touch-gallery.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/mobile\/js\/opc.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/js\/opc.js",
+		"outputAbbreviatedPath": "\/default\/mobile\/js\/opc.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/mobile\/js\/product.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/js\/product.js",
+		"outputAbbreviatedPath": "\/default\/mobile\/js\/product.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/mobile\/js\/stores.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/mobile\/js\/stores.js",
+		"outputAbbreviatedPath": "\/default\/mobile\/js\/stores.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/default\/pdf\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default\/pdf\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/default\/preview.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54764,
+		"inputAbbreviatedPath": "\/default\/preview.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/default\/preview.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/cache\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/cache\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/addresses.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/addresses.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/authentication.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/authentication.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/category.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/category.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/cms.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/cms.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/comparator.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/comparator.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/contact-form.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/contact-form.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/global.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/global.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/history.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/history.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/identity.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/identity.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/maintenance.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/maintenance.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/megnor\/custom.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/megnor\/custom.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/megnor\/scss\/custom.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/megnor\/scss\/custom.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/megnor\/custom.css",
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/megnor\/scss\/responsive.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/megnor\/scss\/responsive.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/megnor\/responsive.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/blockbestsellers\/scss\/blockbestsellers.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockbestsellers\/scss\/blockbestsellers.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/blockbestsellers\/blockbestsellers.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/blockcart\/scss\/blockcart.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockcart\/scss\/blockcart.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/blockcart\/blockcart.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/blockcontact\/scss\/blockcontact.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockcontact\/scss\/blockcontact.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/blockcontact\/blockcontact.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/blockcurrencies\/scss\/blockcurrencies.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockcurrencies\/scss\/blockcurrencies.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/blockcurrencies\/blockcurrencies.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/blocklanguages\/scss\/blocklanguages.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blocklanguages\/scss\/blocklanguages.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/blocklanguages\/blocklanguages.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/blocklayered\/blocklayered-15.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blocklayered\/blocklayered-15.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/modules\/blocklayered\/blocklayered.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blocklayered\/blocklayered.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/modules\/blockmyaccountfooter\/scss\/blockmyaccount.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockmyaccountfooter\/scss\/blockmyaccount.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/blockmyaccountfooter\/blockmyaccount.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/blocknewproducts\/scss\/blocknewproducts.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blocknewproducts\/scss\/blocknewproducts.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/blocknewproducts\/blocknewproducts.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/blocknewsletter\/scss\/blocknewsletter.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blocknewsletter\/scss\/blocknewsletter.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/blocknewsletter\/blocknewsletter.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/blockpermanentlinks\/blockpermanentlinks.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockpermanentlinks\/blockpermanentlinks.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/modules\/blockpermanentlinks\/scss\/blockpermanentlinks.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockpermanentlinks\/scss\/blockpermanentlinks.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/blockpermanentlinks\/blockpermanentlinks.css",
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/blockreinsurance\/img\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockreinsurance\/img\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/modules\/blockreinsurance\/img\/reinsurance-1-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1928,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockreinsurance\/img\/reinsurance-1-1.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/css\/modules\/blockreinsurance\/img\/reinsurance-1-1.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/css\/modules\/blockreinsurance\/img\/reinsurance-2-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2079,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockreinsurance\/img\/reinsurance-2-1.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/css\/modules\/blockreinsurance\/img\/reinsurance-2-1.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/css\/modules\/blockreinsurance\/img\/reinsurance-3-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4359,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockreinsurance\/img\/reinsurance-3-1.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/css\/modules\/blockreinsurance\/img\/reinsurance-3-1.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/css\/modules\/blockreinsurance\/img\/reinsurance-4-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2021,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockreinsurance\/img\/reinsurance-4-1.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/css\/modules\/blockreinsurance\/img\/reinsurance-4-1.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/css\/modules\/blockreinsurance\/img\/reinsurance-5-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1873,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockreinsurance\/img\/reinsurance-5-1.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/css\/modules\/blockreinsurance\/img\/reinsurance-5-1.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/css\/modules\/blockreinsurance\/scss\/style.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockreinsurance\/scss\/style.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/blockreinsurance\/style.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/blocksearch\/blocksearch.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blocksearch\/blocksearch.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/modules\/blocksearch\/scss\/blocksearch.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blocksearch\/scss\/blocksearch.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/blocksearch\/blocksearch.css",
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/blocksocial\/img\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blocksocial\/img\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/modules\/blocksocial\/img\/sprite_pict_social_block.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3336,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blocksocial\/img\/sprite_pict_social_block.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/css\/modules\/blocksocial\/img\/sprite_pict_social_block.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/css\/modules\/blockspecials\/scss\/blockspecials.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockspecials\/scss\/blockspecials.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/blockspecials\/blockspecials.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/blocktags\/scss\/blocktags.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blocktags\/scss\/blocktags.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/blocktags\/blocktags.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/blocktopmenu\/css\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blocktopmenu\/css\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/modules\/blocktopmenu\/css\/superfish-modified.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blocktopmenu\/css\/superfish-modified.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/modules\/blocktopmenu\/scss\/superfish-modified.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blocktopmenu\/scss\/superfish-modified.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/blocktopmenu\/superfish-modified.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/blockuserinfo\/blockuserinfo.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockuserinfo\/blockuserinfo.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/modules\/blockuserinfo\/scss\/blockuserinfo.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockuserinfo\/scss\/blockuserinfo.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/blockuserinfo\/blockuserinfo.css",
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/blockviewed\/scss\/blockviewed.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockviewed\/scss\/blockviewed.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/blockviewed\/blockviewed.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/blockwishlist\/img\/arrow_right_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockwishlist\/img\/arrow_right_2.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/css\/modules\/blockwishlist\/img\/arrow_right_2.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/css\/modules\/blockwishlist\/img\/icon\/add.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 917,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockwishlist\/img\/icon\/add.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/css\/modules\/blockwishlist\/img\/icon\/add.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/css\/modules\/blockwishlist\/img\/icon\/delete.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 715,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockwishlist\/img\/icon\/delete.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/css\/modules\/blockwishlist\/img\/icon\/delete.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/css\/modules\/blockwishlist\/img\/icon\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockwishlist\/img\/icon\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/modules\/blockwishlist\/img\/icon\/package.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 853,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockwishlist\/img\/icon\/package.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/css\/modules\/blockwishlist\/img\/icon\/package.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/css\/modules\/blockwishlist\/img\/icon\/package_go.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 898,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockwishlist\/img\/icon\/package_go.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/css\/modules\/blockwishlist\/img\/icon\/package_go.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/css\/modules\/blockwishlist\/img\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockwishlist\/img\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/modules\/blockwishlist\/scss\/blockwishlist.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/blockwishlist\/scss\/blockwishlist.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/blockwishlist\/blockwishlist.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/crossselling\/crossselling.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/crossselling\/crossselling.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/modules\/favoriteproducts\/scss\/favoriteproducts.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/favoriteproducts\/scss\/favoriteproducts.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/favoriteproducts\/favoriteproducts.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/homefeatured\/homefeatured.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/homefeatured\/homefeatured.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/modules\/homefeatured\/scss\/homefeatured.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/homefeatured\/scss\/homefeatured.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/homefeatured\/homefeatured.css",
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/homeslider\/homeslider.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/homeslider\/homeslider.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/modules\/homeslider\/scss\/bx_styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/homeslider\/scss\/bx_styles.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/homeslider\/bx_styles.css",
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/productcomments\/img\/accept.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 781,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/productcomments\/img\/accept.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/css\/modules\/productcomments\/img\/accept.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/css\/modules\/productcomments\/img\/comment.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 413,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/productcomments\/img\/comment.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/css\/modules\/productcomments\/img\/comment.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/css\/modules\/productcomments\/img\/comments_delete.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 670,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/productcomments\/img\/comments_delete.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/css\/modules\/productcomments\/img\/comments_delete.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/css\/modules\/productcomments\/img\/delete.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 715,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/productcomments\/img\/delete.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/css\/modules\/productcomments\/img\/delete.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/css\/modules\/productcomments\/img\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/productcomments\/img\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/modules\/productcomments\/img\/note.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 500,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/productcomments\/img\/note.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/css\/modules\/productcomments\/img\/note.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/css\/modules\/productcomments\/img\/note_go.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 661,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/productcomments\/img\/note_go.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/css\/modules\/productcomments\/img\/note_go.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/css\/modules\/productcomments\/scss\/productcomments.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/productcomments\/scss\/productcomments.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/productcomments\/productcomments.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/productscategory\/scss\/productscategory.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/productscategory\/scss\/productscategory.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/modules\/productscategory\/productscategory.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/modules\/tmhomeslider\/css\/tm_flexslider.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/modules\/tmhomeslider\/css\/tm_flexslider.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/my-account.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/my-account.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/order-opc.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/order-opc.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/product.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/product.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/product_list.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/product_list.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/restricted-country.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/restricted-country.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/rtl.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/rtl.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/scenes.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/scenes.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/scss\/global.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/scss\/global.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/global.css",
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/scss\/grid_prestashop.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/scss\/grid_prestashop.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/grid_prestashop.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/scss\/product_list.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/scss\/product_list.scss",
+		"outputAbbreviatedPath": "\/soona\/css\/product_list.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/soona\/css\/sitemap.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/sitemap.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/css\/stores.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/css\/stores.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/img\/+.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 134,
+		"inputAbbreviatedPath": "\/soona\/img\/+.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/+.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/-.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127,
+		"inputAbbreviatedPath": "\/soona\/img\/-.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/-.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/arrow_right_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155,
+		"inputAbbreviatedPath": "\/soona\/img\/arrow_right_2.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/arrow_right_2.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/arrow_rotate_anticlockwise.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 608,
+		"inputAbbreviatedPath": "\/soona\/img\/arrow_rotate_anticlockwise.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/arrow_rotate_anticlockwise.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/back_to_top.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5209,
+		"inputAbbreviatedPath": "\/soona\/img\/back_to_top.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/back_to_top.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/bg_404.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6673,
+		"inputAbbreviatedPath": "\/soona\/img\/bg_404.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/bg_404.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/bg_account.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 415,
+		"inputAbbreviatedPath": "\/soona\/img\/bg_account.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/bg_account.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/bg_address_title.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 240,
+		"inputAbbreviatedPath": "\/soona\/img\/bg_address_title.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/bg_address_title.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/bg_bt_newsletter_ok.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 572,
+		"inputAbbreviatedPath": "\/soona\/img\/bg_bt_newsletter_ok.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/bg_bt_newsletter_ok.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/bg_cart_voucher_submit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 218,
+		"inputAbbreviatedPath": "\/soona\/img\/bg_cart_voucher_submit.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/bg_cart_voucher_submit.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/bg_discount_name.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133,
+		"inputAbbreviatedPath": "\/soona\/img\/bg_discount_name.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/bg_discount_name.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/bg_form_h3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 254,
+		"inputAbbreviatedPath": "\/soona\/img\/bg_form_h3.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/bg_form_h3.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/bg_input.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 141,
+		"inputAbbreviatedPath": "\/soona\/img\/bg_input.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/bg_input.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/bg_maintenance.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5985,
+		"inputAbbreviatedPath": "\/soona\/img\/bg_maintenance.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/bg_maintenance.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/bg_reduction.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 368,
+		"inputAbbreviatedPath": "\/soona\/img\/bg_reduction.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/bg_reduction.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/bg_reduction_rtl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3086,
+		"inputAbbreviatedPath": "\/soona\/img\/bg_reduction_rtl.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/bg_reduction_rtl.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/bg_search_input.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 141,
+		"inputAbbreviatedPath": "\/soona\/img\/bg_search_input.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/bg_search_input.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/block_languages_top_p_bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 216,
+		"inputAbbreviatedPath": "\/soona\/img\/block_languages_top_p_bg.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/block_languages_top_p_bg.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/bottom_pettern.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 302,
+		"inputAbbreviatedPath": "\/soona\/img\/bottom_pettern.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/bottom_pettern.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/bottom_pettern1-.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 259,
+		"inputAbbreviatedPath": "\/soona\/img\/bottom_pettern1-.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/bottom_pettern1-.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/bottom_pettern1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 312,
+		"inputAbbreviatedPath": "\/soona\/img\/bottom_pettern1.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/bottom_pettern1.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/bullet_alt.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 710,
+		"inputAbbreviatedPath": "\/soona\/img\/bullet_alt.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/bullet_alt.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/button.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 351,
+		"inputAbbreviatedPath": "\/soona\/img\/button.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/button.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/button_disable.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 334,
+		"inputAbbreviatedPath": "\/soona\/img\/button_disable.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/button_disable.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/button_hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 364,
+		"inputAbbreviatedPath": "\/soona\/img\/button_hover.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/button_hover.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/category_banner.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85197,
+		"inputAbbreviatedPath": "\/soona\/img\/category_banner.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/category_banner.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/footer_icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 177,
+		"inputAbbreviatedPath": "\/soona\/img\/footer_icon.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/footer_icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/footer_iconhover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 185,
+		"inputAbbreviatedPath": "\/soona\/img\/footer_iconhover.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/footer_iconhover.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/form_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 512,
+		"inputAbbreviatedPath": "\/soona\/img\/form_bg.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/form_bg.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/header_pattern.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 378,
+		"inputAbbreviatedPath": "\/soona\/img\/header_pattern.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/header_pattern.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/icon\/arrows-ffffff.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 244,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/arrows-ffffff.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/arrows-ffffff.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/arrows-rtl-ffffff.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 969,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/arrows-rtl-ffffff.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/arrows-rtl-ffffff.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/basket.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 669,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/basket.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/basket.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/basket_go.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 777,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/basket_go.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/basket_go.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/bg_bt_newsletter_ok.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 572,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/bg_bt_newsletter_ok.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/bg_bt_newsletter_ok.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/block_contact_bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3111,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/block_contact_bg.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/block_contact_bg.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/block_contact_pict_tel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 804,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/block_contact_pict_tel.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/block_contact_pict_tel.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/block_languages_top_p_bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 216,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/block_languages_top_p_bg.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/block_languages_top_p_bg.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/block_languages_top_p_bg__.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 190,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/block_languages_top_p_bg__.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/block_languages_top_p_bg__.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/checkout.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 777,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/checkout.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/checkout.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/clock_icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1158,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/clock_icon.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/clock_icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/img\/icon\/info.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 166,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/info.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/info.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/logout.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1151,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/logout.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/logout.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/newsletter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 263,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/newsletter.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/newsletter.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/pict_add_cart.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 919,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/pict_add_cart.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/pict_add_cart.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/pict_add_wishlist.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 789,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/pict_add_wishlist.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/pict_add_wishlist.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/picto_fb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 226,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/picto_fb.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/picto_fb.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/sort_asc_white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/sort_asc_white.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/sort_asc_white.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/sort_desc_white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 132,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/sort_desc_white.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/sort_desc_white.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/icon\/zoom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 635,
+		"inputAbbreviatedPath": "\/soona\/img\/icon\/zoom.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/icon\/zoom.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/img\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/img\/jquery\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/img\/jquery\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/img\/jquery\/macFFBgHack.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207,
+		"inputAbbreviatedPath": "\/soona\/img\/jquery\/macFFBgHack.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/jquery\/macFFBgHack.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/logo_paiement_mastercard.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1880,
+		"inputAbbreviatedPath": "\/soona\/img\/logo_paiement_mastercard.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/logo_paiement_mastercard.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/logo_paiement_paypal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2426,
+		"inputAbbreviatedPath": "\/soona\/img\/logo_paiement_paypal.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/logo_paiement_paypal.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/logo_paiement_visa.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1700,
+		"inputAbbreviatedPath": "\/soona\/img\/logo_paiement_visa.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/logo_paiement_visa.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/megnor\/cat_arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 204,
+		"inputAbbreviatedPath": "\/soona\/img\/megnor\/cat_arrow.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/megnor\/cat_arrow.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/megnor\/cat_arrow_hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 203,
+		"inputAbbreviatedPath": "\/soona\/img\/megnor\/cat_arrow_hover.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/megnor\/cat_arrow_hover.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/megnor\/grabbing.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116,
+		"inputAbbreviatedPath": "\/soona\/img\/megnor\/grabbing.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/megnor\/grabbing.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/megnor\/rtl\/cat_arrow_hover_rtl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 238,
+		"inputAbbreviatedPath": "\/soona\/img\/megnor\/rtl\/cat_arrow_hover_rtl.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/megnor\/rtl\/cat_arrow_hover_rtl.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/megnor\/rtl\/cat_arrow_rtl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 232,
+		"inputAbbreviatedPath": "\/soona\/img\/megnor\/rtl\/cat_arrow_rtl.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/megnor\/rtl\/cat_arrow_rtl.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/megnor\/rtl\/subcat_arrow_hover_rtl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 209,
+		"inputAbbreviatedPath": "\/soona\/img\/megnor\/rtl\/subcat_arrow_hover_rtl.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/megnor\/rtl\/subcat_arrow_hover_rtl.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/megnor\/rtl\/subcat_arrow_rtl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 209,
+		"inputAbbreviatedPath": "\/soona\/img\/megnor\/rtl\/subcat_arrow_rtl.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/megnor\/rtl\/subcat_arrow_rtl.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/megnor\/subcat_arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 174,
+		"inputAbbreviatedPath": "\/soona\/img\/megnor\/subcat_arrow.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/megnor\/subcat_arrow.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/megnor\/subcat_arrow_hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 174,
+		"inputAbbreviatedPath": "\/soona\/img\/megnor\/subcat_arrow_hover.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/megnor\/subcat_arrow_hover.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/megnor\/toggle-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 783,
+		"inputAbbreviatedPath": "\/soona\/img\/megnor\/toggle-arrow.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/megnor\/toggle-arrow.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/megnor\/toggle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 589,
+		"inputAbbreviatedPath": "\/soona\/img\/megnor\/toggle.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/megnor\/toggle.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/menu_bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133,
+		"inputAbbreviatedPath": "\/soona\/img\/menu_bg.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/menu_bg.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/newsletter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 465,
+		"inputAbbreviatedPath": "\/soona\/img\/newsletter.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/newsletter.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/onsale_left.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 290,
+		"inputAbbreviatedPath": "\/soona\/img\/onsale_left.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/onsale_left.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/onsale_right.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 463,
+		"inputAbbreviatedPath": "\/soona\/img\/onsale_right.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/onsale_right.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/pict_cart_block_h4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 451,
+		"inputAbbreviatedPath": "\/soona\/img\/pict_cart_block_h4.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/pict_cart_block_h4.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/pipe.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 304,
+		"inputAbbreviatedPath": "\/soona\/img\/pipe.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/pipe.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/pipe.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114,
+		"inputAbbreviatedPath": "\/soona\/img\/pipe.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/pipe.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/sitemap-horizontal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100,
+		"inputAbbreviatedPath": "\/soona\/img\/sitemap-horizontal.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/sitemap-horizontal.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73557,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_1.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_1.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32387,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_10.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_10.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68559,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_11.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_11.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_12.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69481,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_12.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_12.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52276,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_2.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_2.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87570,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_3.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_3.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71653,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_4.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_4.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89676,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_5.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_5.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56884,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_6.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_6.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65079,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_7.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_7.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68650,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_8.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_8.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71327,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_9.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_catalogo\/A_catalogo_9.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_destacados\/P_destacado_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70328,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_destacados\/P_destacado_1.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_destacados\/P_destacado_1.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_destacados\/P_destacado_10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31666,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_destacados\/P_destacado_10.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_destacados\/P_destacado_10.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_destacados\/P_destacado_11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68226,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_destacados\/P_destacado_11.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_destacados\/P_destacado_11.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_destacados\/P_destacado_12.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70081,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_destacados\/P_destacado_12.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_destacados\/P_destacado_12.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_destacados\/P_destacado_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54008,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_destacados\/P_destacado_2.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_destacados\/P_destacado_2.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_destacados\/P_destacado_3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86747,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_destacados\/P_destacado_3.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_destacados\/P_destacado_3.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_destacados\/P_destacado_4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74157,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_destacados\/P_destacado_4.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_destacados\/P_destacado_4.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_destacados\/P_destacado_5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90316,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_destacados\/P_destacado_5.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_destacados\/P_destacado_5.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_destacados\/P_destacado_6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56096,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_destacados\/P_destacado_6.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_destacados\/P_destacado_6.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_destacados\/P_destacado_7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64898,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_destacados\/P_destacado_7.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_destacados\/P_destacado_7.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_destacados\/P_destacado_8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68654,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_destacados\/P_destacado_8.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_destacados\/P_destacado_8.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_destacados\/P_destacado_9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72143,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_destacados\/P_destacado_9.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_destacados\/P_destacado_9.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15145,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_1.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_1.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8507,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_10.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_10.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16494,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_11.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_11.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_12.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16573,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_12.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_12.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_15.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20099,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_15.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_15.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11457,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_2.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_2.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18142,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_3.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_3.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16369,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_4.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_4.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19840,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_5.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_5.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14201,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_6.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_6.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14914,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_7.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_7.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14513,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_8.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_8.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17119,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_9.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_relacionados\/A_relacionados_9.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/banner_entrega.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51565,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/banner_entrega.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/banner_entrega.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/banner_tipo_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67763,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/banner_tipo_1.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/banner_tipo_1.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/bg_buscar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1279,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/bg_buscar.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/bg_buscar.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/bg_footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 990,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/bg_footer.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/bg_footer.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/bg_producto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 990,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/bg_producto.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/bg_producto.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/bg_producto_art_relcionado.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 990,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/bg_producto_art_relcionado.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/bg_producto_art_relcionado.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/bg_productos_destacados.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 991,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/bg_productos_destacados.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/bg_productos_destacados.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/bg_texto_modelos_relacionados.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 991,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/bg_texto_modelos_relacionados.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/bg_texto_modelos_relacionados.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/buscar_lupa.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2387,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/buscar_lupa.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/buscar_lupa.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/carrito_header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2003,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/carrito_header.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/carrito_header.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/carrito_producto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4033,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/carrito_producto.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/carrito_producto.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/conoce_mas.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1679,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/conoce_mas.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/conoce_mas.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/corona_nombre.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1757,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/corona_nombre.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/corona_nombre.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/cuadro_seleccion.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1321,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/cuadro_seleccion.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/cuadro_seleccion.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/decoracion_producto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2205,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/decoracion_producto.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/decoracion_producto.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/face_btn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1605,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/face_btn.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/face_btn.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/featured_products_title_background.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3658,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/featured_products_title_background.png",
+		"outputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/Photo 1090.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/flecha_der.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3219,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/flecha_der.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/flecha_der.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/flecha_der_calendario_producto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1611,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/flecha_der_calendario_producto.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/flecha_der_calendario_producto.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/flecha_izq.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3240,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/flecha_izq.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/flecha_izq.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/flecha_izq_calendario_producto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1648,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/flecha_izq_calendario_producto.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/flecha_izq_calendario_producto.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/flores_titulo_producto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4323,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/flores_titulo_producto.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/flores_titulo_producto.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/home_invierno_soona_1_H.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1982,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/home_invierno_soona_1_H.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/home_invierno_soona_1_H.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/icono_sello_corazones.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10082,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/icono_sello_corazones.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/icono_sello_corazones.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/joteria_producto3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1500,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/joteria_producto3.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/joteria_producto3.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/joteria_producto4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1489,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/joteria_producto4.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/joteria_producto4.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/joteria_producto_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1456,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/joteria_producto_1.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/joteria_producto_1.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/joteria_producto_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1493,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/joteria_producto_2.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/joteria_producto_2.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/linea_catalogo_precio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1446,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/linea_catalogo_precio.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/linea_catalogo_precio.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/linea_footer_mapasitio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1014,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/linea_footer_mapasitio.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/linea_footer_mapasitio.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/linea_morado.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1127,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/linea_morado.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/linea_morado.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/linea_productos_destacados.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1296,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/linea_productos_destacados.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/linea_productos_destacados.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/linea_separador.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1924,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/linea_separador.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/linea_separador.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/linea_separador_menuheader.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1023,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/linea_separador_menuheader.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/linea_separador_menuheader.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/logo_soona_header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52543,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/logo_soona_header.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/logo_soona_header.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/lopa_producto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12031,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/lopa_producto.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/lopa_producto.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/mapa_df_footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6640,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/mapa_df_footer.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/mapa_df_footer.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/mas_carrito.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2889,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/mas_carrito.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/mas_carrito.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/mastercard.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2122,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/mastercard.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/mastercard.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/menu_back.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 991,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/menu_back.png",
+		"outputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/Photo 3557.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/paypal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1982,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/paypal.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/paypal.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/pedidos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39798,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/pedidos.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/pedidos.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/pinterest_btn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2007,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/pinterest_btn.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/pinterest_btn.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/recorte_inferior.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5645,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/recorte_inferior.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/recorte_inferior.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/recorte_superior.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9335,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/recorte_superior.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/recorte_superior.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/scroll.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1737,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/scroll.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/scroll.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/selecciona_ciudad.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1710,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/selecciona_ciudad.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/selecciona_ciudad.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/sello_catalogo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3686,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/sello_catalogo.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/sello_catalogo.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/sello_FAQS.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1800,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/sello_FAQS.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/sello_FAQS.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/sello_num1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2158,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/sello_num1.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/sello_num1.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/sello_num2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2494,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/sello_num2.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/sello_num2.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/sello_num3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2312,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/sello_num3.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/sello_num3.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/sello_num4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2308,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/sello_num4.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/sello_num4.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/social_network_icons.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4895,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/social_network_icons.png",
+		"outputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/social_network_icons.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/soona\/img\/soona_img\/images_soona\/sprite_iconos copia.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13922,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/sprite_iconos copia.png",
+		"outputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/sprite_iconos copia.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/sprite_iconos-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13922,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/sprite_iconos-2.png",
+		"outputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/sprite_iconos-2.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/sprite_iconos-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13922,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/sprite_iconos-3.png",
+		"outputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/sprite_iconos-3.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/sprite_iconos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10172,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/sprite_iconos.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/sprite_iconos.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/sprite_numeros.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4643,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/sprite_numeros.png",
+		"outputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/sprite_numeros.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/suscripciones.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10812,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/suscripciones.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/suscripciones.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/tab_detalles.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1494,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/tab_detalles.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/tab_detalles.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/tab_politias_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1557,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/tab_politias_2.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/tab_politias_2.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/tab_politicas.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1525,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/tab_politicas.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/tab_politicas.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/testimoniales.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4662,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/testimoniales.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/testimoniales.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/twitter_btn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1753,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/twitter_btn.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/twitter_btn.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/visa.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1513,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/visa.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/visa.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/winter_background.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 671726,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/winter_background.jpeg",
+		"outputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/winter_background.jpeg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/sprite-.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9899,
+		"inputAbbreviatedPath": "\/soona\/img\/sprite-.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/sprite-.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/sprite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10359,
+		"inputAbbreviatedPath": "\/soona\/img\/sprite.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/sprite.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/sprite_info.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1396,
+		"inputAbbreviatedPath": "\/soona\/img\/sprite_info.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/sprite_info.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/top-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207,
+		"inputAbbreviatedPath": "\/soona\/img\/top-arrow.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/top-arrow.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/img\/top_pettern.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 293,
+		"inputAbbreviatedPath": "\/soona\/img\/top_pettern.png",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/top_pettern.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/soona\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/js\/cart-summary.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/cart-summary.js",
+		"outputAbbreviatedPath": "\/soona\/js\/cart-summary.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/cms.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/cms.js",
+		"outputAbbreviatedPath": "\/soona\/js\/cms.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/contact-form.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/contact-form.js",
+		"outputAbbreviatedPath": "\/soona\/js\/contact-form.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/history.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/history.js",
+		"outputAbbreviatedPath": "\/soona\/js\/history.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/js\/megnor\/carousel.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/megnor\/carousel.min.js",
+		"outputAbbreviatedPath": "\/soona\/js\/megnor\/carousel.min.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/megnor\/custom.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/megnor\/custom.js",
+		"outputAbbreviatedPath": "\/soona\/js\/megnor\/custom.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/megnor\/html5.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/megnor\/html5.js",
+		"outputAbbreviatedPath": "\/soona\/js\/megnor\/html5.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/megnor\/jquery.cookie.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/megnor\/jquery.cookie.min.js",
+		"outputAbbreviatedPath": "\/soona\/js\/megnor\/jquery.cookie.min.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/megnor\/jquery.custom.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/megnor\/jquery.custom.min.js",
+		"outputAbbreviatedPath": "\/soona\/js\/megnor\/jquery.custom.min.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/megnor\/jquery.formalize.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/megnor\/jquery.formalize.min.js",
+		"outputAbbreviatedPath": "\/soona\/js\/megnor\/jquery.formalize.min.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/megnor\/megnor.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/megnor\/megnor.min.js",
+		"outputAbbreviatedPath": "\/soona\/js\/megnor\/megnor.min.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/megnor\/respond.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/megnor\/respond.min.js",
+		"outputAbbreviatedPath": "\/soona\/js\/megnor\/respond.min.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/megnor\/scrolltop.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/megnor\/scrolltop.min.js",
+		"outputAbbreviatedPath": "\/soona\/js\/megnor\/scrolltop.min.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/modules\/blockcart\/ajax-cart.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/modules\/blockcart\/ajax-cart.js",
+		"outputAbbreviatedPath": "\/soona\/js\/modules\/blockcart\/ajax-cart.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/modules\/blocklayered\/blocklayered.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/modules\/blocklayered\/blocklayered.js",
+		"outputAbbreviatedPath": "\/soona\/js\/modules\/blocklayered\/blocklayered.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/modules\/carriercompare\/carriercompare.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/modules\/carriercompare\/carriercompare.js",
+		"outputAbbreviatedPath": "\/soona\/js\/modules\/carriercompare\/carriercompare.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/modules\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/modules\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/js\/order-address.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/order-address.js",
+		"outputAbbreviatedPath": "\/soona\/js\/order-address.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/order-opc.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/order-opc.js",
+		"outputAbbreviatedPath": "\/soona\/js\/order-opc.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/product.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/product.js",
+		"outputAbbreviatedPath": "\/soona\/js\/product.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/products-comparison.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/products-comparison.js",
+		"outputAbbreviatedPath": "\/soona\/js\/products-comparison.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/scenes.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/scenes.js",
+		"outputAbbreviatedPath": "\/soona\/js\/scenes.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/stores.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/stores.js",
+		"outputAbbreviatedPath": "\/soona\/js\/stores.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/tools.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/tools.js",
+		"outputAbbreviatedPath": "\/soona\/js\/tools.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/tools\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/tools\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/js\/tools\/statesManagement.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/tools\/statesManagement.js",
+		"outputAbbreviatedPath": "\/soona\/js\/tools\/statesManagement.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/tools\/treeManagement.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/tools\/treeManagement.js",
+		"outputAbbreviatedPath": "\/soona\/js\/tools\/treeManagement.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/lang\/br.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/lang\/br.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/lang\/de.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/lang\/de.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/lang\/en.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/lang\/en.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/lang\/es.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/lang\/es.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/lang\/fr.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/lang\/fr.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/lang\/he.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/lang\/he.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/lang\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/lang\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/lang\/it.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/lang\/it.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/lang\/nl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/lang\/nl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/lang\/pl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/lang\/pl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/pdf\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/pdf\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/soona\/preview.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10451,
+		"inputAbbreviatedPath": "\/soona\/preview.jpg",
+		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/preview.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		}
+	},
+"hooks": [
+	],
+"lastSavedByUser": "Jesús Antonio García Valadez",
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"bowerAbbreviatedPath": "",
+	"displayValue": "Soona Themes",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "meme-ariel"
+	},
+"projectSettings": {
+	"alwaysUseExternalServer": 1,
+	"animateCSSInjections": 1,
+	"autoApplyPSLanguageSettingsStyle": 0,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
+	"autoSyncProjectSettingsFile": 1,
+	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathReplace1": "",
+	"coffeeAutoOutputPathReplace2": "",
+	"coffeeAutoOutputPathStyle": 0,
+	"coffeeCreateSourceMap": 0,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"coffeeMinifyOutput": 1,
+	"coffeeOutputStyle": 0,
+	"coffeeSyntaxCheckerStyle": 1,
+	"externalServerAddress": "http:\/\/localhost:80\/soona\/",
+	"externalServerPreviewPathAddition": "",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 0,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 1,
+	"javascriptOutputSuffix": ".min",
+	"javascriptSyntaxCheckerStyle": 1,
+	"jsCheckerReservedNamesString": "jQuery,$,_",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"gcl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onevar": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"smarttabs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"trailing": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"ass": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"closure": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"continue": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeq": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"newcap": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nomen": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sloppy": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"stupid": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"todo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unparam": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathReplace1": "",
+	"kitAutoOutputPathReplace2": "",
+	"kitAutoOutputPathStyle": 0,
+	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 0,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownEnableFootnotes": 0,
+	"markdownEnableSmartyPants": 1,
+	"markdownExpandTabs": 1,
+	"reloadFileURLs": 1,
+	"sassAutoOutputPathRelativePath": "..\/",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 0,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 2,
+	"sassOutputStyle": 0,
+	"sassUseLibsass": 0,
+	"shouldRunAutoprefixer": 1,
+	"shouldRunBless": 0,
+	"skippedItemsString": ".svn, .git, .hg, log",
+	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 0,
+	"slimLogicless": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathRelativePath": "..\/css",
+	"stylusAutoOutputPathReplace1": "stylus",
+	"stylusAutoOutputPathReplace2": "css",
+	"stylusAutoOutputPathStyle": 2,
+	"stylusDebugStyle": 0,
+	"stylusImportCSS": 0,
+	"stylusOutputStyle": 0,
+	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathRelativePath": "\/js",
+	"typescriptAutoOutputPathReplace1": "",
+	"typescriptAutoOutputPathReplace2": "",
+	"typescriptAutoOutputPathStyle": 2,
+	"typescriptCreateDeclarationFile": 0,
+	"typescriptCreateSourceMap": 0,
+	"typescriptMinifyOutput": 0,
+	"typescriptModuleType": 0,
+	"typescriptNoImplicitAny": 0,
+	"typescriptNoResolve": 0,
+	"typescriptRemoveComments": 0,
+	"typescriptTargetECMAVersion": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "2"
+}

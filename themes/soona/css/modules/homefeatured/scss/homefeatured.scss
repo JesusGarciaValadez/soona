@@ -1,0 +1,339 @@
+#featured-products_block_center {
+    
+    .crop_background{
+        background: url("../../img/bottom_pettern.png") repeat-x scroll left bottom transparent;
+        display: block;
+        height: 17px;
+        left: -16px;
+        position: relative;
+        top: -17px;
+        width: 1008px;
+    }
+    aside{}
+    #left_disposition{
+        float: left;
+        padding: 0 33px 0 0;
+        width: 256px;
+        article{
+            padding-bottom: 16px;
+            width: 256px;
+            h3{
+                @include font-mask( #FFF, em( 18, 14 ), em( 18, 18 ), normal );
+                display: block;
+                margin: 0;
+                text-align: center;
+            }
+        }
+        #order_square{
+            background: url("../../img/soona_img/images_soona/pedidos.jpg") no-repeat scroll center top transparent;
+            display: block;
+            height: 278px;
+            h3{ padding: 18px 0 0; }
+            ul{
+                @extend .clearfix;
+                margin: 0;
+                padding: 153px 0 22px 32px;
+                li{
+                    float: left;
+                    list-style: none inside;
+                    p{
+                        @include font-mask( #FFF, em( 18, 14 ), em( 18, 18 ), normal );
+                        span{ color: $color_light; }
+                    }
+                }
+                #shop_phone{ padding: 0 0 0 53px; }
+            }
+            p{
+                @include font-mask( $text_gray, em( 11, 14 ), em( 11, 11 ), normal );
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+        }
+        #suscriptions_square{
+            background: url("../../img/soona_img/images_soona/suscripciones.jpg") no-repeat scroll center top transparent;
+            height: 81px;
+            h3{ padding: 18px 0 0; }
+            p{
+                @include font-mask( $text_gray, em( 18, 14 ), em( 16, 18 ), normal, $futura_bold );
+                margin-bottom: 0;
+                padding-bottom: 0;
+                text-indent: 42px;
+                a{
+                    color: $text_gray;
+                    text-decoration: none;
+                }
+            }
+        }
+        #testimonial_square{
+            background: url("../../img/soona_img/images_soona/testimoniales.jpg") no-repeat scroll center top transparent;
+            height: 103px;
+            h3{ padding: 13px 0 0; }
+            p{
+                @include font-mask( $text_gray, em( 11, 14 ), em( 14, 11 ), normal );
+                letter-spacing: em( 0.5, 11 );
+                margin: 15px auto 0 25px;
+                padding: 0;
+                width: 217px;
+                span{ color: $color_light; }
+            }
+        }
+    }
+    #featured_products_wrapper{
+        float: left;
+        width: 679px;
+        .title_block{
+            @include font-mask( $color_dark, em( 25, 14 ), em( 25, 25 ), normal, $discover );
+            background: url("../../img/soona_img/images_soona/featured_products_title_background.png") no-repeat scroll left center transparent; 
+            border: 0 none transparent !important;
+            clear: both;
+            display: block;
+            margin:0;
+            padding:23px 0 6px;
+            position: relative;
+            text-indent: 63px;
+            top:-8px;
+        }
+        .block_content{
+            border-style: dotted none none none;
+            border-color: #D1D1D1;
+            border-width: 1px 0 0 0;
+            height: 342px;
+            .product_list{
+                box-shadow: 0 0 0 #FFF;
+                border: 0 none transparent;
+                height: 324px;
+                padding: 11px 0 0;
+                width: 649px;
+            }
+            #featured-grid{
+                
+                li.ajax_block_product{
+                    float: left;
+                    height: 100%;
+                    list-style: none inside;
+                    padding: 0 8px;
+                    width: 211px !important;
+                    .product-block{
+                        border: 0 none transparent;
+                        height: 100%;
+                        margin: 0;
+                        padding: 0;
+                        width: 100%;
+                        .product-inner{
+                            height: 100%;
+                            margin: 0;
+                            padding: 0;
+                            width: 100%;
+                            a.product_image{
+                                
+                                img{}
+                            }
+                            a{}
+                            .exclusive{}
+                            .ajax_add_to_cart_button{
+                                background: url("../../img/soona_img/images_soona/mas_carrito.png") no-repeat scroll center center transparent;
+                                border: 0 none transparent;
+                                height: 32px;
+                                margin: 0;
+                                padding: 0;
+                                position: absolute;
+                                right: 15px;
+                                text-indent: -2000em;
+                                top: 6px;
+                                width: 48px;
+                            }
+                            div{
+                                background: url("../../img/soona_img/images_soona/bg_productos_destacados.png") repeat scroll 0 0 transparent;
+                                bottom: 0;
+                                display: block;
+                                height: 80px;
+                                left: 8px;
+                                padding: 17px 12px 9px;
+                                position: absolute;
+                                width: 186px;
+                                p.s_title_block{
+                                    @include font-mask( #FFF, em( 18.2, 14 ), em( 18.2, 18.2 ), normal );
+                                    float: left;
+                                    width: 50%;
+                                    a{ color: #FFF; text-decoration: none; }
+                                }
+                                p.price_container{
+                                    float: left;
+                                    width: 50%;
+                                    span.price{
+                                        @include font-mask( #FFF, em( 12, 14 ), em( 12, 12 ), normal );
+                                    }
+                                }
+                                hr{
+                                    border-style: dotted none none none;
+                                    border-color: #D1D1D1;
+                                    border-width: 1px 0 0 0;
+                                    clear: both;
+                                    display: block;
+                                    margin: 0;
+                                    padding: 0;
+                                    width: 186px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .first_item_tm{
+                    padding-left: 0 !important;
+                    .product-block{
+                        
+                        .product-inner{
+                            
+                            div{ left: 0 !important; }
+                        }
+                    }
+                }
+                .last_item_tm{
+                    padding-right: 0 !important;
+                    .product-block{
+                        
+                        .product-inner{
+                            
+                            div{ left: 8px !important; }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .product_image {}
+    .product_desc { 
+        margin:8px 0 0 0;
+        a{
+            
+            &:hover { text-decoration:none;}
+        }
+    }
+    #catalog_home{
+        @extend .clearfix;
+        border-top: 1px dashed #CACACA;
+        margin: 12px 0 0;
+        h3{
+            @include font-mask( $color_light, em( 25, 14 ), em( 25, 25 ), normal, $discover );
+            background: url("../../img/soona_img/images_soona/sello_catalogo.png") no-repeat scroll left center transparent;
+            display: inline-block;
+            float: left;
+            margin: 0;
+            padding: 30px 0 20px;
+            text-align: left;
+            text-indent: 87px;
+        }
+        .catalog_categories{
+            @extend .clearfix;
+            display: inline-block;
+            clear: right;
+            float: right;
+            height: em( 43, 14 );
+            margin: 0;
+            padding: 22px 10px 0 0;
+            position: relative;
+            width: em( 326, 14 );
+            li{
+                background: url("../../img/soona_img/images_soona/sprite_iconos.png") no-repeat scroll 0 0 transparent;
+                float: right;
+                height: 100%;
+                margin: 0;
+                list-style: none inside;
+                padding: 0;
+                position: relative;
+                text-indent: -2000em;
+                width: em( 42, 14 );
+            }
+            .love{}
+        }
+        .catalog_list{
+            @extend .clearfix;
+            clear: both;
+            margin: 0 0 0 5px;
+            padding: 0;
+            li{
+                border-bottom: 4px solid #EDEDED;
+                border-right: 4px solid #EDEDED;
+                float: left;
+                height: em( 278, 14 );
+                list-style: none inside;
+                margin: 0 13px 0 0;
+                overflow: hidden;
+                padding: 0;
+                width: em( 228, 14 );
+                article{
+                    @extend .clearfix;
+                    height: 100%;
+                    position: relative;
+                    width: 100%;
+                    img{ position: relative; }
+                    .product_information_wrapper{
+                        background: url("../../img/soona_img/images_soona/bg_texto_modelos_relacionados.png") repeat scroll 0 0 transparent;
+                        bottom: 0;
+                        display: block;
+                        height: em( 87, 14 );
+                        left: 0;
+                        padding: 9px 20px 10px 23px;
+                        position: absolute;
+                        width: em( 186, 14 );
+                        > div{
+                            position: relative;
+                        }
+                        .product_information{
+                            width: 137px;
+                            .product_name_catalog{
+                                @include font-mask( $color_light, em( 19, 14 ), em( 30, 19 ), normal, $discover );
+                                clear: both;
+                                display: block;
+                                margin: 0;
+                                padding: 0;
+                            }
+                            .product_price_catalog{
+                                @include font-mask( $text_gray, em( 15, 14 ), 1em, lighter );
+                                clear: both;
+                                cursor: pointer;
+                                display: block;
+                                margin: 0;
+                                padding: 0 0 7px;
+                            }
+                        }
+                        .cart_link{
+                            @extend .clearfix;
+                            a{
+                                
+                                background: url("../../img/soona_img/images_soona/mas_carrito.png") no-repeat scroll center center transparent;
+                                display: block;
+                                height: em( 32, 14 );
+                                margin: 0;
+                                padding: 0;
+                                text-indent: -2000em;
+                                width: em( 48, 14 );
+                            }
+                        }
+                        .left{ float: left; }
+                        .right{ float: right; }
+                        hr{
+                            border-color: $color_light transparent transparent transparent;
+                            border-style: solid none none none;
+                            border-width: 1px 0 0 0;
+                            clear: both;
+                            display: block;
+                            height: em( 1, 14 );
+                        }
+                        a.to_know_more{
+                            @include font-mask( $text_gray, em( 11, 14 ), em( 29, 11 ), lighter );
+                            background: url("../../img/soona_img/images_soona/conoce_mas.png") no-repeat scroll right center transparent;
+                            display: block;
+                            float: right;
+                            height: em( 29, 11 );
+                            margin: 0;
+                            padding: 0;
+                            width: em( 95, 11 );
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

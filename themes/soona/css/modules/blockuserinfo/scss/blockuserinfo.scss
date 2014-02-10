@@ -1,0 +1,114 @@
+/* block top user information */
+#header {
+    
+    a{
+        @include font-mask( $text_gray, em( 12.5, 16 ), em( 18, 12.5 ), normal );
+        &:hover{
+            color: $color_dark;
+        }
+    }
+}
+#header_right {
+    
+    #header_user {
+        margin-top:15px;
+        position: absolute;
+        right: 0;
+        #header_nav {
+            list-style-type:none;
+            float:right;
+        }
+    }
+    #header_user.header_user_catalog {
+        margin-top: 15px;
+        min-height: 60px;
+    }
+}
+
+/* cart */
+.lt-ie6 #shopping_cart {width: 130px;}
+/* user infos */ 
+#header_user_info {
+    clear:both;
+    display: block;
+    margin:10px auto 0;
+    padding:0;
+    a {
+        display:inline-block;
+        font-family: $futura_light;
+        margin:0 0 0 6px;
+        /*padding:0px 0 0 28px;*/
+        padding:0 0 0 6px;
+        &:hover{ 
+            color: $color_dark;
+            text-decoration:none;
+        }
+    }
+    a.account {
+        border: none;
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+    a.your_account {
+        background:url("../../img/pipe.png") no-repeat scroll 0 3px transparent;
+        &:hover {/*background-position:-230px -223px; */}
+    }
+    a.login { 
+        /*background:url(../../../img/pipe.png) no-repeat scroll 0 3px transparent;*/ 
+        &:hover {/*background-position:-233px -147px ;*/ }
+    }
+    a.logout {
+        //background:url("../../img/pipe.png") no-repeat scroll 0 3px transparent;
+        &:hover {/*background-position:-233px -185px;*/}
+    }
+}
+.header-main {
+    
+    .block {
+        
+        .block_content{ background:none; border-radius:0}
+    }
+}
+.block_userinfo{
+    
+    #header_user{
+        
+        .shopping_cart_header{
+            
+            #header_nav{ 
+                clear: right;
+                margin: 0;
+                #shopping_cart {
+                    
+                    .ajax_cart_a{
+                        background: url("../../img/soona_img/images_soona/carrito_header.png") no-repeat scroll left center transparent;
+                        border-radius: 3px;
+                        cursor:pointer;
+                        display:block;
+                        @include font-mask( $text_gray, em( 12.5, 16 ), em( 18, 12.5 ), normal );
+                        padding:10px 15px 10px 35px;
+                        /*&:hover{
+                            background-position:1px -92px;
+                            text-decoration:none;
+                        }*/
+                        span{text-decoration: none}
+                        .ajax_cart_product_txt{}
+                        .ajax_cart_product_txt_s{}
+                        .ajax_cart_no_product{}
+                        .ajax_cart_quantity { font-weight:bold; }
+                        .ajax_cart_total { display:none !important; }
+                        .hidden{}
+                    }
+                }
+            }
+            img{
+                float: right;
+                padding: 5px;
+            }
+            #visa_logo_cart{ clear: right; padding-top: 7px; padding-right: 16px; }
+            #mastercard_logo_cart{  }
+            #paypal_logo_cart{ padding-top:10px; }
+        }
+    }
+}

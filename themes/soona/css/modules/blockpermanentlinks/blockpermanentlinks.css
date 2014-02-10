@@ -1,0 +1,37 @@
+/* block top links */
+ul#header_links {
+  list-style-type: none;
+  margin-top: 9px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10; }
+  ul#header_links a {
+    text-decoration: none;
+    text-transform: capitalize; }
+    ul#header_links a:hover {
+      text-decoration: none; }
+  ul#header_links li {
+    background: url("../../../img/pipe.png") no-repeat scroll 0 3px transparent;
+    float: left;
+    padding: 0 8px; }
+    ul#header_links li:first-child {
+      border: none;
+      background: none; }
+
+/*block permanent links right and left columns*/
+#permanent_links div {
+  border-bottom: 1px dotted #eeeeee a;
+    border-bottom-display: block;
+    border-bottom-padding: 7px 11px 5px 22px;
+    border-bottom-color: #333;
+    border-bottom-background: url(../../../img/arrow_right_2.png) no-repeat 10px 10px; }
+
+/* block footer links */
+ul#footer_links {
+  clear: both;
+  text-align: center;
+  padding-bottom: 6px; }
+  ul#footer_links li {
+    display: inline;
+    padding: 0 10px; }
