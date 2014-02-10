@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-02-10 15:40:04
+<?php /* Smarty version Smarty-3.1.14, created on 2014-02-10 15:46:59
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/soona/themes/soona/product.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:127939584152f947340837d7-96870817%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:162492515552f948d3f08b77-70259587%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '127939584152f947340837d7-96870817',
+  'nocache_hash' => '162492515552f948d3f08b77-70259587',
   'function' => 
   array (
   ),
@@ -114,9 +114,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52f94734da1ca5_24060739',
+  'unifunc' => 'content_52f948d4d0d185_18558826',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52f94734da1ca5_24060739')) {function content_52f94734da1ca5_24060739($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Applications/XAMPP/xamppfiles/htdocs/soona/tools/smarty/plugins/modifier.escape.php';
+<?php if ($_valid && !is_callable('content_52f948d4d0d185_18558826')) {function content_52f948d4d0d185_18558826($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Applications/XAMPP/xamppfiles/htdocs/soona/tools/smarty/plugins/modifier.escape.php';
 if (!is_callable('smarty_modifier_date_format')) include '/Applications/XAMPP/xamppfiles/htdocs/soona/tools/smarty/plugins/modifier.date_format.php';
 if (!is_callable('smarty_function_math')) include '/Applications/XAMPP/xamppfiles/htdocs/soona/tools/smarty/plugins/function.math.php';
 if (!is_callable('smarty_function_counter')) include '/Applications/XAMPP/xamppfiles/htdocs/soona/tools/smarty/plugins/function.counter.php';
