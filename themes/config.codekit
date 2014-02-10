@@ -4155,6 +4155,26 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/soona\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/main.js",
+		"outputAbbreviatedPath": "\/soona\/js\/main.min.js",
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/main.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/main.min.js",
+		"outputAbbreviatedPath": "\/soona\/js\/main.min.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/soona\/js\/megnor\/carousel.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -4299,6 +4319,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/soona\/js\/order-opc.js",
 		"outputAbbreviatedPath": "\/soona\/js\/order-opc.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/plugins.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/plugins.js",
+		"outputAbbreviatedPath": "\/soona\/js\/plugins.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/soona\/js\/plugins.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/soona\/js\/plugins.min.js",
+		"outputAbbreviatedPath": "\/soona\/js\/plugins.min.min.js",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1

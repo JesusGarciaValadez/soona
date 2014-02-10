@@ -1,22 +1,23 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-02-07 14:24:20
+<?php /* Smarty version Smarty-3.1.14, created on 2014-02-10 15:29:27
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/soona/themes/soona/modules/homefeatured/homefeatured.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:207969628452f540f4bfc3c8-04243686%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:63310357252f944b7329472-85140897%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '47c42f1603a05193985b4f3bf31f57596f943183' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/soona/themes/soona/modules/homefeatured/homefeatured.tpl',
-      1 => 1391803300,
+      1 => 1392060477,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '207969628452f540f4bfc3c8-04243686',
+  'nocache_hash' => '63310357252f944b7329472-85140897',
   'function' => 
   array (
   ),
   'variables' => 
   array (
+    'base_dir' => 0,
     'products' => 0,
     'productCount' => 0,
     'sliderFor' => 0,
@@ -29,14 +30,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'static_token' => 0,
     'priceDisplay' => 0,
     'hightlight' => 0,
-    'HOOK_CATEGORIES_HOME' => 0,
+    'img_dir' => 0,
+    'productsCategory' => 0,
     'catalogSize' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52f540f4d53dd1_49920968',
+  'unifunc' => 'content_52f944b74cae17_09491235',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52f540f4d53dd1_49920968')) {function content_52f540f4d53dd1_49920968($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Applications/XAMPP/xamppfiles/htdocs/soona/tools/smarty/plugins/modifier.escape.php';
+<?php if ($_valid && !is_callable('content_52f944b74cae17_09491235')) {function content_52f944b74cae17_09491235($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Applications/XAMPP/xamppfiles/htdocs/soona/tools/smarty/plugins/modifier.escape.php';
 ?>
 
                     <!-- MODULE Home Featured Products -->
@@ -58,9 +60,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                 <p>Malitzin 165 Local 3, Col. Del Carmen, <br /> Coyoacán, Ciudad de México C.P.04100</p>
                             </article>
                             <article id="suscriptions_square">
-                                <h3>Suscripciones</h3>
+                                <h3>
+                                    <a href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
+corporativo/11-suscripcion.html" title="Haz tus pedidos" target="_self">Suscripciones</a>
+                                </h3>
                                 <p>
-                                    <a href="" title="Haz tus pedidos" target="_blank">Haz tus pedidos</a>
+                                    <a href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
+corporativo/11-suscripcion.html" title="Haz tus pedidos" target="_self">Haz tus pedidos</a>
                                 </p>
                             </article>
                             <article id="testimonial_square">
@@ -158,14 +164,14 @@ $_smarty_tpl->tpl_vars['product']->_loop = true;
 </p>
                             <?php }?>
                         </div>
-                        <img src="themes/soona/img/soona_img/images_soona/banner_entrega.jpg" alt="Entrega a Domicilio" width="669" height="103" />
+                        <img src="<?php echo $_smarty_tpl->tpl_vars['img_dir']->value;?>
+soona_img/images_soona/banner_entrega.jpg" alt="Entrega a Domicilio" width="669" height="103" />
                         <section id="catalog_home">
                             <h3>Catálogo</h3>
-                            <?php echo $_smarty_tpl->tpl_vars['HOOK_CATEGORIES_HOME']->value;?>
-
                             <ul class="catalog_list">
+                                
                                 <?php  $_smarty_tpl->tpl_vars['product'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['product']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['products']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+ $_from = $_smarty_tpl->tpl_vars['productsCategory']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['product']->key => $_smarty_tpl->tpl_vars['product']->value){
 $_smarty_tpl->tpl_vars['product']->_loop = true;
 ?>

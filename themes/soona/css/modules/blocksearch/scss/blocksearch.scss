@@ -58,6 +58,28 @@
         input#search_button{padding: 1px 4px;}
     }
 }
+a.view_account {
+    clear:both !important;
+    color:$color_light !important;
+    display:block !important;
+    font-size: em( 16, 14 ) !important;
+    font-family: $discover !important;
+    line-height: em( 16, 16 ) !important;
+    left:-70px;
+    margin:0 auto;
+    position: relative;
+    text-align:center;
+    top:23px;
+    width: 340px;
+    .crown{
+        background: url("../../img/soona_img/images_soona/corona_nombre.png");
+        display: inline-block;
+        height: em( 15, 16 );
+        margin: 0;
+        padding: 0;
+        width: em( 25, 16 );
+    }
+}
 .ie7 {
     
     #search_block_top {

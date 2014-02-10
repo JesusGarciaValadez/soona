@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-02-07 14:45:35
+<?php /* Smarty version Smarty-3.1.14, created on 2014-02-10 15:29:28
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/soona/themes/soona/footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:163981408252f545efbfe602-81713828%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:179212739752f944b8adfb03-26715317%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c59d7551dcc63bd626fd58f1b3cbe8f061013c97' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/soona/themes/soona/footer.tpl',
-      1 => 1391804973,
+      1 => 1392062475,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '163981408252f545efbfe602-81713828',
+  'nocache_hash' => '179212739752f944b8adfb03-26715317',
   'function' => 
   array (
   ),
@@ -20,12 +20,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'content_only' => 0,
     'link' => 0,
     'img_dir' => 0,
+    'js_dir' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52f545efc1f482_11606377',
+  'unifunc' => 'content_52f944b8b03b49_70969187',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52f545efc1f482_11606377')) {function content_52f545efc1f482_11606377($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52f944b8b03b49_70969187')) {function content_52f944b8b03b49_70969187($_smarty_tpl) {?>
 
         <?php if (!$_smarty_tpl->tpl_vars['content_only']->value){?>
                         </div> <!-- ===== End Center Column ==== -->
@@ -43,10 +44,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             <h5>Síguenos</h5>
                             <ul>
                                 <li id="social_links_footer_facebook">
-                                    <a href="" title="Soona en Facebook" target="_blank">Soona en Facebook</a>
+                                    <a href="http://www.facebook.com/soona.mx" title="Soona en Facebook" target="_blank">Soona en Facebook</a>
                                 </li>
                                 <li id="social_links_footer_twitter">
-                                    <a href="" title="Soona en Twitter" target="_blank">Soona en Twitter</a>
+                                    <a href="http://www.twitter.com/SoonaMX" title="Soona en Twitter" target="_blank">Soona en Twitter</a>
                                 </li>
                                 <li id="social_links_footer_pinterest">
                                     <a href="" title="Soona en Pinterest" target="_blank">Soona en Pinterest</a>
@@ -203,6 +204,10 @@ soona_img/images_soona/mapa_df_footer.png" alt="Mapa del Distrito Federal" width
         </div>
         <?php }?>
         <span class="grid_default_width" style="display:none; visibility:hidden"></span>
+        <script type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['js_dir']->value;?>
+plugins.min.js"></script>
+        <script type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['js_dir']->value;?>
+main.js"></script>
     </body>
 </html>
 <?php }} ?>

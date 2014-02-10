@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-02-07 14:45:35
+<?php /* Smarty version Smarty-3.1.14, created on 2014-02-10 15:29:28
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/soona/themes/soona/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:48769528052f545efb2e492-19043052%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:83237171352f944b89a0754-65954570%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'bcd41a6c2fba6f3ca3ee0e7d1e2cf49239549733' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/soona/themes/soona/header.tpl',
-      1 => 1391110829,
+      1 => 1392061664,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '48769528052f545efb2e492-19043052',
+  'nocache_hash' => '83237171352f944b89a0754-65954570',
   'function' => 
   array (
   ),
@@ -53,9 +53,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52f545efbe5616_19499508',
+  'unifunc' => 'content_52f944b8a80886_13246141',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52f545efbe5616_19499508')) {function content_52f545efbe5616_19499508($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Applications/XAMPP/xamppfiles/htdocs/soona/tools/smarty/plugins/modifier.escape.php';
+<?php if ($_valid && !is_callable('content_52f944b8a80886_13246141')) {function content_52f944b8a80886_13246141($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Applications/XAMPP/xamppfiles/htdocs/soona/tools/smarty/plugins/modifier.escape.php';
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]><html class="no-js ie6" lang="<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
@@ -159,7 +159,7 @@ megnor/respond.min.js"></script><![endif]-->
 </span></p>
         </div>
         <?php }?>
-        <div id="page" class="clearfix">
+        <div id="page" class="clearfix<?php if ($_smarty_tpl->tpl_vars['page_name']->value!=='index'&&$_smarty_tpl->tpl_vars['page_name']->value!==''){?> internal<?php }?>">
             <!-- Header -->
             <header id="header" class="alpha omega">
                 <div class="header_container">
@@ -185,7 +185,7 @@ megnor/respond.min.js"></script><![endif]-->
             <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>'TemplateMelaSlider'),$_smarty_tpl);?>
 
         </div>
-        <div id="columns" class="alpha omega clearfix">
+        <div id="columns" class="alpha omega clearfix<?php if ($_smarty_tpl->tpl_vars['page_name']->value!=='index'&&$_smarty_tpl->tpl_vars['page_name']->value!==''){?> internal<?php }?>">
             <div class="columns_inner">
                 <section id="center_column_inner" class="clearfix" role="main"><!-- Center -->
                     <div id="center_column" class=" grid_5">

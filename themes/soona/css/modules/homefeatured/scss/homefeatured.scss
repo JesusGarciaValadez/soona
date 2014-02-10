@@ -53,7 +53,12 @@
         #suscriptions_square{
             background: url("../../img/soona_img/images_soona/suscripciones.jpg") no-repeat scroll center top transparent;
             height: 81px;
-            h3{ padding: 18px 0 0; }
+            h3{ 
+                padding: 18px 0 0; 
+                a{
+                    color: #FFF;
+                }
+            }
             p{
                 @include font-mask( $text_gray, em( 18, 14 ), em( 16, 18 ), normal, $futura_bold );
                 margin-bottom: 0;
@@ -112,6 +117,7 @@
                     float: left;
                     height: 100%;
                     list-style: none inside;
+                    overflow: hidden;
                     padding: 0 8px;
                     width: 211px !important;
                     .product-block{
@@ -123,6 +129,7 @@
                         .product-inner{
                             height: 100%;
                             margin: 0;
+                            overflow: hidden;
                             padding: 0;
                             width: 100%;
                             a.product_image{
@@ -145,13 +152,13 @@
                             }
                             div{
                                 background: url("../../img/soona_img/images_soona/bg_productos_destacados.png") repeat scroll 0 0 transparent;
-                                bottom: 0;
+                                bottom: -106px;
                                 display: block;
                                 height: 80px;
                                 left: 8px;
                                 padding: 17px 12px 9px;
                                 position: absolute;
-                                width: 186px;
+                                width: 187px;
                                 p.s_title_block{
                                     @include font-mask( #FFF, em( 18.2, 14 ), em( 18.2, 18.2 ), normal );
                                     float: left;
@@ -258,7 +265,7 @@
                 float: left;
                 height: em( 278, 14 );
                 list-style: none inside;
-                margin: 0 13px 0 0;
+                margin: 0 11px 0 0;
                 overflow: hidden;
                 padding: 0;
                 width: em( 228, 14 );
@@ -270,7 +277,7 @@
                     img{ position: relative; }
                     .product_information_wrapper{
                         background: url("../../img/soona_img/images_soona/bg_texto_modelos_relacionados.png") repeat scroll 0 0 transparent;
-                        bottom: 0;
+                        bottom: -105px;
                         display: block;
                         height: em( 87, 14 );
                         left: 0;
@@ -334,6 +341,7 @@
                     }
                 }
             }
+            .last_item{ margin: 0; }
         }
     }
 }

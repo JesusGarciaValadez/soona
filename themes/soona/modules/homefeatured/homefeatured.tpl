@@ -42,9 +42,11 @@
                                 <p>Malitzin 165 Local 3, Col. Del Carmen, <br /> Coyoacán, Ciudad de México C.P.04100</p>
                             </article>
                             <article id="suscriptions_square">
-                                <h3>Suscripciones</h3>
+                                <h3>
+                                    <a href="{$base_dir}corporativo/11-suscripcion.html" title="Haz tus pedidos" target="_self">Suscripciones</a>
+                                </h3>
                                 <p>
-                                    <a href="" title="Haz tus pedidos" target="_blank">Haz tus pedidos</a>
+                                    <a href="{$base_dir}corporativo/11-suscripcion.html" title="Haz tus pedidos" target="_self">Haz tus pedidos</a>
                                 </p>
                             </article>
                             <article id="testimonial_square">
@@ -114,12 +116,12 @@
                             <p class="no-products">{l s='No featured products' mod='homefeatured'}</p>
                             {/if}
                         </div>
-                        <img src="themes/soona/img/soona_img/images_soona/banner_entrega.jpg" alt="Entrega a Domicilio" width="669" height="103" />
+                        <img src="{$img_dir}soona_img/images_soona/banner_entrega.jpg" alt="Entrega a Domicilio" width="669" height="103" />
                         <section id="catalog_home">
                             <h3>Catálogo</h3>
-                            {$HOOK_CATEGORIES_HOME}
                             <ul class="catalog_list">
-                                {foreach from=$products item=product name=homeFeaturedProducts}
+                                {*foreach from=$products item=product name=homeFeaturedProducts*}
+                                {foreach from=$productsCategory item=product}
                                 <li>
                                     <article>
                                         <img src="{$link->getImageLink($product.link_rewrite, $product.id_image, 'catalog_soona')|escape:'html'}" width="{$catalogSize.width}" height="{$catalogSize.height}" alt="{$product.name|escape:'htmlall':'UTF-8'}" />

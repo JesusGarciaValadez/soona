@@ -37,18 +37,4 @@ form#searchbox input#search_query_block{
     margin-top:10px;
 }
 form#searchbox input#search_button{padding: 1px 4px;}
-a.view_account {
-    @include font-mask( $color_light, em( 16, 14 ), em( 16, 16 ), normal, $discover );
-    clear:both;
-    display:block;
-    left:25px;
-    margin:0 auto;
-    position: relative;
-    text-align:center;
-    top:75px;
-    width: 270px;
-}
-.crown{
-    background: url("/soona_img/images_soona/corona_nombre.png")
-}
 

@@ -48,10 +48,10 @@
                             <h5>Síguenos</h5>
                             <ul>
                                 <li id="social_links_footer_facebook">
-                                    <a href="" title="Soona en Facebook" target="_blank">Soona en Facebook</a>
+                                    <a href="http://www.facebook.com/soona.mx" title="Soona en Facebook" target="_blank">Soona en Facebook</a>
                                 </li>
                                 <li id="social_links_footer_twitter">
-                                    <a href="" title="Soona en Twitter" target="_blank">Soona en Twitter</a>
+                                    <a href="http://www.twitter.com/SoonaMX" title="Soona en Twitter" target="_blank">Soona en Twitter</a>
                                 </li>
                                 <li id="social_links_footer_pinterest">
                                     <a href="" title="Soona en Pinterest" target="_blank">Soona en Pinterest</a>
@@ -210,5 +210,7 @@
         </div>
         {/if}
         <span class="grid_default_width" style="display:none; visibility:hidden"></span>
+        <script type="text/javascript" src="{$js_dir}plugins.min.js"></script>
+        <script type="text/javascript" src="{$js_dir}main.js"></script>
     </body>
 </html>

@@ -23,8 +23,8 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-{capture name=path}{l s='Contact'}{/capture}
-{include file="$tpl_dir./breadcrumb.tpl"}
+{capture name=path}{l s='Contacto'}{/capture}
+{*include file="$tpl_dir./breadcrumb.tpl"*}
 
 <h1>{l s='Customer service'} - {if isset($customerThread) && $customerThread}{l s='Your reply'}{else}{l s='Contact us'}{/if}</h1>
 
