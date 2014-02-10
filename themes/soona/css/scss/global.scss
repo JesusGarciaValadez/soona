@@ -3600,24 +3600,38 @@ box-shadow:none;
                     #pb-left-column{ 
                         float: left;
                         padding: 0 0 0 40px;
-                        h1{}
+                        h1{
+                            @include font-mask( $color_light, em( 25, 14 ), em( 25, 25 ), normal, $discover );
+                            background: url("../../img/soona_img/images_soona/flores_titulo_producto.png") no-repeat scroll left top transparent;
+                            height: em( 86, 25 );
+                            margin: 0;
+                            padding: em( 10, 25 ) 0 0;
+                            text-indent: em( 50, 25 );
+                        }
                         #buy_block{
-                            <div class="product_attributes">
-                                <p id="product_reference" style="display: none;">
-                                    <label>Referencia: </label>
-                                    <span class="editable"></span>
-                                </p>
-                                <p id="availability_statut" style="display: none;"><!-- availability -->
-                                    <span id="availability_label">Disponibilidad:</span>
-                                    <span id="availability_value" class="warning_inline"></span>
-                                </p>
-                                <p id="availability_date" style="display: none;">
-                                    <span id="availability_date_label">Disponible el:</span>
-                                    <span id="availability_date_value"></span>
-                                </p>
+                            
+                            .product_attributes{
+                                
+                                #product_reference{
+                                    display: none;
+                                    label{}
+                                    .editable{}
+                                }
+                                #availability_statut{
+                                    display: none;
+                                    #availability_label{}
+                                    #availability_value.warning_inline{}
+                                }
+                                #availability_date{
+                                    display: none;
+                                    #availability_date_label{}
+                                    #availability_date_value{}
+                                }
                                 #oosHook{}
-                                <p class="warning_inline" id="last_quantities" style="display: none" >Advertencia: &iexcl;&Uacute;ltimos art&iacute;culos en inventario!</p>
-                            </div>
+                                .warning_inline#last_quantities{
+                                    display: none
+                                }
+                            }
                             .content_prices{
                                 @extend .clearfix;
                                 .offers_box{
@@ -3658,8 +3672,7 @@ box-shadow:none;
                                 }
                                 }
                             }
-                        </form>
-                    </div><!-- left infos-->
+                        }
                     }
                 }
             }

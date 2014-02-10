@@ -528,10 +528,11 @@ table {
 a {
   cursor: pointer; }
 
-.clearfix:before, #footer .footer_inner > ul:before, #footer .footer_inner > ul #social_links_footer ul:before, #featured-products_block_center #left_disposition #order_square ul:before, #featured-products_block_center #catalog_home:before, #featured-products_block_center #catalog_home .catalog_categories:before, #featured-products_block_center #catalog_home .catalog_list:before, #featured-products_block_center #catalog_home .catalog_list li article:before, #featured-products_block_center #catalog_home .catalog_list li article .product_information_wrapper .cart_link:before,
+.clearfix:before, #footer .footer_inner > ul:before, #footer .footer_inner > ul #social_links_footer ul:before, .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .content_prices:before, #featured-products_block_center #left_disposition #order_square ul:before, #featured-products_block_center #catalog_home:before, #featured-products_block_center #catalog_home .catalog_categories:before, #featured-products_block_center #catalog_home .catalog_list:before, #featured-products_block_center #catalog_home .catalog_list li article:before, #featured-products_block_center #catalog_home .catalog_list li article .product_information_wrapper .cart_link:before,
 .clearfix:after,
 #footer .footer_inner > ul:after,
 #footer .footer_inner > ul #social_links_footer ul:after,
+.internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .content_prices:after,
 #featured-products_block_center #left_disposition #order_square ul:after,
 #featured-products_block_center #catalog_home:after,
 #featured-products_block_center #catalog_home .catalog_categories:after,
@@ -543,7 +544,7 @@ a {
   height: 0;
   overflow: hidden; }
 
-.clearfix:after, #footer .footer_inner > ul:after, #footer .footer_inner > ul #social_links_footer ul:after, #featured-products_block_center #left_disposition #order_square ul:after, #featured-products_block_center #catalog_home:after, #featured-products_block_center #catalog_home .catalog_categories:after, #featured-products_block_center #catalog_home .catalog_list:after, #featured-products_block_center #catalog_home .catalog_list li article:after, #featured-products_block_center #catalog_home .catalog_list li article .product_information_wrapper .cart_link:after {
+.clearfix:after, #footer .footer_inner > ul:after, #footer .footer_inner > ul #social_links_footer ul:after, .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .content_prices:after, #featured-products_block_center #left_disposition #order_square ul:after, #featured-products_block_center #catalog_home:after, #featured-products_block_center #catalog_home .catalog_categories:after, #featured-products_block_center #catalog_home .catalog_list:after, #featured-products_block_center #catalog_home .catalog_list li article:after, #featured-products_block_center #catalog_home .catalog_list li article .product_information_wrapper .cart_link:after {
   clear: both; }
 
 @font-face {
@@ -4155,6 +4156,31 @@ select.hasCustomSelect {
 .internal .columns_inner #center_column_inner #center_column .product #pb-left-column {
   float: left;
   padding: 0 0 0 40px; }
+  .internal .columns_inner #center_column_inner #center_column .product #pb-left-column h1 {
+    color: #9c81a8;
+    font-size: 1.79em;
+    line-height: 1em;
+    font-weight: normal;
+    font-family: "Discover_Beauty_Regular", Arial, Helvetica;
+    background: url("../../img/soona_img/images_soona/flores_titulo_producto.png") no-repeat scroll left top transparent;
+    height: 3.44em;
+    margin: 0;
+    padding: 0.4em 0 0;
+    text-indent: 2em; }
+  .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .product_attributes #product_reference {
+    display: none; }
+  .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .product_attributes #availability_statut {
+    display: none; }
+  .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .product_attributes #availability_date {
+    display: none; }
+  .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .product_attributes .warning_inline#last_quantities {
+    display: none; }
+  .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .content_prices .offers_box #reduction_percent {
+    display: none; }
+  .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .content_prices .offers_box #reduction_amount {
+    display: none; }
+  .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .content_prices .bottom_content #minimal_quantity_wanted_p {
+    display: none; }
 
 /* Block best sellers */
 #best-sellers_block_right li span.number {

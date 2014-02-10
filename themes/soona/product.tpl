@@ -236,7 +236,44 @@
                                 </ul--><!-- usefull links-->
                             </div><!-- right infos-->
                             <div id="pb-left-column"><!-- left infos-->
-                                <h1>{$product->name|escape:'htmlall':'UTF-8'}</h1>
+                                <h1>
+                                    {$product->name|escape:'htmlall':'UTF-8'}
+                                    {if $product->show_price AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}
+                                    <div class="price"><!-- Price-->
+                                        <p class="our_price_display">
+                                            {if $priceDisplay >= 0 && $priceDisplay <= 2}
+                                            <span id="our_price_display">{convertPrice price=$productPrice}</span>
+                                            <!--{if $tax_enabled  && ((isset($display_tax_label) && $display_tax_label == 1) OR !isset($display_tax_label))}
+                                                {if $priceDisplay == 1}{l s='tax excl.'}{else}{l s='tax incl.'}{/if}
+                                            {/if}-->
+                                            {/if}
+                                        </p>
+                                        <p id="old_price"{if !$product->specificPrice || !$product->specificPrice.reduction} class="hidden"{/if}>
+                                            {if $priceDisplay >= 0 && $priceDisplay <= 2}
+                                            <span id="old_price_display">{if $productPriceWithoutReduction > $productPrice}{convertPrice price=$productPriceWithoutReduction}{/if}</span>
+                                            <!-- {if $tax_enabled && $display_tax_label == 1}{if $priceDisplay == 1}{l s='tax excl.'}{else}{l s='tax incl.'}{/if}{/if} -->
+                                            {/if}
+                                        </p>
+                                        {if $packItems|@count && $productPrice < $product->getNoPackPrice()}
+                                        <p class="pack_price">{l s='Instead of'} <span style="text-decoration: line-through;">{convertPrice price=$product->getNoPackPrice()}</span></p>
+                                        <br class="clear" />
+                                        {/if}
+                                        {if $product->ecotax != 0}
+                                        <p class="price-ecotax">{l s='Include'} 
+                                            <span id="ecotax_price_display">{if $priceDisplay == 2}{$ecotax_tax_exc|convertAndFormatPrice}{else}{$ecotax_tax_inc|convertAndFormatPrice}{/if}</span> 
+                                            {l s='For green tax'}
+                                            {if $product->specificPrice AND $product->specificPrice.reduction}
+                                            <br />{l s='(not impacted by the discount)'}
+                                            {/if}
+                                        </p>
+                                        {/if}
+                                        {if !empty($product->unity) && $product->unit_price_ratio > 0.000000}
+                                            {math equation="pprice / punit_price"  pprice=$productPrice  punit_price=$product->unit_price_ratio assign=unit_price}
+                                            <p class="unit-price"><span id="unit_price_display">{convertPrice price=$unit_price}</span> {l s='per'} {$product->unity|escape:'htmlall':'UTF-8'}</p>
+                                        {/if}
+                                    </div><!-- Price-->
+                                    {/if}
+                                </h1>
                                 {*if $product->description_short OR $packItems|@count > 0}
                                 <div id="short_description_block">
                                     {if $product->description_short}
@@ -382,7 +419,7 @@
                                                 </span>
                                             </p>
                                         </div><!-- Offer Box-->
-                                        <div class="price"><!-- Price-->
+                                        {*}<div class="price"><!-- Price-->
                                             <p class="our_price_display">
                                                 {if $priceDisplay >= 0 && $priceDisplay <= 2}
                                                 <span id="our_price_display">{convertPrice price=$productPrice}</span>
@@ -414,7 +451,8 @@
                                                 {math equation="pprice / punit_price"  pprice=$productPrice  punit_price=$product->unit_price_ratio assign=unit_price}
                                                 <p class="unit-price"><span id="unit_price_display">{convertPrice price=$unit_price}</span> {l s='per'} {$product->unity|escape:'htmlall':'UTF-8'}</p>
                                             {/if}
-                                        </div><!-- Price-->
+                                        </div--><!-- Price-->
+                                        {*}
                                         {*close if for show price*}
                                         {/if}<!-- Close IF  product to show_price  -->
                                         <!-- MOVED from  product_attributes -->

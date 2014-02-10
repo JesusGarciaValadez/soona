@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-02-10 15:26:14
+<?php /* Smarty version Smarty-3.1.14, created on 2014-02-10 15:40:04
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/soona/themes/soona/product.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:139234366952f943f654b522-56925214%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:127939584152f947340837d7-96870817%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'a5e2057be72a57cd42f27f27c5a67219e8f44693' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/soona/themes/soona/product.tpl',
-      1 => 1392067568,
+      1 => 1392068305,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '139234366952f943f654b522-56925214',
+  'nocache_hash' => '127939584152f947340837d7-96870817',
   'function' => 
   array (
   ),
@@ -70,6 +70,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'imageTitlte' => 0,
     'mediumSize' => 0,
     'img_dir' => 0,
+    'tax_enabled' => 0,
+    'display_tax_label' => 0,
+    'packItems' => 0,
+    'ecotax_tax_exc' => 0,
+    'ecotax_tax_inc' => 0,
+    'unit_price' => 0,
     'HOOK_PRODUCT_ACTIONS' => 0,
     'static_token' => 0,
     'group' => 0,
@@ -82,12 +88,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'img_col_dir' => 0,
     'default_colorpicker' => 0,
     'HOOK_PRODUCT_OOS' => 0,
-    'tax_enabled' => 0,
-    'display_tax_label' => 0,
-    'packItems' => 0,
-    'ecotax_tax_exc' => 0,
-    'ecotax_tax_inc' => 0,
-    'unit_price' => 0,
     'virtual' => 0,
     'quantityBackup' => 0,
     'HOOK_EXTRA_RIGHT' => 0,
@@ -114,9 +114,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52f943f6e26cd0_23701666',
+  'unifunc' => 'content_52f94734da1ca5_24060739',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52f943f6e26cd0_23701666')) {function content_52f943f6e26cd0_23701666($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Applications/XAMPP/xamppfiles/htdocs/soona/tools/smarty/plugins/modifier.escape.php';
+<?php if ($_valid && !is_callable('content_52f94734da1ca5_24060739')) {function content_52f94734da1ca5_24060739($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Applications/XAMPP/xamppfiles/htdocs/soona/tools/smarty/plugins/modifier.escape.php';
 if (!is_callable('smarty_modifier_date_format')) include '/Applications/XAMPP/xamppfiles/htdocs/soona/tools/smarty/plugins/modifier.date_format.php';
 if (!is_callable('smarty_function_math')) include '/Applications/XAMPP/xamppfiles/htdocs/soona/tools/smarty/plugins/function.math.php';
 if (!is_callable('smarty_function_counter')) include '/Applications/XAMPP/xamppfiles/htdocs/soona/tools/smarty/plugins/function.counter.php';
@@ -500,8 +500,62 @@ icon/cancel_11x13.gif" alt="<?php echo smartyTranslate(array('s'=>'Cancel'),$_sm
                                 </ul--><!-- usefull links-->
                             </div><!-- right infos-->
                             <div id="pb-left-column"><!-- left infos-->
-                                <h1><?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['product']->value->name, 'htmlall', 'UTF-8');?>
-</h1>
+                                <h1>
+                                    <?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['product']->value->name, 'htmlall', 'UTF-8');?>
+
+                                    <?php if ($_smarty_tpl->tpl_vars['product']->value->show_price&&!isset($_smarty_tpl->tpl_vars['restricted_country_mode']->value)&&!$_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value){?>
+                                    <div class="price"><!-- Price-->
+                                        <p class="our_price_display">
+                                            <?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value>=0&&$_smarty_tpl->tpl_vars['priceDisplay']->value<=2){?>
+                                            <span id="our_price_display"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['convertPrice'][0][0]->convertPrice(array('price'=>$_smarty_tpl->tpl_vars['productPrice']->value),$_smarty_tpl);?>
+</span>
+                                            <!--<?php if ($_smarty_tpl->tpl_vars['tax_enabled']->value&&((isset($_smarty_tpl->tpl_vars['display_tax_label']->value)&&$_smarty_tpl->tpl_vars['display_tax_label']->value==1)||!isset($_smarty_tpl->tpl_vars['display_tax_label']->value))){?>
+                                                <?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value==1){?><?php echo smartyTranslate(array('s'=>'tax excl.'),$_smarty_tpl);?>
+<?php }else{ ?><?php echo smartyTranslate(array('s'=>'tax incl.'),$_smarty_tpl);?>
+<?php }?>
+                                            <?php }?>-->
+                                            <?php }?>
+                                        </p>
+                                        <p id="old_price"<?php if (!$_smarty_tpl->tpl_vars['product']->value->specificPrice||!$_smarty_tpl->tpl_vars['product']->value->specificPrice['reduction']){?> class="hidden"<?php }?>>
+                                            <?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value>=0&&$_smarty_tpl->tpl_vars['priceDisplay']->value<=2){?>
+                                            <span id="old_price_display"><?php if ($_smarty_tpl->tpl_vars['productPriceWithoutReduction']->value>$_smarty_tpl->tpl_vars['productPrice']->value){?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['convertPrice'][0][0]->convertPrice(array('price'=>$_smarty_tpl->tpl_vars['productPriceWithoutReduction']->value),$_smarty_tpl);?>
+<?php }?></span>
+                                            <!-- <?php if ($_smarty_tpl->tpl_vars['tax_enabled']->value&&$_smarty_tpl->tpl_vars['display_tax_label']->value==1){?><?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value==1){?><?php echo smartyTranslate(array('s'=>'tax excl.'),$_smarty_tpl);?>
+<?php }else{ ?><?php echo smartyTranslate(array('s'=>'tax incl.'),$_smarty_tpl);?>
+<?php }?><?php }?> -->
+                                            <?php }?>
+                                        </p>
+                                        <?php if (count($_smarty_tpl->tpl_vars['packItems']->value)&&$_smarty_tpl->tpl_vars['productPrice']->value<$_smarty_tpl->tpl_vars['product']->value->getNoPackPrice()){?>
+                                        <p class="pack_price"><?php echo smartyTranslate(array('s'=>'Instead of'),$_smarty_tpl);?>
+ <span style="text-decoration: line-through;"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['convertPrice'][0][0]->convertPrice(array('price'=>$_smarty_tpl->tpl_vars['product']->value->getNoPackPrice()),$_smarty_tpl);?>
+</span></p>
+                                        <br class="clear" />
+                                        <?php }?>
+                                        <?php if ($_smarty_tpl->tpl_vars['product']->value->ecotax!=0){?>
+                                        <p class="price-ecotax"><?php echo smartyTranslate(array('s'=>'Include'),$_smarty_tpl);?>
+ 
+                                            <span id="ecotax_price_display"><?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value==2){?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['convertAndFormatPrice'][0][0]->convertAndFormatPrice($_smarty_tpl->tpl_vars['ecotax_tax_exc']->value);?>
+<?php }else{ ?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['convertAndFormatPrice'][0][0]->convertAndFormatPrice($_smarty_tpl->tpl_vars['ecotax_tax_inc']->value);?>
+<?php }?></span> 
+                                            <?php echo smartyTranslate(array('s'=>'For green tax'),$_smarty_tpl);?>
+
+                                            <?php if ($_smarty_tpl->tpl_vars['product']->value->specificPrice&&$_smarty_tpl->tpl_vars['product']->value->specificPrice['reduction']){?>
+                                            <br /><?php echo smartyTranslate(array('s'=>'(not impacted by the discount)'),$_smarty_tpl);?>
+
+                                            <?php }?>
+                                        </p>
+                                        <?php }?>
+                                        <?php if (!empty($_smarty_tpl->tpl_vars['product']->value->unity)&&$_smarty_tpl->tpl_vars['product']->value->unit_price_ratio>0.000000){?>
+                                            <?php echo smarty_function_math(array('equation'=>"pprice / punit_price",'pprice'=>$_smarty_tpl->tpl_vars['productPrice']->value,'punit_price'=>$_smarty_tpl->tpl_vars['product']->value->unit_price_ratio,'assign'=>'unit_price'),$_smarty_tpl);?>
+
+                                            <p class="unit-price"><span id="unit_price_display"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['convertPrice'][0][0]->convertPrice(array('price'=>$_smarty_tpl->tpl_vars['unit_price']->value),$_smarty_tpl);?>
+</span> <?php echo smartyTranslate(array('s'=>'per'),$_smarty_tpl);?>
+ <?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['product']->value->unity, 'htmlall', 'UTF-8');?>
+</p>
+                                        <?php }?>
+                                    </div><!-- Price-->
+                                    <?php }?>
+                                </h1>
                                 
                                     
                                 <!--/div-->
@@ -686,56 +740,7 @@ onsale_<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
                                                 </span>
                                             </p>
                                         </div><!-- Offer Box-->
-                                        <div class="price"><!-- Price-->
-                                            <p class="our_price_display">
-                                                <?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value>=0&&$_smarty_tpl->tpl_vars['priceDisplay']->value<=2){?>
-                                                <span id="our_price_display"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['convertPrice'][0][0]->convertPrice(array('price'=>$_smarty_tpl->tpl_vars['productPrice']->value),$_smarty_tpl);?>
-</span>
-                                                <!--<?php if ($_smarty_tpl->tpl_vars['tax_enabled']->value&&((isset($_smarty_tpl->tpl_vars['display_tax_label']->value)&&$_smarty_tpl->tpl_vars['display_tax_label']->value==1)||!isset($_smarty_tpl->tpl_vars['display_tax_label']->value))){?>
-                                                    <?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value==1){?><?php echo smartyTranslate(array('s'=>'tax excl.'),$_smarty_tpl);?>
-<?php }else{ ?><?php echo smartyTranslate(array('s'=>'tax incl.'),$_smarty_tpl);?>
-<?php }?>
-                                                <?php }?>-->
-                                                <?php }?>
-                                            </p>
-                                            <p id="old_price"<?php if (!$_smarty_tpl->tpl_vars['product']->value->specificPrice||!$_smarty_tpl->tpl_vars['product']->value->specificPrice['reduction']){?> class="hidden"<?php }?>>
-                                                <?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value>=0&&$_smarty_tpl->tpl_vars['priceDisplay']->value<=2){?>
-                                                <span id="old_price_display"><?php if ($_smarty_tpl->tpl_vars['productPriceWithoutReduction']->value>$_smarty_tpl->tpl_vars['productPrice']->value){?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['convertPrice'][0][0]->convertPrice(array('price'=>$_smarty_tpl->tpl_vars['productPriceWithoutReduction']->value),$_smarty_tpl);?>
-<?php }?></span>
-                                                <!-- <?php if ($_smarty_tpl->tpl_vars['tax_enabled']->value&&$_smarty_tpl->tpl_vars['display_tax_label']->value==1){?><?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value==1){?><?php echo smartyTranslate(array('s'=>'tax excl.'),$_smarty_tpl);?>
-<?php }else{ ?><?php echo smartyTranslate(array('s'=>'tax incl.'),$_smarty_tpl);?>
-<?php }?><?php }?> -->
-                                                <?php }?>
-                                            </p>
-                                            <?php if (count($_smarty_tpl->tpl_vars['packItems']->value)&&$_smarty_tpl->tpl_vars['productPrice']->value<$_smarty_tpl->tpl_vars['product']->value->getNoPackPrice()){?>
-                                            <p class="pack_price"><?php echo smartyTranslate(array('s'=>'Instead of'),$_smarty_tpl);?>
- <span style="text-decoration: line-through;"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['convertPrice'][0][0]->convertPrice(array('price'=>$_smarty_tpl->tpl_vars['product']->value->getNoPackPrice()),$_smarty_tpl);?>
-</span></p>
-                                            <br class="clear" />
-                                            <?php }?>
-                                            <?php if ($_smarty_tpl->tpl_vars['product']->value->ecotax!=0){?>
-                                            <p class="price-ecotax"><?php echo smartyTranslate(array('s'=>'Include'),$_smarty_tpl);?>
- 
-                                                <span id="ecotax_price_display"><?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value==2){?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['convertAndFormatPrice'][0][0]->convertAndFormatPrice($_smarty_tpl->tpl_vars['ecotax_tax_exc']->value);?>
-<?php }else{ ?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['convertAndFormatPrice'][0][0]->convertAndFormatPrice($_smarty_tpl->tpl_vars['ecotax_tax_inc']->value);?>
-<?php }?></span> 
-                                                <?php echo smartyTranslate(array('s'=>'For green tax'),$_smarty_tpl);?>
-
-                                                <?php if ($_smarty_tpl->tpl_vars['product']->value->specificPrice&&$_smarty_tpl->tpl_vars['product']->value->specificPrice['reduction']){?>
-                                                <br /><?php echo smartyTranslate(array('s'=>'(not impacted by the discount)'),$_smarty_tpl);?>
-
-                                                <?php }?>
-                                            </p>
-                                            <?php }?>
-                                            <?php if (!empty($_smarty_tpl->tpl_vars['product']->value->unity)&&$_smarty_tpl->tpl_vars['product']->value->unit_price_ratio>0.000000){?>
-                                                <?php echo smarty_function_math(array('equation'=>"pprice / punit_price",'pprice'=>$_smarty_tpl->tpl_vars['productPrice']->value,'punit_price'=>$_smarty_tpl->tpl_vars['product']->value->unit_price_ratio,'assign'=>'unit_price'),$_smarty_tpl);?>
-
-                                                <p class="unit-price"><span id="unit_price_display"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['convertPrice'][0][0]->convertPrice(array('price'=>$_smarty_tpl->tpl_vars['unit_price']->value),$_smarty_tpl);?>
-</span> <?php echo smartyTranslate(array('s'=>'per'),$_smarty_tpl);?>
- <?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['product']->value->unity, 'htmlall', 'UTF-8');?>
-</p>
-                                            <?php }?>
-                                        </div><!-- Price-->
+                                        
                                         
                                         <?php }?><!-- Close IF  product to show_price  -->
                                         <!-- MOVED from  product_attributes -->
