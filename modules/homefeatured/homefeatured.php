@@ -136,6 +136,28 @@ class HomeFeatured extends Module
         return $this->display(__FILE__, 'homefeatured.tpl', $this->getCacheId('homefeatured'));
     }
     
+    public function hookDisplayInternalHome($params)
+    {
+        if (!$this->isCached('homefeatured.tpl', $this->getCacheId('homefeatured')))
+        {
+            $category           = new Category(Context::getContext()->shop->getCategory(), (int)Context::getContext()->language->id);
+            $nb                 = (int)Configuration::get('HOME_FEATURED_NBR');
+            $products           = $category->getProducts((int)Context::getContext()->language->id, 1, ($nb ? $nb : 8), "position");
+            $productCategory    = $category->getProducts((int)Context::getContext()->language->id, 1, 8, "position");
+            
+            $this->smarty->assign(array(
+                'products'          => $products,
+                'productsCategory'  => $productCategory,
+                'add_prod_display'  => Configuration::get('PS_ATTRIBUTE_CATEGORY_DISPLAY'),
+                'homeSize'          => Image::getSize(ImageType::getFormatedName('home')),
+                'catalogSize'       => Image::getSize(ImageType::getFormatedName('catalog_soona')),
+                'hightlightSize'    => Image::getSize(ImageType::getFormatedName('hightlight_soona')),
+            ));
+        }
+        
+        return $this->display(__FILE__, 'homefeatured.tpl', $this->getCacheId('homefeatured'));
+    }
+    
     public function hookCategoriesHome($params)
     {
 

@@ -26,7 +26,7 @@
 @import "../../modules/blockreinsurance/scss/style.scss";
 
 body,html{
-    background: url("../../img/soona_img/images_soona/winter_background.jpeg") no-repeat scroll center top transparent;
+    background: url($background) no-repeat scroll center top transparent;
 }
 
 .tm-hide { opacity: 0; filter:alpha(opacity=0); cursor:pointer;}

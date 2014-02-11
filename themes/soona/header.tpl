@@ -93,7 +93,10 @@
             <p>{l s='You cannot place a new order from your country.'} <span class="bold">{$geolocation_country}</span></p>
         </div>
         {/if}
-        <div id="page" class="clearfix{if $page_name !== 'index' and $page_name !== '' } internal{/if}">
+        <div id="page" class="clearfix{if $page_name !== 'index' && $page_name !== '' } internal{/if}">
+            {if $page_name !== 'index' && $page_name !== ''}
+            <div id="cut"></div>
+            {/if}
             <!-- Header -->
             <header id="header" class="alpha omega">
                 <div class="header_container">
@@ -109,9 +112,9 @@
                     </div>
                 </div>
             </header>
-            {hook h='TemplateMelaSlider'}
+            {*hook h='TemplateMelaSlider'*}
         </div>
-        <div id="columns" class="alpha omega clearfix{if $page_name !== 'index' and $page_name !== '' } internal{/if}">
+        <div id="columns" class="alpha omega clearfix{if $page_name !== 'index' && $page_name !== '' } internal{/if}">
             <div class="columns_inner">
                 <section id="center_column_inner" class="clearfix" role="main"><!-- Center -->
                     <div id="center_column" class=" grid_5">
