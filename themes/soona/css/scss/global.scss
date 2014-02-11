@@ -3601,15 +3601,21 @@ box-shadow:none;
                         float: left;
                         padding: 0 0 0 40px;
                         h1{
-                            @include font-mask( $color_light, em( 25, 14 ), em( 25, 25 ), normal, $discover );
+                            @include font-mask( $color_light, em( 35, 14 ), em( 35, 35 ), normal, $discover );
                             background: url("../../img/soona_img/images_soona/flores_titulo_producto.png") no-repeat scroll left top transparent;
-                            height: em( 86, 25 );
+                            height: em( 86, 35 );
                             margin: 0;
-                            padding: em( 10, 25 ) 0 0;
-                            text-indent: em( 50, 25 );
+                            padding: em( 33, 35 ) 0 0;
+                            text-indent: em( 50, 35 );
+                            p{
+                                @include font-mask( $text_gray, em( 18, 35 ), em( 18, 18 ), normal, $futura_light );
+                                margin: 0;
+                                padding: 0;
+                            }
                         }
                         #buy_block{
-                            
+                            height: em( 390, 14 );
+                            position: relative;
                             .product_attributes{
                                 
                                 #product_reference{
@@ -3655,21 +3661,47 @@ box-shadow:none;
                                 .bottom_content{
                                     
                                     #quantity_wanted_p{
-                                    
-                                    label{}
-                                    input#quantity_wanted{}
-                                    input.text{}
+                                        height: em( 38, 14 );
+                                        label{
+                                            @include font-mask( $color_light, em( 19, 14 ), em( 38, 19 ), normal );
+                                            background: url("../../img/soona_img/images_soona/sprite_numeros.png") no-repeat scroll 0 0 transparent;
+                                            display: inline-block;
+                                            float: left;
+                                            height: em( 38, 18 );
+                                            margin: 0;
+                                            padding: 0 em( 10, 18 ) 0 0;
+                                            text-indent: em( 40, 18 );
+                                        }
+                                        #quantity_wanted{
+                                            background: #FFF;
+                                            border: 1px solid #EEE;
+                                            display: inline-block;
+                                            float: left;
+                                            @include font-mask( $text_gray, em( 14, 14 ), em( 14, 14 ), normal );
+                                            height: 28px;
+                                            margin: 5px 0 0;
+                                            padding: 5px 5px 5px 3px;
+                                            text-align: right;
+                                            width: 53px;
+                                        }
+                                        .text{}
+                                    }
+                                    #add_to_cart{
+                                        
+                                        span{}
+                                        .exclusive{}
+                                    }
+                                    .buttons_bottom_block{}
                                 }
-                                    #add_to_cart.buttons_bottom_block{
+                                #add_to_cart.buttons_bottom_block{
                                     
                                     span{}
                                     input.exclusive{}
                                 }
-                                    .clear{}
-                                    #minimal_quantity_wanted_p{
+                                .clear{}
+                                #minimal_quantity_wanted_p{
                                     display: none;
                                     strong#minimal_quantity_label{}
-                                }
                                 }
                             }
                         }

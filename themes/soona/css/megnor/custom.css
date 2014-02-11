@@ -4158,29 +4158,70 @@ select.hasCustomSelect {
   padding: 0 0 0 40px; }
   .internal .columns_inner #center_column_inner #center_column .product #pb-left-column h1 {
     color: #9c81a8;
-    font-size: 1.79em;
+    font-size: 2.5em;
     line-height: 1em;
     font-weight: normal;
     font-family: "Discover_Beauty_Regular", Arial, Helvetica;
     background: url("../../img/soona_img/images_soona/flores_titulo_producto.png") no-repeat scroll left top transparent;
-    height: 3.44em;
+    height: 2.46em;
     margin: 0;
-    padding: 0.4em 0 0;
-    text-indent: 2em; }
-  .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .product_attributes #product_reference {
-    display: none; }
-  .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .product_attributes #availability_statut {
-    display: none; }
-  .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .product_attributes #availability_date {
-    display: none; }
-  .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .product_attributes .warning_inline#last_quantities {
-    display: none; }
-  .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .content_prices .offers_box #reduction_percent {
-    display: none; }
-  .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .content_prices .offers_box #reduction_amount {
-    display: none; }
-  .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .content_prices .bottom_content #minimal_quantity_wanted_p {
-    display: none; }
+    padding: 0.94em 0 0;
+    text-indent: 1.43em; }
+    .internal .columns_inner #center_column_inner #center_column .product #pb-left-column h1 p {
+      color: #919191;
+      font-size: 0.51em;
+      line-height: 1em;
+      font-weight: normal;
+      font-family: "Futura_Light", Arial, Helvetica;
+      margin: 0;
+      padding: 0; }
+  .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block {
+    height: 27.86em;
+    position: relative; }
+    .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .product_attributes #product_reference {
+      display: none; }
+    .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .product_attributes #availability_statut {
+      display: none; }
+    .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .product_attributes #availability_date {
+      display: none; }
+    .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .product_attributes .warning_inline#last_quantities {
+      display: none; }
+    .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .content_prices .offers_box #reduction_percent {
+      display: none; }
+    .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .content_prices .offers_box #reduction_amount {
+      display: none; }
+    .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .content_prices .bottom_content #quantity_wanted_p {
+      height: 2.71em; }
+      .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .content_prices .bottom_content #quantity_wanted_p label {
+        color: #9c81a8;
+        font-size: 1.36em;
+        line-height: 2em;
+        font-weight: normal;
+        font-family: "Futura_Light", Arial, Helvetica;
+        background: url("../../img/soona_img/images_soona/sprite_numeros.png") no-repeat scroll 0 0 transparent;
+        display: inline-block;
+        float: left;
+        height: 2.11em;
+        margin: 0;
+        padding: 0 0.56em 0 0;
+        text-indent: 2.22em; }
+      .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .content_prices .bottom_content #quantity_wanted_p #quantity_wanted {
+        background: #FFF;
+        border: 1px solid #EEE;
+        display: inline-block;
+        float: left;
+        color: #919191;
+        font-size: 1em;
+        line-height: 1em;
+        font-weight: normal;
+        font-family: "Futura_Light", Arial, Helvetica;
+        height: 28px;
+        margin: 5px 0 0;
+        padding: 5px 5px 5px 3px;
+        text-align: right;
+        width: 53px; }
+    .internal .columns_inner #center_column_inner #center_column .product #pb-left-column #buy_block .content_prices #minimal_quantity_wanted_p {
+      display: none; }
 
 /* Block best sellers */
 #best-sellers_block_right li span.number {
