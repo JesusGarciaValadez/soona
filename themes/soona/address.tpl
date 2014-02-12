@@ -66,7 +66,7 @@ $(function(){ldelim}
 
 {capture name=path}{l s='Your addresses'}{/capture}
 {include file="$tpl_dir./breadcrumb.tpl"}
-
+<!--_Chucho_-->
 <h1>{l s='Your addresses'}</h1>
 
 <h3>
@@ -107,7 +107,7 @@ $(function(){ldelim}
 			<input type="text" id="company" name="company" value="{if isset($smarty.post.company)}{$smarty.post.company}{else}{if isset($address->company)}{$address->company|escape:'html'}{/if}{/if}" />
 		</p>
 		{/if}
-		{if $field_name eq 'vat_number'}
+		{*if $field_name eq 'vat_number'}
 			<div id="vat_area">
 				<div id="vat_number">
 					<p class="text">
@@ -116,7 +116,7 @@ $(function(){ldelim}
 					</p>
 				</div>
 			</div>
-		{/if}
+		{/if*}
 		{if $field_name eq 'firstname'}
 		<p class="required text">
 			<label for="firstname">{l s='First name'} <sup>*</sup></label>

@@ -290,15 +290,15 @@
 		<input type="hidden" name="back" value="{$back}" />
 		{if !$is_guest}
 			{if $back}
-				<a href="{$link->getPageLink('order', true, NULL, "step=1&back={$back}&multi-shipping={$multi_shipping}")|escape:'html'}" title="{l s='Previous'}" class="button">&laquo; {l s='Previous'}</a>
+				<a href="{$link->getPageLink('order', true, NULL, "step=1&back={$back}&multi-shipping={$multi_shipping}")|escape:'html'}" title="{l s='Previous'}" class="button">{l s='Previous'}</a>
 			{else}
-				<a href="{$link->getPageLink('order', true, NULL, "step=1&multi-shipping={$multi_shipping}")|escape:'html'}" title="{l s='Previous'}" class="button">&laquo; {l s='Previous'}</a>
+				<a href="{$link->getPageLink('order', true, NULL, "step=1&multi-shipping={$multi_shipping}")|escape:'html'}" title="{l s='Previous'}" class="button">{l s='Previous'}</a>
 			{/if}
 		{else}
-				<a href="{$link->getPageLink('order', true, NULL, "multi-shipping={$multi_shipping}")|escape:'html'}" title="{l s='Previous'}" class="button">&laquo; {l s='Previous'}</a>
+				<a href="{$link->getPageLink('order', true, NULL, "multi-shipping={$multi_shipping}")|escape:'html'}" title="{l s='Previous'}" class="button">{l s='Previous'}</a>
 		{/if}
 		{if isset($virtual_cart) && $virtual_cart || (isset($delivery_option_list) && !empty($delivery_option_list))}
-			<input type="submit" name="processCarrier" value="{l s='Next'} &raquo;" class="exclusive" />
+			<input type="submit" name="processCarrier" value="{l s='Next'}" class="exclusive" />
 		{/if}
 	</p>
 </form>

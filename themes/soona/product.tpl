@@ -314,13 +314,12 @@
                                 {if ($product->show_price AND !isset($restricted_country_mode)) OR isset($groups) OR $product->reference OR (isset($HOOK_PRODUCT_ACTIONS) && $HOOK_PRODUCT_ACTIONS)}
                                 <!-- add to cart form-->
                                 <form id="buy_block" {if $PS_CATALOG_MODE AND !isset($groups) AND $product->quantity > 0}class="hidden"{/if} action="{$link->getPageLink('cart')|escape:'html'}" method="post">
-                                    <!-- hidden datas -->
                                     <p class="hidden">
                                         <input type="hidden" name="token" value="{$static_token}" />
                                         <input type="hidden" name="id_product" value="{$product->id|intval}" id="product_page_product_id" />
                                         <input type="hidden" name="add" value="1" />
                                         <input type="hidden" name="id_product_attribute" id="idCombination" value="" />
-                                    </p>
+                                    </p><!-- hidden datas -->
                                     <div class="product_attributes">
                                         {if isset($groups)}
                                         <div id="attributes"><!-- attributes -->
@@ -536,12 +535,13 @@
                             <ul id="more_info_tabs" class="idTabs idTabsShort clearfix">
                                 {if $product->description}
                                 <li>
-                                    <a id="more_info_tab_more_info" href="#idTab1">{l s='Detalles'}</a>
+                                    <a id="more_info_tab_more_info" href="#idTab1">{l s='Detalles'}<span></span></a>
                                 </li>
                                 {/if}
                                 {if $features}
                                 <li>
-                                    <a id="more_info_tab_data_sheet" href="#idTab2">{l s='Data sheet'}</a>
+                                    {*}<a id="more_info_tab_data_sheet" href="#idTab2">{l s='Data sheet'}</a>{*}
+                                    <a id="more_info_tab_data_sheet" href="#idTab2">{l s='Políticas de Envío'}<span></span></a>
                                 </li>
                                 {/if}
                                 {*if $attachments}
@@ -549,12 +549,12 @@
                                     <a id="more_info_tab_attachments" href="#idTab9">{l s='Download'}</a>
                                 </li>
                                 {/if*}
-                                {if isset($product) && $product->customizable}
+                                {*if isset($product) && $product->customizable}
                                 <li>
                                     <a href="#idTab10">{l s='Product customization'}</a>
                                 </li>
-                                {/if}
-                                {$HOOK_PRODUCT_TAB}
+                                {/if*}
+                                {*$HOOK_PRODUCT_TAB*}
                             </ul>
                             <div id="more_info_sheets" class="sheets align_justify">
                             {if isset($product) && $product->description}
@@ -565,11 +565,14 @@
                             {if isset($features) && $features}
                                 <!-- product's features -->
                                 <ul id="idTab2" class="bullet">
-                                {foreach from=$features item=feature}
+                                    <li>
+                                        <span></span>
+                                    </li>
+                                {*foreach from=$features item=feature}
                                     {if isset($feature.value)}
                                         <li><span>{$feature.name|escape:'htmlall':'UTF-8'}</span> {$feature.value|escape:'htmlall':'UTF-8'}</li>
                                     {/if}
-                                {/foreach}
+                                {/foreach*}
                                 </ul>
                             {/if}
                             {if isset($attachments) && $attachments}
@@ -579,7 +582,7 @@
                                 {/foreach}
                                 </ul>
                             {/if}
-                            {*if isset($product) && $product->customizable}
+                            {if isset($product) && $product->customizable}
                                 <div id="idTab10" class="bullet customization_block"><!-- Customizable products -->
                                     <form method="post" action="{$customizationFormTarget}" enctype="multipart/form-data" id="customizationForm" class="clearfix">
                                         <p class="infoCustomizable">
@@ -639,7 +642,7 @@
                                     </form>
                                     <p class="clear required"><sup>*</sup> {l s='required fields'}</p>
                                 </div><!-- Customizable products -->
-                            {/if*}
+                            {/if}
                             {*if isset($HOOK_PRODUCT_TAB_CONTENT) && $HOOK_PRODUCT_TAB_CONTENT}{$HOOK_PRODUCT_TAB_CONTENT}{/if*}
                             </div>
                         </div><!-- description and features -->
@@ -653,6 +656,42 @@
                             <a href="{$link->getPageLink("$order_process", true)|escape:'html'}" id="button_order_cart" class="exclusive{if $order_process == 'order-opc'}_large{/if}" title="{l s='Comprar' mod='blockcart'}" rel="nofollow">
                             {l s='Comprar' mod='blockcart'}</a>
                         </p>
+                        {/if}
+                        {if $page_name !== 'index' && $page_name !== '' }
+                        <!--section id="catalog_home">
+                            <h3>Catálogo</h3>
+                            <ul class="catalog_list">
+                                {*foreach from=$products item=product name=homeFeaturedProducts*}
+                                {foreach from=$productsCategory item=product}
+                                <li>
+                                    <article>
+                                        <img src="{$link->getImageLink($product.link_rewrite, $product.id_image, 'catalog_soona')|escape:'html'}" width="{$catalogSize.width}" height="{$catalogSize.height}" alt="{$product.name|escape:'htmlall':'UTF-8'}" />
+                                        <div class="product_information_wrapper">
+                                            <div class="product_information left">
+                                                {if $product.name && !empty($product.name)}
+                                                <p class="product_name_catalog">{$product.name|truncate:12:'...'|escape:'htmlall':'UTF-8'}</p>
+                                                {/if}
+                                                {if $product.show_price AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}
+                                                <p class="product_price_catalog">
+                                                    {if !$priceDisplay}
+                                                    {convertPrice price=$product.price}
+                                                    {else}
+                                                    {convertPrice price=$product.price_tax_exc}
+                                                    {/if}
+                                                </p>
+                                                {/if}
+                                            </div>
+                                            <div class="cart_link right">
+                                                <a href="{$link->getPageLink('cart')|escape:'html'}?qty=1&amp;id_product={$product.id_product}&amp;token={$static_token}&amp;add" title="{l s='Agregar al carrito' mod='homefeatured'}" target="_self">Agregar al Carrito</a>
+                                            </div>
+                                            <hr />
+                                            <a href="{$product.link|escape:'html'}" title="Conoce Más" class="to_know_more" target="_self">Conoce Más</a>
+                                        </div>
+                                    </article>
+                                </li>
+                                {/foreach}
+                            </ul>
+                        </section-->
                         {/if}
                     {/if}
                     {*if isset($accessories) AND $accessories}

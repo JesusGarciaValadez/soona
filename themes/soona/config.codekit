@@ -2175,6 +2175,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/soona_img\/images_soona\/down_arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1080,
+		"inputAbbreviatedPath": "\/img\/soona_img\/images_soona\/down_arrow.png",
+		"outputAbbreviatedPath": "\/img\/soona_img\/images_soona\/down_arrow.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/soona_img\/images_soona\/face_btn.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2482,6 +2492,16 @@
 		"initialSize": 9335,
 		"inputAbbreviatedPath": "\/img\/soona_img\/images_soona\/recorte_superior.png",
 		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/recorte_superior.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/soona_img\/images_soona\/right_arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1847,
+		"inputAbbreviatedPath": "\/img\/soona_img\/images_soona\/right_arrow.png",
+		"outputAbbreviatedPath": "\/img\/soona_img\/images_soona\/right_arrow.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},

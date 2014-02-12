@@ -187,7 +187,7 @@
 			</ul>
 		</div>
 		<p class="address_add submit">
-			<a href="{$link->getPageLink('address', true, NULL, "back={$back_order_page}?step=1{'&multi-shipping=1'|urlencode}{if $back}&mod={$back|urlencode}{/if}")|escape:'html'}" title="{l s='Add'}" class="button_large">&raquo; {l s='Add a new address'}</a>
+			<a href="{$link->getPageLink('address', true, NULL, "back={$back_order_page}?step=1{'&multi-shipping=1'|urlencode}{if $back}&mod={$back|urlencode}{/if}")|escape:'html'}" title="{l s='Add'}" class="button_large">{l s='Add a new address'}</a>
 		</p>
 		{if !$opc}
 		<div id="ordermsg" class="clearfix">
@@ -201,11 +201,11 @@
 		<input type="hidden" class="hidden" name="step" value="2" />
 		<input type="hidden" name="back" value="{$back}" />
 		{if $back}
-			<a href="{$link->getPageLink('order', true, NULL, "step=0&amp;back={$back}")|escape:'html'}" title="{l s='Previous'}" class="button">&laquo; {l s='Previous'}</a>
+			<a href="{$link->getPageLink('order', true, NULL, "step=0&amp;back={$back}")|escape:'html'}" title="{l s='Previous'}" class="button">{l s='Previous'}</a>
 		{else}
-			<a href="{$link->getPageLink('order', true, NULL, "step=0")|escape:'html'}" title="{l s='Previous'}" class="button">&laquo; {l s='Previous'}</a>
+			<a href="{$link->getPageLink('order', true, NULL, "step=0")|escape:'html'}" title="{l s='Previous'}" class="button">{l s='Previous'}</a>
 		{/if}
-		<input type="submit" name="processAddress" value="{l s='Next'} &raquo;" class="exclusive" />
+		<input type="submit" name="processAddress" value="{l s='Next'}" class="exclusive" />
 	</p>
 </form>
 {else}
