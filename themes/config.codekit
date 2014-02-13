@@ -3129,6 +3129,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/soona\/img\/soona_img\/images_catalogo\/bote-lechero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24636,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_catalogo\/bote-lechero.png",
+		"outputAbbreviatedPath": "\/soona\/img\/soona_img\/images_catalogo\/bote-lechero.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/soona\/img\/soona_img\/images_destacados\/P_destacado_1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3479,6 +3489,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/soona\/img\/soona_img\/images_soona\/carrito_producto-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7127,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/carrito_producto-big.png",
+		"outputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/carrito_producto-big.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/soona\/img\/soona_img\/images_soona\/carrito_producto.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3808,6 +3828,16 @@
 		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/soona\/themes\/soona\/img\/soona_img\/images_soona\/pinterest_btn.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/soona\/img\/soona_img\/images_soona\/product-frame.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4405,
+		"inputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/product-frame.png",
+		"outputAbbreviatedPath": "\/soona\/img\/soona_img\/images_soona\/product-frame.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/soona\/img\/soona_img\/images_soona\/recorte_inferior.png": {
 		"fileType": 32768,

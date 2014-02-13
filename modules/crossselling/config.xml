@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
         <module>
             <name>crossselling</name>
-            <displayName><![CDATA[Cross Selling]]></displayName>
+            <displayName><![CDATA[Ventas cruzadas]]></displayName>
             <version><![CDATA[0.8]]></version>
-            <description><![CDATA[Customers who bought this product also bought:]]></description>
+            <description><![CDATA[Los clientes que compraron este producto tambi&eacute;n han comprado...]]></description>
             <author><![CDATA[PrestaShop]]></author>
             <tab><![CDATA[front_office_features]]></tab>
             <is_configurable>1</is_configurable>

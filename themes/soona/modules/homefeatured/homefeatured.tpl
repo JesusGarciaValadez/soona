@@ -120,8 +120,10 @@
                         <section id="catalog_home">
                             <h3>Catálogo</h3>
                             <ul class="catalog_list">
-                                {*foreach from=$products item=product name=homeFeaturedProducts*}
+                                {counter start=0 assign='productsCount'}
+                                {*foreach from=$products item=product name=products*}
                                 {foreach from=$productsCategory item=product}
+                                {if $productsCount <= 3}
                                 <li>
                                     <article>
                                         <img src="{$link->getImageLink($product.link_rewrite, $product.id_image, 'catalog_soona')|escape:'html'}" width="{$catalogSize.width}" height="{$catalogSize.height}" alt="{$product.name|escape:'htmlall':'UTF-8'}" />
@@ -148,6 +150,8 @@
                                         </div>
                                     </article>
                                 </li>
+                                {counter}
+                                {/if}
                                 {/foreach}
                             </ul>
                         </section>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
         <module>
             <name>gsitemap</name>
-            <displayName><![CDATA[Google sitemap]]></displayName>
+            <displayName><![CDATA[Google Sitemap]]></displayName>
             <version><![CDATA[2.3.2]]></version>
-            <description><![CDATA[Generate your Google sitemap file]]></description>
+            <description><![CDATA[Genere su fichero de Google Sitemap]]></description>
             <author><![CDATA[PrestaShop]]></author>
             <tab><![CDATA[seo]]></tab>
             <is_configurable>1</is_configurable>

@@ -3956,6 +3956,10 @@ box-shadow:none;
                     .leftarrow{}
                 }
             }
+            .paiement_block{
+                background-color: transparent;
+                border: 0 none transparent;
+            }
             #emptyCartWarning.warning{}
             .cart_last_product{
                 
@@ -4119,6 +4123,13 @@ box-shadow:none;
                             }
                             .cart_quantity{
                                 
+                                span{
+                                    clear: both;
+                                    display: block;
+                                    margin: 0 auto;
+                                    text-align: center;
+                                    width:100%;
+                                }
                                 .cart_quantity_button{
                                     padding:0px 12px 12px 40px;
                                     .cart_quantity_up{}
@@ -4214,7 +4225,17 @@ box-shadow:none;
                         width: 450px;
                     }
                     .address_delivery{}
-                    .addressesAreEquals{}
+                    .addressesAreEquals{
+                        height: em( 18, 18 );
+                        padding: 5px 0 0;
+                        .tm-checkbox{
+                            float: left;
+                        }
+                        label{
+                            float: left;
+                            line-height: em( 17, 18 );
+                        }
+                    }
                     .select{
                         
                         label{}
@@ -4235,7 +4256,16 @@ box-shadow:none;
                         }
                         label{}
                     }
-                    #address_invoice_form{}
+                    #address_invoice_form{ 
+                        @extend .clearfix;
+                        clear: both;
+                        display: block;
+                        .button_large{
+                            @extend .blue_button_small;
+                            float: right;
+                            margin: 20px 0 0 !important;
+                        }
+                    }
                     div.clearfix{
                         @extend .clearfix;
                         clear: both;
@@ -4274,7 +4304,7 @@ box-shadow:none;
                             .address_update{
                                 padding: 10px 0 0;
                                 a{
-                                    @extend .blue_button;
+                                    @extend .blue_button_small;
                                 }
                             }
                         }
@@ -4285,7 +4315,7 @@ box-shadow:none;
                     .submit{
                         float: right;
                         .button_large{
-                            @extend .blue_button;
+                            @extend .blue_button_small;
                         }
                     }
                     #ordermsg{
@@ -4414,8 +4444,10 @@ box-shadow:none;
                         }
                     }
                 }
+                
                 //  Pago contra entrega
                 p{
+                    
                     #amount_1{}
                     .price{
                         @include font-mask( $text_gray, em( 18, 18 ), em( 18, 18 ), normal );
@@ -4433,6 +4465,14 @@ box-shadow:none;
             height: em( 55, 23 );
             min-width: em( 180, 23 );
             text-align: center;
+        }
+        .blue_button_small{
+            @extend .blue_button;
+            font-size: em( 18, 23 );
+            height: auto !important;
+            line-height: em( 22, 18 );
+            min-width: auto !important;
+            padding: 5px 10px;
         }
         .cart_navigation{
             

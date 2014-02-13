@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
         <module>
             <name>statsstock</name>
-            <displayName><![CDATA[Stats on available quantities.]]></displayName>
+            <displayName><![CDATA[Estad&iacute;sticas de&nbsp;las cantidades&nbsp;disponibles]]></displayName>
             <version><![CDATA[1]]></version>
             <description><![CDATA[]]></description>
             <author><![CDATA[PrestaShop]]></author>

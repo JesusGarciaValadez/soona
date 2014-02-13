@@ -657,44 +657,8 @@
                             {l s='Comprar' mod='blockcart'}</a>
                         </p>
                         {/if}
-                        {if $page_name !== 'index' && $page_name !== '' }
-                        <!--section id="catalog_home">
-                            <h3>Catálogo</h3>
-                            <ul class="catalog_list">
-                                {*foreach from=$products item=product name=homeFeaturedProducts*}
-                                {foreach from=$productsCategory item=product}
-                                <li>
-                                    <article>
-                                        <img src="{$link->getImageLink($product.link_rewrite, $product.id_image, 'catalog_soona')|escape:'html'}" width="{$catalogSize.width}" height="{$catalogSize.height}" alt="{$product.name|escape:'htmlall':'UTF-8'}" />
-                                        <div class="product_information_wrapper">
-                                            <div class="product_information left">
-                                                {if $product.name && !empty($product.name)}
-                                                <p class="product_name_catalog">{$product.name|truncate:12:'...'|escape:'htmlall':'UTF-8'}</p>
-                                                {/if}
-                                                {if $product.show_price AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}
-                                                <p class="product_price_catalog">
-                                                    {if !$priceDisplay}
-                                                    {convertPrice price=$product.price}
-                                                    {else}
-                                                    {convertPrice price=$product.price_tax_exc}
-                                                    {/if}
-                                                </p>
-                                                {/if}
-                                            </div>
-                                            <div class="cart_link right">
-                                                <a href="{$link->getPageLink('cart')|escape:'html'}?qty=1&amp;id_product={$product.id_product}&amp;token={$static_token}&amp;add" title="{l s='Agregar al carrito' mod='homefeatured'}" target="_self">Agregar al Carrito</a>
-                                            </div>
-                                            <hr />
-                                            <a href="{$product.link|escape:'html'}" title="Conoce Más" class="to_know_more" target="_self">Conoce Más</a>
-                                        </div>
-                                    </article>
-                                </li>
-                                {/foreach}
-                            </ul>
-                        </section-->
-                        {/if}
                     {/if}
-                    {*if isset($accessories) AND $accessories}
+                    {if isset($accessories) AND $accessories}
                         <div class="bullet"><!-- accessories -->
                             <div class="block products_block accessories_block clearfix">
                                 <p class="title_block">{l s='Accessories'}</p>
@@ -745,7 +709,7 @@
                                 </div>
                             </div>
                         </div><!-- accessories -->
-                    {/if*}
+                    {/if}
                     {*if isset($HOOK_PRODUCT_FOOTER) && $HOOK_PRODUCT_FOOTER}{$HOOK_PRODUCT_FOOTER}{/if*}
                     {*if isset($packItems) && $packItems|@count > 0}
                     <div id="blockpack">
