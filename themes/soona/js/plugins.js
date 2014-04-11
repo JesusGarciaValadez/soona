@@ -23,10 +23,10 @@
 
 // Place any jQuery/helper plugins in here.
 
-jQuery.fn.exists            = function(){return this.length>0;}
+jQuery.fn.exists            = function(){return this.length>0;};
 jQuery.fn.centerWidth       = function(){
     var winWidth;
-    if ( $.browser.msie && $.browser.version == '8.0' ) {
+    if ( $.browser.msie && $.browser.version === '8.0' ) {
         
         winWidth    = $(window).width() / 2;
     } else {
@@ -44,10 +44,10 @@ jQuery.fn.centerWidth       = function(){
     var elemLeft    = winWidth - elemWidth;
     
     this.css( 'left', elemLeft + 'px' );
-}
+};
 jQuery.fn.centerHeight      = function(){
     var winHeight;
-    if ( $.browser.msie && $.browser.version == '8.0' ) {
+    if ( $.browser.msie && $.browser.version === '8.0' ) {
         
         winHeight = $(window).height() / 2;
     } else {
@@ -59,6 +59,6 @@ jQuery.fn.centerHeight      = function(){
     var elemTop = winHeight - elemHeight;
 
     this.css( 'top', elemTop + 'px' );
-}
+};
 //
-//  @codekit-append "";
+//  @codekit-append "Soona.js";

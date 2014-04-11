@@ -66,11 +66,11 @@
                                         {/if}
                                     </div>
                                 </li>
-                            {/foreach}
-                        </ul>
-                    </div>
+                                {/foreach}
+                            </ul>
+                        </div>
                     {else}
-                    <p>{l s='No featured products' mod='homefeatured'}</p>
+                        <p>{l s='No featured products' mod='homefeatured'}</p>
                     {/if}
-                </div>
-                <!-- /MODULE Home Featured Products -->
+                    </div>
+                    <!-- /MODULE Home Featured Products -->

@@ -250,14 +250,13 @@ a {cursor:pointer}
 
 @font-face {
     font-family: 'Discover_Beauty_Regular';
-    src: url('http://localhost/soona/themes/soona/css/font/discoverbeauty-webfont.eot');
-    src: url('http://localhost/soona/themes/soona/css/font/discoverbeauty-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://localhost/soona/themes/soona/css/font/discoverbeauty-webfont.woff') format('woff'),
-         url('http://localhost/soona/themes/soona/css/font/discoverbeauty-webfont.ttf') format('truetype'),
-         url('http://localhost/soona/themes/soona/css/font/discoverbeauty-webfont.svg#discover_beautyregular') format('svg');
+    src: url('../font/discoverbeauty-webfont.eot');
+    src: url('../font/discoverbeauty-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/discoverbeauty-webfont.woff') format('woff'),
+         url('../font/discoverbeauty-webfont.ttf') format('truetype'),
+         url('../font/discoverbeauty-webfont.svg#Discover_Beauty_Regular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 @font-face {
     font-family: "Futura_Light";
@@ -279,11 +278,11 @@ a {cursor:pointer}
 }
 @font-face {
     font-family: 'Futura_Bold';
-    src: url('http://localhost/soona/themes/soona/css/font/futura-webfont.eot');
-    src: url('http://localhost/soona/themes/soona/css/font/futura-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://localhost/soona/themes/soona/css/font/futura-webfont.woff') format('woff'),
-         url('http://localhost/soona/themes/soona/css/font/futura-webfont.ttf') format('truetype'),
-         url('http://localhost/soona/themes/soona/css/font/futura-webfont.svg#futuramedium') format('svg');
+    src: url('../font/futura-webfont.eot');
+    src: url('../font/futura-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/futura-webfont.woff') format('woff'),
+         url('../font/futura-webfont.ttf') format('truetype'),
+         url('../font/futura-webfont.svg#Futura_Bold') format('svg');
     font-weight: bold;
     font-style: normal;
 
@@ -307,6 +306,63 @@ $text_gray:     #919191;
     line-height: $height;
     font-weight: $weight;
     font-family: $font;
+}
+
+.alert_background {
+    background: url('../../img/soona_img/background_lightbox.png') repeat scroll 0 0 transparent;
+    display: none;
+    height: 100%;
+    min-height: em( 1720, 16 );
+    top:0;
+    position: absolute;
+    width: 100%;
+    z-index: 16;
+}
+.alert_box {
+    @extend .clearfix;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 1px 3px 7px #AAA;
+    display: none;
+    margin: 0 auto;
+    padding: 30px;
+    position: fixed !important;
+    /*width: 502px;*/
+    z-index: 17;
+    h2{
+        background:none no-repeat scroll 0 1px transparent;
+        color: #27A9E0;
+        font: normal 1.188em/1em $futura_light;
+        margin: 0;
+        padding: 0 46px 0 0;
+        text-transform: uppercase;
+    }
+    a.close{
+        background: url('../../img/soona_img/close.png') no-repeat scroll 0 0 transparent;
+        cursor: pointer;
+        height: 27px;
+        overflow: hidden;
+        position: absolute;
+        right: -12px;
+        text-indent: -2000em;
+        top: -12px;
+        width: 27px;
+        img{
+            
+        }
+    }
+    p{
+        color: #000;
+        font: normal 0.875em/1em $futura_light;
+        margin: 0;
+        padding: 20px 0;
+        width: 100%;
+    }
+}
+.alert_trigger{
+    display: none;
+    opacity: 0;
+    filter: alpha(opacity = 0);
 }
 
 /* ************************************************************************************************
@@ -3956,10 +4012,6 @@ box-shadow:none;
                     .leftarrow{}
                 }
             }
-            .paiement_block{
-                background-color: transparent;
-                border: 0 none transparent;
-            }
             #emptyCartWarning.warning{}
             .cart_last_product{
                 
@@ -4123,13 +4175,6 @@ box-shadow:none;
                             }
                             .cart_quantity{
                                 
-                                span{
-                                    clear: both;
-                                    display: block;
-                                    margin: 0 auto;
-                                    text-align: center;
-                                    width:100%;
-                                }
                                 .cart_quantity_button{
                                     padding:0px 12px 12px 40px;
                                     .cart_quantity_up{}
@@ -4225,17 +4270,7 @@ box-shadow:none;
                         width: 450px;
                     }
                     .address_delivery{}
-                    .addressesAreEquals{
-                        height: em( 18, 18 );
-                        padding: 5px 0 0;
-                        .tm-checkbox{
-                            float: left;
-                        }
-                        label{
-                            float: left;
-                            line-height: em( 17, 18 );
-                        }
-                    }
+                    .addressesAreEquals{}
                     .select{
                         
                         label{}
@@ -4256,16 +4291,7 @@ box-shadow:none;
                         }
                         label{}
                     }
-                    #address_invoice_form{ 
-                        @extend .clearfix;
-                        clear: both;
-                        display: block;
-                        .button_large{
-                            @extend .blue_button_small;
-                            float: right;
-                            margin: 20px 0 0 !important;
-                        }
-                    }
+                    #address_invoice_form{}
                     div.clearfix{
                         @extend .clearfix;
                         clear: both;
@@ -4304,7 +4330,7 @@ box-shadow:none;
                             .address_update{
                                 padding: 10px 0 0;
                                 a{
-                                    @extend .blue_button_small;
+                                    @extend .blue_button;
                                 }
                             }
                         }
@@ -4315,7 +4341,7 @@ box-shadow:none;
                     .submit{
                         float: right;
                         .button_large{
-                            @extend .blue_button_small;
+                            @extend .blue_button;
                         }
                     }
                     #ordermsg{
@@ -4444,10 +4470,8 @@ box-shadow:none;
                         }
                     }
                 }
-                
                 //  Pago contra entrega
                 p{
-                    
                     #amount_1{}
                     .price{
                         @include font-mask( $text_gray, em( 18, 18 ), em( 18, 18 ), normal );
@@ -4465,14 +4489,6 @@ box-shadow:none;
             height: em( 55, 23 );
             min-width: em( 180, 23 );
             text-align: center;
-        }
-        .blue_button_small{
-            @extend .blue_button;
-            font-size: em( 18, 23 );
-            height: auto !important;
-            line-height: em( 22, 18 );
-            min-width: auto !important;
-            padding: 5px 10px;
         }
         .cart_navigation{
             

@@ -418,7 +418,7 @@ class AdminSelfUpgrade extends AdminSelfTab
 		}
 		/* Bug with backwardcompatibility overrinding currentIndex */
 		if (version_compare(_PS_VERSION_,'1.5.0.0','>'))	
-			$this->currentIndex = $_SERVER['SCRIPT_NAME'].(($controller = Tools::getValue('controller')) ? '?controller='.$controller: '');
+			$this->currentIndex = $_SERVER['SCRIPT_NAME'].(($controller = Tools14::getValue('controller')) ? '?controller='.$controller: '');
 		else
 			$this->currentIndex = $currentIndex;
 	}
@@ -512,8 +512,8 @@ class AdminSelfUpgrade extends AdminSelfTab
 		);
 
 		$this->_fieldsUpgradeOptions['PS_AUTOUP_UPDATE_DEFAULT_THEME'] = array(
-			'title' => $this->l('Upgrade the "default" theme'), 'cast' => 'intval', 'validation' => 'isBool', 'defaultValue' => '1',
-			'type' => 'bool', 'desc' => $this->l('This will upgrade the theme named "default" (PrestaShop default theme).').'<br />'.$this->l('If you are using this theme and customized it, you will loose your modifications.'),
+			'title' => $this->l('Upgrade and swith to the major version default theme'), 'cast' => 'intval', 'validation' => 'isBool', 'defaultValue' => '1',
+			'type' => 'bool', 'desc' => $this->l('This will upgrade to the major version default theme.').'<br />'.$this->l('If you are using the default theme and customized it, you will loose your modifications. If your are using your own theme, it will switch to default theme.'),
 		);
 		
 		$this->_fieldsUpgradeOptions['PS_AUTOUP_KEEP_MAILS'] = array(
@@ -535,6 +535,8 @@ class AdminSelfUpgrade extends AdminSelfTab
 											$this->l('This is not recommended as the upgrade will immediately fail if a PHP error occurs during an ajax call.'),
 			);
 		}
+		elseif ($this->getConfig('PS_DISPLAY_ERRORS'))
+			$this->writeConfig(array('PS_DISPLAY_ERRORS' => '0'));
 	}
 
 	public function configOk()
@@ -927,7 +929,7 @@ class AdminSelfUpgrade extends AdminSelfTab
 			if (is_array($langs))
 				foreach ($langs as $lang)
 				{
-					$lang_pack = Tools14::jsonDecode(Tools::file_get_contents('http'.(extension_loaded('openssl')? 's' : '').'://www.prestashop.com/download/lang_packs/get_language_pack.php?version='.$this->install_version.'&iso_lang='.$lang['iso_code']));
+					$lang_pack = Tools14::jsonDecode(Tools14::file_get_contents('http'.(extension_loaded('openssl')? 's' : '').'://www.prestashop.com/download/lang_packs/get_language_pack.php?version='.$this->install_version.'&iso_lang='.$lang['iso_code']));
 	
 					if (!$lang_pack)
 						continue;
@@ -1844,6 +1846,7 @@ class AdminSelfUpgrade extends AdminSelfTab
 				$modules_to_delete['trustedshops'] = 'Trustedshops';
 				$modules_to_delete['dejala'] = 'Dejala';
 				$modules_to_delete['stripejs'] = 'Stripejs';
+				$modules_to_delete['blockvariouslinks'] = 'Block Various Links';
 
 				foreach($modules_to_delete as $key => $module)
 				{
@@ -1864,12 +1867,32 @@ class AdminSelfUpgrade extends AdminSelfTab
 					}
 				}
 			}
+
 			if (version_compare($this->install_version, '1.5.5.0', '='))
 			{
 				Db::getInstance()->execute('UPDATE `'._DB_PREFIX_.'configuration` SET `name` = \'PS_LEGACY_IMAGES\' WHERE name LIKE \'0\' AND `value` = 1');
 				Db::getInstance()->execute('UPDATE `'._DB_PREFIX_.'configuration` SET `value` = 0 WHERE `name` LIKE \'PS_LEGACY_IMAGES\' AND `value` = 1');
 				if (Db::getInstance()->getValue('SELECT COUNT(id_product_download) FROM `'._DB_PREFIX_.'product_download` WHERE `active` = 1') > 0)
 					Db::getInstance()->execute('UPDATE `'._DB_PREFIX_.'configuration` SET `value` = 1 WHERE `name` LIKE \'PS_VIRTUAL_PROD_FEATURE_ACTIVE\'');
+			}
+
+			if (version_compare($this->install_version, '1.6.0.2', '>'))
+			{
+				$path = $this->adminDir.DIRECTORY_SEPARATOR.'themes'.DIRECTORY_SEPARATOR.'default'.DIRECTORY_SEPARATOR.'template'.DIRECTORY_SEPARATOR.'controllers'.DIRECTORY_SEPARATOR.'modules'.DIRECTORY_SEPARATOR.'header.tpl';
+				if (file_exists($path))
+					unlink($path);
+			}
+			
+			if ($this->deactivateCustomModule)
+			{
+				$exist = Db::getInstance()->getValue('SELECT `id_configuration` FROM `'._DB_PREFIX_.'configuration` WHERE `name` LIKE \'PS_DISABLE_OVERRIDES\'');
+				if ($exist)
+					Db::getInstance()->execute('UPDATE `'._DB_PREFIX_.'configuration` SET value = 1 WHERE `name` LIKE \'PS_DISABLE_OVERRIDES\'');
+				else
+					Db::getInstance()->execute('INSERT INTO `'._DB_PREFIX_.'configuration` (name, value, date_add, date_upd) VALUES ("PS_DISABLE_OVERRIDES", 1, NOW(), NOW())');
+
+				if (file_exists(_PS_ROOT_DIR_.'/cache/class_index.php'))
+					unlink(_PS_ROOT_DIR_.'/cache/class_index.php');
 			}
 			
 			$this->stepDone = true;
@@ -1983,21 +2006,18 @@ class AdminSelfUpgrade extends AdminSelfTab
 	{
 		global $warningExists;
 
-		$queries = array('DELETE FROM `'._DB_PREFIX_.'configuration_lang` WHERE (`value` IS NULL AND `date_upd` IS NULL) OR `value` LIKE ""');
+		/* Clean tabs order */
+		foreach ($this->db->ExecuteS('SELECT DISTINCT id_parent FROM '._DB_PREFIX_.'tab') as $parent)
+		{
+			$i = 1;
+			foreach ($this->db->ExecuteS('SELECT id_tab FROM '._DB_PREFIX_.'tab WHERE id_parent = '.(int)$parent['id_parent'].' ORDER BY IF(class_name IN ("AdminHome", "AdminDashboard"), 1, 2), position ASC') as $child)
+				$this->db->Execute('UPDATE '._DB_PREFIX_.'tab SET position = '.(int)($i++).' WHERE id_tab = '.(int)$child['id_tab'].' AND id_parent = '.(int)$parent['id_parent']);
+		}
 
-		$warningExist = false;
-		foreach ($queries as $query)
-			if (!$this->db->Execute($query, false))
-			{
-				$this->nextQuickInfo[] = '
-						<div class="upgradeDbError">
-						[ERROR] SQL Cleaning database'.$this->db->getNumberError().' in '.$query.': '.$this->db->getMsgError().'</div>';
-				$this->nextErrors[] = '[ERROR] SQL Cleaning database '.$this->db->getNumberError().' in '.$query.': '.$this->db->getMsgError();
-				$warningExist = true;
-			}
+		/* Clean configuration integrity */
+		$this->db->Execute('DELETE FROM `'._DB_PREFIX_.'configuration_lang` WHERE (`value` IS NULL AND `date_upd` IS NULL) OR `value` LIKE ""', false);
 
-		if (!$warningExist)
-			$this->status = 'ok';
+		$this->status = 'ok';
 		$this->next = 'upgradeComplete';
 		$this->next_desc = $this->l('The database has been cleaned.');
 		$this->nextQuickInfo[] = $this->l('The database has been cleaned.');
@@ -2206,7 +2226,7 @@ class AdminSelfUpgrade extends AdminSelfTab
 		}
 
 		$sqlContentVersion = array();
-		if($this->deactivateCustomModule)
+		if ($this->deactivateCustomModule)
 		{
 			require_once(_PS_INSTALLER_PHP_UPGRADE_DIR_.'deactivate_custom_modules.php');
 			deactivate_custom_modules();
@@ -2447,20 +2467,117 @@ class AdminSelfUpgrade extends AdminSelfTab
 								unlink($dir.basename($file));
 			}
 
-			Db::getInstance()->execute('UPDATE `'._DB_PREFIX_.'configuration` SET value=0 WHERE name=\'PS_REWRITING_SETTINGS\'');
+			if (file_exists(_PS_ROOT_DIR_.'/classes/Tools.php'))
+				require_once(_PS_ROOT_DIR_.'/classes/Tools.php');
+			if(!class_exists('Tools2', false) AND class_exists('ToolsCore'))
+				eval('class Tools2 extends ToolsCore{}');
+
+			if (version_compare(INSTALL_VERSION, '1.6.0.0', '>') && class_exists('Tools2') && method_exists('Tools2', 'generateHtaccess'))
+			{
+				$url_rewrite = (bool)Db::getInstance()->getvalue('SELECT `value` FROM `'._DB_PREFIX_.'configuration`WHERE name=\'PS_REWRITING_SETTINGS\'');
+
+				if (!defined('_MEDIA_SERVER_1_'))
+					define('_MEDIA_SERVER_1_', '');
+				if (!defined('_MEDIA_SERVER_2_'))
+					define('_MEDIA_SERVER_2_', '');
+				if (!defined('_MEDIA_SERVER_3_'))
+					define('_MEDIA_SERVER_3_', '');
+				if (!defined('_PS_USE_SQL_SLAVE_'))
+					define('_PS_USE_SQL_SLAVE_', false);
+
+				if (file_exists(_PS_ROOT_DIR_.'/classes/ObjectModel.php'))
+					require_once(_PS_ROOT_DIR_.'/classes/ObjectModel.php');
+				if (!class_exists('ObjectModel', false) AND class_exists('ObjectModelCore'))
+					eval('abstract class ObjectModel extends ObjectModelCore{}');
+
+				if (file_exists(_PS_ROOT_DIR_.'/classes/Configuration.php'))
+					require_once(_PS_ROOT_DIR_.'/classes/Configuration.php');
+				if (!class_exists('Configuration', false) AND class_exists('ConfigurationCore'))
+					eval('class Configuration extends ConfigurationCore{}');
+
+				if (file_exists(_PS_ROOT_DIR_.'/classes/cache/Cache.php'))
+					require_once(_PS_ROOT_DIR_.'/classes/cache/Cache.php');
+				if (!class_exists('Cache', false) AND class_exists('CacheCore'))
+					eval('abstract class Cache extends CacheCore{}');
+
+				if (file_exists(_PS_ROOT_DIR_.'/classes/PrestaShopCollection.php'))
+					require_once(_PS_ROOT_DIR_.'/classes/PrestaShopCollection.php');
+				if(!class_exists('PrestaShopCollection', false) AND class_exists('PrestaShopCollectionCore'))
+					eval('class PrestaShopCollection extends PrestaShopCollectionCore{}');
+
+				if (file_exists(_PS_ROOT_DIR_.'/classes/shop/ShopUrl.php'))
+					require_once(_PS_ROOT_DIR_.'/classes/shop/ShopUrl.php');
+				if (!class_exists('ShopUrl', false) AND class_exists('ShopUrlCore'))
+					eval('class ShopUrl extends ShopUrlCore{}');
+
+				if (file_exists(_PS_ROOT_DIR_.'/classes/shop/Shop.php'))
+					require_once(_PS_ROOT_DIR_.'/classes/shop/Shop.php');
+				if (!class_exists('Shop', false) AND class_exists('ShopCore'))
+					eval('class Shop extends ShopCore{}');
+
+				if (file_exists(_PS_ROOT_DIR_.'/classes/Translate.php'))
+					require_once(_PS_ROOT_DIR_.'/classes/Translate.php');
+				if (!class_exists('Translate', false) AND class_exists('TranslateCore'))
+					eval('class Translate extends TranslateCore{}');
+
+				if (file_exists(_PS_ROOT_DIR_.'/classes/module/Module.php'))
+					require_once(_PS_ROOT_DIR_.'/classes/module/Module.php');
+				if (!class_exists('Module', false) AND class_exists('ModuleCore'))
+					eval('class Module extends ModuleCore{}');
+
+				if (file_exists(_PS_ROOT_DIR_.'/classes/Validate.php'))
+					require_once(_PS_ROOT_DIR_.'/classes/Validate.php');
+				if (!class_exists('Validate', false) AND class_exists('ValidateCore'))
+					eval('class Validate extends ValidateCore{}');
+
+				if (file_exists(_PS_ROOT_DIR_.'/classes/Language.php'))
+					require_once(_PS_ROOT_DIR_.'/classes/Language.php');
+				if (!class_exists('Language', false) AND class_exists('LanguageCore'))
+					eval('class Language extends LanguageCore{}');
+				
+				if (file_exists(_PS_ROOT_DIR_.'/classes/Tab.php'))
+					require_once(_PS_ROOT_DIR_.'/classes/Tab.php');
+				if (!class_exists('Tab', false) AND class_exists('TabCore'))
+					eval('class Tab extends TabCore{}');
+				
+				if (file_exists(_PS_ROOT_DIR_.'/classes/Dispatcher.php'))
+					require_once(_PS_ROOT_DIR_.'/classes/Dispatcher.php');
+				if (!class_exists('Dispatcher', false) AND class_exists('DispatcherCore'))
+					eval('class Dispatcher extends DispatcherCore{}');
+
+				if (file_exists(_PS_ROOT_DIR_.'/classes/Hook.php'))
+					require_once(_PS_ROOT_DIR_.'/classes/Hook.php');
+				if (!class_exists('Hook', false) AND class_exists('HookCore'))
+					eval('class Hook extends HookCore{}');
+
+				if (file_exists(_PS_ROOT_DIR_.'/classes/Context.php'))
+					require_once(_PS_ROOT_DIR_.'/classes/Context.php');
+				if (!class_exists('Context', false) AND class_exists('ContextCore'))
+					eval('class Context extends ContextCore{}');
+
+				if (file_exists(_PS_ROOT_DIR_.'/classes/Group.php'))
+					require_once(_PS_ROOT_DIR_.'/classes/Group.php');
+				if (!class_exists('Group', false) AND class_exists('GroupCore'))
+					eval('class Group extends GroupCore{}');
+
+
+		
+				Tools2::generateHtaccess(null, $url_rewrite); 
+			}
+		
 			if ($this->updateDefaultTheme)
 			{
 				if (version_compare(INSTALL_VERSION, '1.6.0.0', '>'))
 				{
 					Db::getInstance()->execute('UPDATE `'._DB_PREFIX_.'shop` 
-						SET id_theme = (SELECT id_theme FROM `'._DB_PREFIX_.'theme` WHERE name LIKE \'default-bootstrap\') WHERE id_shop = 1 AND id_theme = 1');
-					Db::getInstance()->execute('DELETE FROM `'._DB_PREFIX_.'theme` WHERE  name LIKE \'default\' LIMIT 1');
+						SET id_theme = (SELECT id_theme FROM `'._DB_PREFIX_.'theme` WHERE name LIKE \'default-bootstrap\')');
+					Db::getInstance()->execute('DELETE FROM `'._DB_PREFIX_.'theme` WHERE  name LIKE \'default\' OR name LIKE \'prestashop\'');
 				}
 				elseif (version_compare(INSTALL_VERSION, '1.5.0.0', '>'))
 				{
 					Db::getInstance()->execute('UPDATE `'._DB_PREFIX_.'shop` 
-						SET id_theme = (SELECT id_theme FROM `'._DB_PREFIX_.'theme` WHERE name LIKE \'default\') WHERE id_shop = 1 AND id_theme = 1');
-					Db::getInstance()->execute('DELETE FROM `'._DB_PREFIX_.'theme` WHERE  name LIKE \'prestashop\' LIMIT 1');
+						SET id_theme = (SELECT id_theme FROM `'._DB_PREFIX_.'theme` WHERE name LIKE \'default\')');
+					Db::getInstance()->execute('DELETE FROM `'._DB_PREFIX_.'theme` WHERE  name LIKE \'prestashop\'');
 				}
 			}
 		}
@@ -2946,8 +3063,20 @@ class AdminSelfUpgrade extends AdminSelfTab
 					$file = rtrim($this->prodRootDir, DIRECTORY_SEPARATOR).$filename;
 					if (file_exists($file))
 					{
-						if (is_file($file) && unlink($file))
-							$this->nextQuickInfo[] = sprintf('%s removed', $filename);
+						if (is_file($file))
+						{
+							@chmod($file, 0777); // NT ?
+							if (@unlink($file))
+								$this->nextQuickInfo[] = sprintf('%s removed', $filename);
+							else
+							{
+								$this->next = 'error';
+								$this->next_desc = sprintf($this->l('error when removing %1$s'), $filename);
+								$this->nextQuickInfo[] = sprintf($this->l('%s not removed'), $filename);
+								$this->nextErrors[] = sprintf($this->l('%s not removed'), $filename);
+								return false;
+							}	
+						}
 						elseif (is_dir($file))
 						{
 							if ($this->isDirEmpty($file))
@@ -2957,14 +3086,6 @@ class AdminSelfUpgrade extends AdminSelfTab
 							}
 							else
 								$this->nextQuickInfo[] = sprintf('[NOTICE] %s directory skipped (directory not empty)', $filename);
-						}
-						else
-						{
-							$this->next = 'error';
-							$this->next_desc = sprintf($this->l('error when removing %1$s'), $filename);
-							$this->nextQuickInfo[] = sprintf($this->l('%s not removed'), $filename);
-							$this->nextErrors[] = sprintf($this->l('%s not removed'), $filename);
-							return false;
 						}
 					}
 					else
@@ -3163,6 +3284,7 @@ class AdminSelfUpgrade extends AdminSelfTab
 						$this->next = 'error';
 						$this->error = 1;
 						$this->next_desc = $this->l('Error during database restoration');
+						unlink($this->autoupgradePath.DIRECTORY_SEPARATOR.$this->toRestoreQueryList);
 						return false;
 					}
 					// note : theses queries can be too big and can cause issues for display
@@ -3433,16 +3555,19 @@ class AdminSelfUpgrade extends AdminSelfTab
 						$time_elapsed = time() - $start_time;
 					}
 					else
+					{
+						unset($this->nextParams['backup_table']);
+						unset($this->currentParams['backup_table']);
 						break;
+					}
 				}
-				while(($time_elapsed < self::$loopBackupDbTime) || ($written < self::$max_written_allowed));
+				while(($time_elapsed < self::$loopBackupDbTime) && ($written < self::$max_written_allowed));
 			}
 			$found++;
-			unset($this->nextParams['backup_table']);
 			$time_elapsed = time() - $start_time;
 			$this->nextQuickInfo[] = sprintf($this->l('%1$s table has been saved.'), $table);
 		}
-		while(($time_elapsed < self::$loopBackupDbTime) || ($written < self::$max_written_allowed));
+		while(($time_elapsed < self::$loopBackupDbTime) && ($written < self::$max_written_allowed));
 
 		// end of loop
 		if (isset($fp))
@@ -3450,8 +3575,11 @@ class AdminSelfUpgrade extends AdminSelfTab
 			fclose($fp);
 			unset($fp);
 		}
+
 		file_put_contents($this->autoupgradePath.DIRECTORY_SEPARATOR.$this->toBackupDbList, base64_encode(serialize($tablesToBackup)));
-		if (count($tablesToBackup) > 0){
+
+		if (count($tablesToBackup) > 0)
+		{
 			$this->nextQuickInfo[] = sprintf($this->l('%1$s tables has been saved.'), $found);
 			$this->next = 'backupDb';
 			$this->stepDone = false;
@@ -3488,10 +3616,6 @@ class AdminSelfUpgrade extends AdminSelfTab
 			$this->next = 'upgradeFiles';
 			return true;
 		}
-		// for backup db, use autoupgrade/backup directory
-		// @TODO : autoupgrade must not be static
-		// maybe for big tables we should save them in more than one file ?
-		// if an error occur, we assume the file is not saved
 	}
 
 	public function ajaxProcessBackupFiles()

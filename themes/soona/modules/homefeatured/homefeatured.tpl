@@ -61,7 +61,7 @@
                             {if isset($products) AND $products}
                             <div class="block_content">
                                 <!-- Megnor start -->
-                                {assign var='sliderFor' value=10} <!-- Define Number of product for SLIDER -->
+                                {assign var='sliderFor' value=11} <!-- Define Number of product for SLIDER -->
                                 {assign var='productCount' value=count($products)}
                                 {if $productCount >= $sliderFor}
                                 <div class="customNavigation">
@@ -71,8 +71,14 @@
                                 {/if}
                                 <!-- Megnor End -->
                                 <ul id="{if $productCount >= $sliderFor}featured-carousel{else}featured-grid{/if}" class="{if $productCount >= $sliderFor}product-carousel{else}product_list{/if} clearfix">
+                                    {*assign var='itemCount' value=0*}
                                     {foreach from=$products item=product name=homeFeaturedProducts}
+                                    {*if $itemCount=8}{break}{/if*}
+                                    {if $product@index eq 3}
+                                        {break}
+                                    {/if}
                                     <li class="ajax_block_product {if $productCount >= $sliderFor}slider-item{/if}">
+                                        {$itemCount}
                                         <div class="product-block">
                                             <div class="product-inner">
                                                 <!-- Imagen del producto -->
@@ -120,39 +126,37 @@
                         <section id="catalog_home">
                             <h3>Catálogo</h3>
                             <ul class="catalog_list">
-                                {counter start=0 assign='productsCount'}
-                                {*foreach from=$products item=product name=products*}
-                                {foreach from=$productsCategory item=product}
-                                {if $productsCount <= 3}
+                                {*foreach from=$products item=product name=homeFeaturedProducts*}
+                                {*foreach from=$productsCategory item=product*}
+                                {for $foo=0 to 9 step 3}
                                 <li>
                                     <article>
-                                        <img src="{$link->getImageLink($product.link_rewrite, $product.id_image, 'catalog_soona')|escape:'html'}" width="{$catalogSize.width}" height="{$catalogSize.height}" alt="{$product.name|escape:'htmlall':'UTF-8'}" />
+                                        <img src="{$link->getImageLink($products[$foo].link_rewrite, $products[$foo].id_image, 'catalog_soona')|escape:'html'}" width="{$catalogSize.width}" height="{$catalogSize.height}" alt="{$products[$foo].name|escape:'htmlall':'UTF-8'}" />
                                         <div class="product_information_wrapper">
                                             <div class="product_information left">
-                                                {if $product.name && !empty($product.name)}
-                                                <p class="product_name_catalog">{$product.name|truncate:12:'...'|escape:'htmlall':'UTF-8'}</p>
+                                                {if $products[$foo].name && !empty($products[$foo].name)}
+                                                <p class="product_name_catalog">{$products[$foo].name|truncate:12:'...'|escape:'htmlall':'UTF-8'}</p>
                                                 {/if}
-                                                {if $product.show_price AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}
+                                                {if $products[$foo].show_price AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}
                                                 <p class="product_price_catalog">
                                                     {if !$priceDisplay}
-                                                    {convertPrice price=$product.price}
+                                                    {convertPrice price=$products[$foo].price}
                                                     {else}
-                                                    {convertPrice price=$product.price_tax_exc}
+                                                    {convertPrice price=$products[$foo].price_tax_exc}
                                                     {/if}
                                                 </p>
                                                 {/if}
                                             </div>
                                             <div class="cart_link right">
-                                                <a href="{$link->getPageLink('cart')|escape:'html'}?qty=1&amp;id_product={$product.id_product}&amp;token={$static_token}&amp;add" title="{l s='Agregar al carrito' mod='homefeatured'}" target="_self">Agregar al Carrito</a>
+                                                <a href="{$link->getPageLink('cart')|escape:'html'}?qty=1&amp;id_product={$products[$foo].id_product}&amp;token={$static_token}&amp;add" title="{l s='Agregar al carrito' mod='homefeatured'}" target="_self">Agregar al Carrito</a>
                                             </div>
                                             <hr />
-                                            <a href="{$product.link|escape:'html'}" title="Conoce Más" class="to_know_more" target="_self">Conoce Más</a>
+                                            <a href="{$products[$foo].link|escape:'html'}" title="Conoce Más" class="to_know_more" target="_self">Conoce Más</a>
                                         </div>
                                     </article>
                                 </li>
-                                {counter}
-                                {/if}
-                                {/foreach}
+                                {/for}
+                                {*/foreach*}
                             </ul>
                         </section>
                     </div>
