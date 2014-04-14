@@ -7,7 +7,11 @@
  *  @author: @_Chucho_
  *
  */
+<<<<<<< HEAD
 ( function ( $, window, document, undefined ) {
+=======
+(function ( $, window, document, undefined ) {
+>>>>>>> 130ed9e65ece62706ded259214722de5b60bc19d
     
     var _Soona    = window._Soona,
     // Use the correct document accordingly with window argument (sandbox)
@@ -287,7 +291,11 @@
                             
                             $( '.alert_box' ).addClass( 'thank_you_message' );
                             _title      = 'Gracias';
+<<<<<<< HEAD
                             _markup     = '<p>Muchas gracias por tu interes en Giovani Bojanini Microinjerto, <br />en breve nos pondremos en contacto contigo.</p>';
+=======
+                            _markup     = '<p>Muchas gracias por tu interes en Sooná, <br />en breve nos pondremos en contacto contigo.</p>';
+>>>>>>> 130ed9e65ece62706ded259214722de5b60bc19d
                             Soona.openAlert( _title, _markup );
                             $( 'textarea' ).val( "" );
                             $( '.budget_form input[type="text"]' ).val( '' );
@@ -865,6 +873,7 @@
             
             var options         = {
                 zoom:                       15,
+<<<<<<< HEAD
                 disableDefaultUI:           false,
                 disableDoubleClickZooom:    true,
                 overviewMapControl:         false,
@@ -873,6 +882,16 @@
                 scaleControl:               true,
                 scrollwheel:                false,
                 draggable:                  true,
+=======
+                disableDefaultUI:           true,
+                disableDoubleClickZooom:    true,
+                overviewMapControl:         false,
+                panControl:                 false,
+                rotateControl:              false,
+                scaleControl:               false,
+                scrollwheel:                false,
+                draggable:                  false,
+>>>>>>> 130ed9e65ece62706ded259214722de5b60bc19d
                 keyboardShortcuts:          false,
                 mapTypeControl:             false,
                 mapTypeId:                  google.maps.MapTypeId.ROADMAP, //ROADMAP,

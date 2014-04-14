@@ -29,9 +29,15 @@
     <div id="map_wrapper">
         <p>Malitzin 165 Local 3, Coyoacán.</p>
         <div id="map">
+<<<<<<< HEAD
             <a href="https://www.google.com.mx/maps/place/Malintzin+165/@19.3518849,-99.1630739,19z/data=!3m1!4b1!4m2!3m1!1s0x85d1ffc370dee859:0x6b9f465935bb6262" title="Sooná" target="_blank">
                 <img src="themes/soona/img/soona_img/images_soona/soona-sucursal.jpg" alt="Sucursal" width="443" height="426" />
             </a>
+=======
+            <!--a href="https://www.google.com.mx/maps/search/Malintzin+165+Local+3,+Col.+Del+Carmen,+Coyoac%C3%A1n,+Ciudad+de+M%C3%A9xico+c.p.04100/@19.3517761,-99.1632018,19z" title="Sooná" target="_blank"-->
+                <img src="themes/soona/img/soona_img/images_soona/soona-sucursal.jpg" alt="Sucursal" width="443" height="426" />
+            <!--/a-->
+>>>>>>> 130ed9e65ece62706ded259214722de5b60bc19d
         </div>
     </div>
     <div id="contact_form_wrapper">

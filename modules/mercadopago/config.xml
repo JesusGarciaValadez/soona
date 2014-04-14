@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>mercadopago</name>
+            <displayName><![CDATA[Mercadopago]]></displayName>
+            <version><![CDATA[2.08]]></version>
+            <description><![CDATA[Acepte pagos de Mercadopago usando el API de conexi&oacute;n 2.0]]></description>
+            <author><![CDATA[R. Kazeno]]></author>
+            <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall>Esto borrará la configuración actual de este modulo. ¿Continuar?</confirmUninstall>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>

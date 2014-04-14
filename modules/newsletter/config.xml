@@ -2,8 +2,8 @@
         <module>
             <name>newsletter</name>
             <displayName><![CDATA[Newsletter]]></displayName>
-            <version><![CDATA[2.1]]></version>
-            <description><![CDATA[Genere un fichero .CSV para mailing masivo]]></description>
+            <version><![CDATA[2.2]]></version>
+            <description><![CDATA[Generates a .CSV file for mass mailings]]></description>
             <author><![CDATA[PrestaShop]]></author>
             <tab><![CDATA[administration]]></tab>
             <is_configurable>1</is_configurable>
