@@ -42,7 +42,7 @@
                 <div class="footer_inner">
                     <ul>
                         <li id="faq_footer">
-                            <a href="" title="FAQ's" target="_blank">FAQ's</a>
+                            <a href="{$base_dir}content/6-preguntas-frecuentes" title="FAQ's" target="_self">FAQ's</a>
                         </li>
                         <li id="social_links_footer">
                             <h5>Síguenos</h5>
@@ -67,19 +67,19 @@
                             <h5>Sooná</h5>
                             <ul>
                                 <li>
-                                    <a href="" title="Información De Soona" target="_self">Información De Soona</a>
+                                    <a href="{$base_dir}content/7-soona" title="Información De Soona" target="_self">Información De Soona</a>
                                 </li>
                                 <li>
-                                    <a href="" title="Información Y Formas de Pago" target="_self">Información Y Formas de Pago</a>
+                                    <a href="{$base_dir}content/7-soona" title="Información Y Formas de Pago" target="_self">Información Y Formas de Pago</a>
                                 </li>
                                 <li>
-                                    <a href="" title="¿Cómo Comprar?" target="_self">¿Cómo Comprar?</a>
+                                    <a href="{$base_dir}content/6-preguntas-frecuentes" title="¿Cómo Comprar?" target="_self">¿Cómo Comprar?</a>
                                 </li>
                                 <li>
-                                    <a href="" title="Entrega a Domicilio" target="_self">Entrega a Domicilio</a>
+                                    <a href="{$base_dir}content/7-soona" title="Entrega a Domicilio" target="_self">Entrega a Domicilio</a>
                                 </li>
                                 <li>
-                                    <a href="" title="Zonas de Cobertura" target="_self">Zonas de Cobertura</a>
+                                    <a href="{$base_dir}content/7-soona" title="Zonas de Cobertura" target="_self">Zonas de Cobertura</a>
                                 </li>
                             </ul>
                         </article>
@@ -176,10 +176,10 @@
                             <h5>Contacto</h5>
                             <ul>
                                 <li>
-                                    <a href="" title="Formulario de Contacto" target="_self">Formulario de Contacto</a>
+                                    <a href="{$base_dir}contactenos" title="Formulario de Contacto" target="_self">Formulario de Contacto</a>
                                 </li>
                                 <li>
-                                    <a href="" title="Ubicación" target="_self">Ubicación</a>
+                                    <a href="{$base_dir}contactenos" title="Ubicación" target="_self">Ubicación</a>
                                 </li>
                             </ul>
                         </article>
@@ -188,7 +188,7 @@
                         <article id="coverage_areas">
                             <h5>Zonas de Cobertura</h5>
                             <p>
-                                <a href="" title="Conoce nuestras zonas de cobertura" target="_self">Conoce nuestras zonas de cobertura</a>
+                                <a href="{$base_dir}contactenos" title="Conoce nuestras zonas de cobertura" target="_self">Conoce nuestras zonas de cobertura</a>
                             </p>
                             <img src="{$img_dir}soona_img/images_soona/mapa_df_footer.png" alt="Mapa del Distrito Federal" width="97" height="133" />
                         </article>
@@ -210,6 +210,9 @@
         </div>
         {/if}
         <span class="grid_default_width" style="display:none; visibility:hidden"></span>
+        {if $page_name == 'contact'}
+        <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+        {/if}
         <script type="text/javascript" src="{$js_dir}plugins.min.js"></script>
         <script type="text/javascript" src="{$js_dir}main.js"></script>
     </body>

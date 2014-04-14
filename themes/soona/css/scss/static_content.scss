@@ -1,0 +1,206 @@
+.breadcrumb{ display: none; }
+#faq_wrapper{
+    
+    h1{
+        @include font-mask( $color_dark !important, em( 39, 16 ) !important, em( 95, 39 ) !important, normal !important, $discover !important );
+        background: url("../../img/soona_img/images_soona/faq.png") no-repeat scroll 150px center transparent;
+        height: 77px;
+        text-align: center;
+    }
+    #faqs{
+        
+        div{
+            border-bottom: 1px solid #E5E5E5;
+            h2{
+                @include font-mask( $color_light, em( 22, 16 ), em( 22, 22 ), bold );
+                padding: 0;
+            }
+            p{
+                @include font-mask( $text_gray, em( 18, 16 ), em( 18, 18 ), normal );
+                padding: 0 0 10px 20px;
+            }
+        }
+    }
+}
+#about_us_wrapper{
+    @extend .clearfix;
+    margin: 0 auto;
+    position: relative;
+    width: 750px;
+    z-index: 10;
+    .close{
+        background: url("../../img/soona_img/images_soona/close.png") no-repeat scroll 0 0 transparent;
+        color: transparent;
+        display: block;
+        height: 28px;
+        position: absolute;
+        right: -12px;
+        top: -12px;
+        width: 28px;
+    }
+    h1{
+        @include font-mask( $color_dark !important, em( 39, 16 ) !important, em( 78, 39 ) !important, normal !important, $discover !important );
+        padding: 0 0 0 50px;
+        text-align: left;
+    }
+    p{
+        @include font-mask( $text_gray, em( 18, 16 ), em( 18, 18 ), normal );
+    }
+    .about_us{
+        float: left;
+        padding: 0;
+        width: 35%;
+        h2{
+            @include font-mask( $color_dark !important, em( 27, 14 ) !important, em( 35, 27 ) !important, normal !important, $futura_light !important );
+            @extend .sello_num2;
+            padding: 0 0 0 45px;
+            width: auto;
+        }
+        p{
+            @include font-mask( $text_gray, em( 17, 14 ), em( 17, 17 ), normal, $futura_light );
+            margin: 0 0 17px;
+            padding: 0 0 0 10px;
+            text-indent: 10px;
+        }
+        a{
+            @extend .clearfix;
+            height: 97px;
+            width: 133px;
+            img{
+                display: block;
+                margin: 0 auto;
+                vertical-align: middle;
+            }
+        }
+        ul{
+            @extend .clearfix;
+            padding: 0;
+            li{
+                float: left;
+                list-style: none inside;
+                margin: 20px 15px;
+                img{
+                    display: block;
+                    margin: 0 auto;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+    .first{
+        width: 65%;
+        h2{
+            @extend .sello_num1;
+        }
+    }
+    .about_us_overlay{
+        background: #F7F7F7;
+        box-shadow: 0px 0px 7px 1px #D3D3D3;
+        border-radius: 5px;
+        display: none;
+        height: 450px;
+        position: fixed;
+        top: 0;
+        width: 300px;
+        h3{
+            @include font-mask( $color_dark !important, em( 25, 16 ) !important, em( 50, 25 ) !important, normal !important, $discover !important );
+            text-align: center;
+            padding: 0;
+        }
+        ul{
+            display: block;
+            margin: 0 auto;
+            padding: 0;
+            width: 160px;
+            li{
+                @include font-mask( $text_gray, em( 18, 16 ), em( 18, 18 ), normal, $futura_light );
+                list-style: none inside;
+                margin: 5px 0;
+            }
+        }
+    }
+}
+#contact_wrapper{
+    width: 960px;
+    h1{
+        @include font-mask( $color_dark !important, em( 32, 14 ) !important, em( 70, 32 ) !important, normal !important, $discover !important );
+        background: url("../../img/soona_img/images_soona/contact.png") no-repeat scroll left center transparent;
+        height: 57px;
+        padding: 0 0 0 70px;
+        text-align: left;
+    }
+    >div{
+        float: left;
+        min-width: 480px;
+        width: 50%;
+        p{
+            @extend .sello_num2;
+            @include font-mask( $text_gray !important, em( 17, 14 ) !important, em( 35, 17 ) !important, normal !important, $futura_light !important );
+            clear: both;
+            display: block;
+            padding: 0 0 1px 45px;
+            width: auto !important;
+        }
+    }
+    #map_wrapper{
+        @extend .clearfix;
+        p{
+            @extend .sello_num1;
+        }
+        #map{
+            @extend .clearfix;
+            display: block;
+            height:  426px;
+            width: 443px;
+            img{
+                vertical-align: middle;
+            }
+        }
+    }
+    #contact_form_wrapper{
+        
+        p{ margin: 17px 0 0; }
+        form{
+            
+            fieldset{
+                border: 0 none transparent;
+                div{
+                    clear: both;
+                    display: block;
+                    margin: 5px 0;
+                    input,textarea{
+                        @include font-mask( $color_dark, em( 17, 14 ), em( 40, 17 ), normal, $futura_light );
+                        background: #FFF;
+                        border: 0 none transparent;
+                        padding: 0 0 0 10px;
+                        width: 100%;
+                    }
+                    input[type="text"]{
+                        height: 40px;
+                    }
+                }
+                .input{
+                    
+                    #contact_name{}
+                }
+                .textarea{
+                    
+                    #contact_message{
+                        height: 150px;
+                        resize: none;
+                    }
+                }
+                .submit{
+                    margin: 10px 0 0;
+                    #contact_submit{
+                         background: url("../../img/soona_img/images_soona/send-button.png") no-repeat scroll center center transparent;
+                         color: transparent;
+                         display: block;
+                         height: 88px;
+                         width: 408px;
+                    }
+                }
+            }
+        }
+    }
+}
