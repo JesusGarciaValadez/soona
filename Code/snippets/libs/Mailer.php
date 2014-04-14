@@ -16,6 +16,7 @@ class Mailer {
         $this->_mailer->IsSMTP( );
         $this->_mailer->Port        = $config['mail_service']['port'] ;
         $this->_mailer->Host        = $config['mail_service']['smtp_host'] ;
+        $this->_mailer->SMTPSecure  = $config['mail_service']['smtp_secure'];
         $this->_mailer->SMTPAuth    = true;
         $this->_mailer->CharSet     = $config['mail_service']['char_set'] ;
         $this->_mailer->Username    = $config['mail_service']['smtp_user'] ;
@@ -42,7 +43,7 @@ class Mailer {
         $this->_mailer->Body = $body;
         
     }
-
+    
     public function addTo( $to = array() ) {
         
         if ( empty( $to ) ) {
@@ -68,7 +69,7 @@ class Mailer {
             $this->_mailer->AddAddress( $mail , $nombre );
         }
     }
-
+    
     public function addCopy( $cc = array() ) {
         
         if( empty( $cc ) )
