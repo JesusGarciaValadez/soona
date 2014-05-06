@@ -140,7 +140,7 @@ figure { margin: 0; }
  * Define consistent border, margin, and padding.
  */
 fieldset {
-    border: 1px solid #c0c0c0;
+    border: 0px solid #c0c0c0;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
 }
@@ -228,7 +228,7 @@ input::-moz-focus-inner { border: 0; padding: 0; }
  */
 textarea {
     overflow: auto; /* 1 */
-    vertical-align: top; /* 2 */ 
+    vertical-align: top; /* 2 */
 }
 /* ==========================================================================
    Tables
@@ -348,7 +348,7 @@ $text_gray:     #919191;
         top: -12px;
         width: 27px;
         img{
-            
+
         }
     }
     p{
@@ -419,10 +419,10 @@ START 2 COLUMNS LEFT STRUCTURE - MEGNOR - TemplateMela.com
 
 THIS IS 2-COLUMN LAYOUT STURECURE :BUT YOU CAN ENJOY IT LIKE 3 COLUMN.
 Here What we have done is, ADDED BOTH - Left Column and Right Column on single LEFT SIDE.
-Becuase, ON CHECKOUT, MY ACCOUNT and many other pages, you don't need too many unnecessary boxes. 
-You can HOOK both Left and Right Columns on LEFT SIDE. 
-As per CONVERSION experts abd based prestashop default features will be display on right column display on left side, on checkout pages with bestsellers, most viewed contact etc. 
-Here we have hide left column contents on order pages, address pages, and some modules. 
+Becuase, ON CHECKOUT, MY ACCOUNT and many other pages, you don't need too many unnecessary boxes.
+You can HOOK both Left and Right Columns on LEFT SIDE.
+As per CONVERSION experts abd based prestashop default features will be display on right column display on left side, on checkout pages with bestsellers, most viewed contact etc.
+Here we have hide left column contents on order pages, address pages, and some modules.
 ************************************************************************************************ */
 #index #left_column #right_column_inner{display:none}
 #index #center_column {}
@@ -508,11 +508,11 @@ Here we have hide left column contents on order pages, address pages, and some m
 
 /* Home */
 #columns{
-    
+
     .columns_inner{
-        
+
         #center_column_inner{
-                
+
             #center_column{
                 width: 100%;
             }
@@ -602,7 +602,7 @@ p em {font-style:italic}
     margin-top: 10px;
     text-transform:uppercase;
 }
-.error p.lnk a  
+.error p.lnk a
 {
     padding:5px 10px;
     color: #ffffff;
@@ -633,7 +633,7 @@ p em {font-style:italic}
     border-radius: 3px;
     border:1px solid #cc9900;
     cursor: pointer;
-    text-transform:capitalize;  
+    text-transform:capitalize;
     background-color: #da4f49;
     background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
@@ -709,9 +709,9 @@ input.exclusive_mini_disabled, input.exclusive_small_disabled, input.exclusive_d
     outline: 0;
     color: #fff !important;
     font-size:13px;
-    padding:0px 10px;   
+    padding:0px 10px;
         border:none;
-    border-bottom:3px solid #565656;    
+    border-bottom:3px solid #565656;
 }
 *:first-child+html input.button_mini, *:first-child+html input.button_small, *:first-child+html input.button, *:first-child+html input.button_large,
 *:first-child+html input.button_mini_disabled, *:first-child+html input.button_small_disabled, *:first-child+html input.button_disabled, *:first-child+html input.button_large_disabled,
@@ -838,7 +838,7 @@ textarea:active {
 }
 
 .header .form-search input:focus,
-.header .form-search input:active{ 
+.header .form-search input:active{
     -moz-box-shadow: #ddd 0 0 0px;
     -webkit-box-shadow: #ddd 0 0 0px;
     box-shadow: #ddd 0 0 0px;
@@ -983,12 +983,23 @@ table.table_block  td {
 
 /* BLOCK .block ******************************************************************************** */
 .block {
-    background-color: #FFF;
+    background-color:#FFF;
     border-left:1px solid #eaeaea;
     border-right:1px solid #eaeaea;
-    box-shadow:0 15px 5px #d7d7d7;
+    box-shadow:0 14px 15px -3px #E9E9E9;
     margin-bottom:15px;
-    padding:5px; 
+    padding:5px;
+    position: absolute;
+    right: 0;
+    top: 33em;
+    width: 28em;
+    height:11em;
+}
+#index .block{
+    height:auto;
+    position: relative;
+    top: auto;
+    width:auto;
 }
 #center_column .block{padding: 0 15px 15px; }
 #footer .block {margin-bottom:0}
@@ -1005,7 +1016,7 @@ table.table_block  td {
 .block .title_block, .block h4 {
     padding:7px 11px;
     color:#fff;
-    
+
     text-transform:capitalize;
     background:#E4567B;
 
@@ -1039,7 +1050,7 @@ ul#product_list, ul.product_list {
     padding:7px 15px;
     margin:0px;
     list-style: none;
-    
+
     box-shadow:0 0 5px #D7D7D7;
         border-radius:5px;
     -moz-border-radius: 5px;
@@ -1058,13 +1069,13 @@ ul#product_list, ul.product_list {
     position:relative;
     float:left;
     vertical-align: top;
-    
+
 }
 .ie7 .grid_view li,.ie7 .product_list li{ display:inline; zoom:1;}
 
 /* Default Width for Product Grid */
-.bestseller_default_width,  
-.featured_default_width,    
+.bestseller_default_width,
+.featured_default_width,
 .tmnewproduct_default_width { width:180px;}
 
 #accessories-carousel .slider-item,
@@ -1090,17 +1101,15 @@ ul#product_list, ul.product_list {
 {
     margin:9px;
     padding:0;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
     border-radius: 3px;
     clear:both;
     overflow:hidden;
-    border:1px solid #e7e7e7;
+    border:0px solid #e7e7e7;
 }
 
 #product_list li .product-block:hover,
 .product-carousel .product-block:hover,
-.product_list li .product-block:hover 
+.product_list li .product-block:hover
 {
     overflow:hidden;
     clear:both;
@@ -1109,7 +1118,7 @@ ul#product_list, ul.product_list {
 #product_list li .product-block:hover  .ajax_add_to_cart_button,
 .product-carousel .product-block:hover .ajax_add_to_cart_button,
 .product_list li .product-block:hover .ajax_add_to_cart_button,
-.product-carousel .product-block:hover  a.button, 
+.product-carousel .product-block:hover  a.button,
 .product_list li .product-block:hover  a.button
 { background:#E4567B; border-bottom:3px solid #BA1D46;}
 
@@ -1173,7 +1182,7 @@ table#cart_summary .cart_product img,
 .tm_manufacturer li img { border:none;}
 
 #crossselling_productblock li img,
-#productscategory_productblock li img {     max-width:97%; }    
+#productscategory_productblock li img { max-width:48%; }
 
 #product_list li span.new , .product_image span.new{
     display: block;
@@ -1189,7 +1198,7 @@ table#cart_summary .cart_product img,
     font-size:12px;
     border-radius:20px;
     text-decoration:blink;
-    
+
 }
 #product_list li .discount  { font-size:14px;}
 
@@ -1200,12 +1209,12 @@ table#cart_summary .cart_product img,
 .list_view .right_block .discount,
 .list_view .right_block .on_sale,
 #product_comparison .product_discount .discount,
-#product_comparison .product_discount .on_sale{ 
+#product_comparison .product_discount .on_sale{
     /*background-color: #eee;*/
     color: #010101;
-    padding: 1px 4px;    
+    padding: 1px 4px;
     text-align: right;
-    text-transform: uppercase;  
+    text-transform: uppercase;
 
     /*box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.3);*/
 }
@@ -1566,7 +1575,7 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
     text-transform: capitalize;
 }
 .sf-menu ul li a,
-.primary-nav li a  { 
+.primary-nav li a  {
     color:#FFF;
     font-size: em( 18, 14 ) !important;
     height: 55px;
@@ -1590,7 +1599,7 @@ ul.sf-menu li li.sfHover li ul { top:-999em; }
 ul.sf-menu li li li:hover ul,
 ul.sf-menu li li li.sfHover ul { left:200px; /* match ul width */ top:-7px; }
 #main_menu {
-    
+
     li{
         color: #FFF;
         &:hover{
@@ -1602,7 +1611,7 @@ ul.sf-menu li li li.sfHover ul { left:200px; /* match ul width */ top:-7px; }
             padding: 0;
             > li{
                 background: transparent;
-                color: #FFF; 
+                color: #FFF;
                 font-family: $futura_light !important;
                 font-size: em( 14, 16 ) !important;
                 height: 55px;
@@ -1696,7 +1705,7 @@ li.sf-search input {
 
 /* hack IE7 */
 .sf-menu li li {
-    width:200px;    
+    width:200px;
     border-right:none;
     margin:2px 5px;
 }
@@ -1797,7 +1806,7 @@ li.sf-search input {
     border-style: dotted none none none;
     border-width: 1px 0 0 0;
     position:relative;
-    .footer_inner { 
+    .footer_inner {
         background-color: #ececec;
         overflow:hidden;
         padding:0 0 25px;
@@ -1817,7 +1826,7 @@ li.sf-search input {
                 a{}
             }
             #faq_footer{
-                
+
                 a{
                     @include font-mask( $color_bright, em( 18, 14 ), em( 53, 18 ), bold, $futura_bold );
                     background: url("../../img/soona_img/images_soona/sello_FAQS.png") no-repeat scroll left center transparent;
@@ -1867,15 +1876,15 @@ li.sf-search input {
                         }
                     }
                     #social_links_footer_facebook{
-                        
+
                         a{ background-position: 0 0; }
                     }
                     #social_links_footer_twitter{
-                        
+
                         a{ background-position: 0 -26px; }
                     }
                     #social_links_footer_pinterest{
-                        
+
                         a{ background-position: 0 -52px; width: em( 27, 14 ) !important; }
                     }
                 }
@@ -1887,7 +1896,7 @@ li.sf-search input {
             height: em( 172, 14 );
             margin: 13px 0 0;
             article{
-                
+
                 h5{
                     @include font-mask( $color_bright, em( 12, 14 ), em( 25, 12 ), lighter, $futura_light );
                     border-bottom: 1px solid $color_dark;
@@ -1921,28 +1930,28 @@ li.sf-search input {
                 }
             }
             #soona_footer{
-                
+
                 h5{}
                 ul{
-                    
+
                     li{
-                        
+
                         a{}
                     }
                 }
             }
             #occasions{
-                
+
                 h5{}
                 ul{
-                    
+
                     li{
-                        
+
                         a{}
                         ul{
-                            
+
                             li{
-                                
+
                                 a{}
                             }
                         }
@@ -1950,17 +1959,17 @@ li.sf-search input {
                 }
             }
             #photo_gallery{
-                
+
                 h5{}
                 ul{
-                    
+
                     li{
-                        
+
                         a{}
                         ul{
-                            
+
                             li{
-                                
+
                                 a{}
                             }
                         }
@@ -1968,17 +1977,17 @@ li.sf-search input {
                 }
             }
             #associated{
-                
+
                 h5{}
                 ul{
-                    
+
                     li{
-                        
+
                         a{}
                         ul{
-                            
+
                             li{
-                                
+
                                 a{}
                             }
                         }
@@ -1986,17 +1995,17 @@ li.sf-search input {
                 }
             }
             #accesories{
-                
+
                 h5{}
                 ul{
-                    
+
                     li{
-                        
+
                         a{}
                         ul{
-                            
+
                             li{
-                                
+
                                 a{}
                             }
                         }
@@ -2004,18 +2013,18 @@ li.sf-search input {
                 }
             }
             #contact{
-                
+
                 h5{}
                 ul{
-                    
+
                     li{
-                        
+
                         a{}
                     }
                 }
             }
             #coverage_areas{
-                
+
                 h5{}
                 p{
                     @include font-mask( $text_gray, em( 10, 14 ), em( 15, 10 ), normal, $futura_light );
@@ -2109,24 +2118,24 @@ li.sf-search input {
 
 #footer .title_block    { cursor:pointer; padding:10px 0 ; background:none; }
 #footer .myaccount .block_content   { clear:both;}
-.toggle .mobile_togglemenu{ 
+.toggle .mobile_togglemenu{
     background:url("../img/megnor/toggle-arrow.png") no-repeat scroll right 2px transparent;
     display:block;
     cursor:pointer;
-    width:100%;  
-    margin-top: -21px;  
+    width:100%;
+    margin-top: -21px;
     overflow: hidden;
     padding:0 0 10px;
 }
 
 .active .mobile_togglemenu { background-position:right -50px; }
 
-.toggle .mobile_togglecolumn{ 
+.toggle .mobile_togglecolumn{
     background:url("../img/megnor/toggle.png") no-repeat scroll right 2px transparent;
     display:block;
     cursor:pointer;
-    width:100%;  
-    margin-top: -21px;  
+    width:100%;
+    margin-top: -21px;
     overflow: hidden;
     padding:0 0 4px;
 
@@ -2145,7 +2154,7 @@ li.sf-search input {
     margin-top: 20px;
     border-bottom: 3px solid #E4567B;
     float:left; width:100%;
-    
+
 }
 ul.idTabs li {
     float: left;
@@ -2154,7 +2163,7 @@ ul.idTabs li {
 .idTabs a {
     display:block;
     padding:8px 10px 7px 10px;
-    
+
     text-decoration:none;
     color:#fff;
     background:#888;
@@ -2335,7 +2344,7 @@ table#cart_summary #total_price_container {
 .cart_voucher .title_block, .cart_voucher h4 {
     margin-right:12px;
     padding:5px 0;
-    
+
 }
 .cart_voucher p {padding-bottom:0;}
 
@@ -2755,7 +2764,7 @@ a.iframe {font-weight:bold}
     border: 1px solid #EDEDED;
     color: #555555;
     display: inline-block;
-    padding: 5px 7px;   
+    padding: 5px 7px;
 }
 #order-opc #login_form fieldset{
 
@@ -2773,7 +2782,7 @@ a.iframe {font-weight:bold}
     -webkit-border-radius: 3px;
     border-radius: 3px;
     cursor: pointer;
-    text-transform:capitalize;  
+    text-transform:capitalize;
     border:1px solid #cc9900;
     height:28px;
     line-height:28px;
@@ -2781,7 +2790,7 @@ a.iframe {font-weight:bold}
     overflow: visible;
     font-weight:normal;
     outline: 0;
-    
+
     color: #ffffff;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     background-color: #5bb75b;
@@ -2849,7 +2858,7 @@ a.iframe {font-weight:bold}
     float:none;
     padding-right:10px;
     width:auto;
-    
+
 }
 #new_account_form p.checkbox label {
     float: none;
@@ -2863,7 +2872,7 @@ a.iframe {font-weight:bold}
 #form_forgotpassword fieldset {
     padding: 20px 10px 10px;
     margin-top:0px;
-    
+
 }
 #form_forgotpassword  p.text  {
     width: 445px;
@@ -3204,8 +3213,8 @@ div.star_hover a, div.star a:hover { background-position: 0 -12px }
 
 /* CSS Modules */
 /* Block ADVERTISING */
-.advertising_block { 
-    margin-bottom: 1em; 
+.advertising_block {
+    margin-bottom: 1em;
     text-align: center;
     background: none repeat scroll 0 0 #FBFBFB;
     border: 1px solid #EDEDED;
@@ -3231,7 +3240,7 @@ div.star_hover a, div.star a:hover { background-position: 0 -12px }
 #categories_block_left  li ul li a:hover,#categories_block_left  li ul li  ul li a:hover{
 
 }
-        
+
 #categories_block_left li .OPEN,
 #categories_block_left li .CLOSE {
     display:block;
@@ -3259,15 +3268,15 @@ div.star_hover a, div.star a:hover { background-position: 0 -12px }
 /* footer */
 #block_various_links_footer { clear:both; /*margin:10px 0 0 0;*/ position:absolute; bottom:-52px; padding:10px; width:95%; }
 .ie7 #block_various_links_footer{left:0; bottom:-61px;}
-#block_various_links_footer ul li 
-{ 
+#block_various_links_footer ul li
+{
     background: url("../img/pipe.png") no-repeat scroll left center transparent;
     float: left;
     margin: 0 2px;
     padding: 0 5px 0 9px;
-    
+
 }
-#block_various_links_footer ul li.first_item    { background:none; padding:0 5px 0 0;} 
+#block_various_links_footer ul li.first_item    { background:none; padding:0 5px 0 0;}
 #block_various_links_footer ul li.last_item { float:right; background:none; position:absolute; right:0;}
 #footer .block_various_links h4 { display:none;}
 /* Block CMS links */
@@ -3309,7 +3318,7 @@ tr.subitem > td:first-child + td {
 
 #rss_block_left li {border-bottom:1px dotted #ccc}
 #rss_block_left li.last {   border:none;}
-    
+
 /*************** Block SOCIAL ***************/
 #social_block {}
 #social_block li {/*padding-left:22px !important;*/ float:left; font-size:0; height:26px; width:30px; cursor:pointer;}
@@ -3322,7 +3331,7 @@ tr.subitem > td:first-child + td {
 
 /*************** Block STORE ***************/
 .blockstore img { margin: 10px 0 0 0; width:100%;}
-.blockstore p.store_image { 
+.blockstore p.store_image {
     padding-bottom:10px;
     text-align:center
 }
@@ -3348,8 +3357,8 @@ tr.subitem > td:first-child + td {
 #new-products_block_right li p,
 .special_detail ,
 #viewed-products_block_left .text_desc
-{ 
-    margin-left:56px; 
+{
+    margin-left:56px;
     padding:0;
     float:none!important;
 }
@@ -3364,7 +3373,7 @@ tr.subitem > td:first-child + td {
     width: 34px;
     float:left;
     text-indent:-9999px;
-    
+
     margin-right:3px;
 }
 #view_as li.grid span   { background: url("../img/sprite.png") no-repeat scroll -4px -386px transparent;}
@@ -3520,11 +3529,11 @@ tr.subitem > td:first-child + td {
 .blocksupplier li,
 .blockmanufacturer li,
 #categories_block_left li,
-#layered_url_filter_block, 
+#layered_url_filter_block,
 .informations_block_left li,
 #best-sellers_block_right li,
 .products_block .product_images li,
-#layered_block_left #enabled_filters, 
+#layered_block_left #enabled_filters,
 #viewed-products_block_left .products li,
 #links_block_left .block_content li,
 #tm_links_block1 li,
@@ -3546,7 +3555,7 @@ tr.subitem > td:first-child + td {
 #viewed-products_block_left .products li.first_item,
 #new-products_block_right li.first { padding-top:0;}
 
-a.lnk_more { 
+a.lnk_more {
     font-size:12px;
     background: url('../img/arrow_right_2.png') no-repeat scroll 100% 6px transparent;
     color: #222222;
@@ -3565,7 +3574,7 @@ a.lnk_more {
 #product_list li .content_price,
 #featured-products_block_center .price_container ,
 #newproduct_slider_center .price_display,
-#best-sellers_block_center .price_container 
+#best-sellers_block_center .price_container
 {   margin:5px 0;}
 
 .blockstore p,
@@ -3574,7 +3583,7 @@ a.lnk_more {
 .blockstore p, .block_content p.lnk a{ display:block; margin-top:5px;}
 
 
-.block_content p.lnk .button_large { 
+.block_content p.lnk .button_large {
     border:none;
     padding:0;
     background:none;
@@ -3646,9 +3655,9 @@ select.hasCustomSelect {cursor: pointer;}
 
 #footer #newsletter_block_left{padding-bottom:3px;}
 #footer #newsletter_block_left .block_content{padding:0; margin:0;}
-#footer #newsletter_block_left li{padding:0;} 
+#footer #newsletter_block_left li{padding:0;}
 #footer #newsletter_block_left .block_content p{
-background:#fff; 
+background:#fff;
 width:171px;
 border:1px solid #d4d4d4;
 border-radius: 5px;
@@ -3676,35 +3685,36 @@ box-shadow:none;
         overflow:hidden;
         //  Productos
         #center_column_inner{
-            
+
             #center_column{
-                
+
                 #primary_block.product{
-                    
+
                     #pb-right-column{
                         float: left;
                         width: 543px;
+                        height: 52em;
                         #image-block{
                             background: url("../../img/soona_img/images_soona/product-frame.png") no-repeat scroll center center transparent;
                             border: 1px solid #DADADA;
                             height: em( 510, 14 );
                             width: em( 541, 14 );
                             #view_full_size{
-                                
+
                                 img#bigpic{}
                                 .span_link{}
                             }
                         }
                         #views_block{
-                            
+
                             #thumbs_list{
-                                
+
                                 ul{
-                                    
+
                                     li{
-                                        
+
                                         a.thickbox.shown{
-                                            
+
                                             img{}
                                         }
                                     }
@@ -3719,16 +3729,31 @@ box-shadow:none;
                                 background: url("../../img/soona_img/images_soona/decoracion_producto.png") no-repeat scroll center center transparent;
                                 display: inline-block;
                                 height: 100%;
-                                width: em( 128, 14 );
+                                width: 7.143em;
                             }
                             .left{ float: left; }
                             .atclear{}
                             .right{ float: right; }
                         }
+                        #block_icons{
+                            left: 440px;
+                            position:absolute;
+                            top: 0;
+                            ul{
+
+                              li{
+                                  list-style:none inside;
+                                  img{
+
+                                  }
+                              }
+                            }
+                        }
                     }
-                    #pb-left-column{ 
+                    #pb-left-column{
                         float: left;
-                        padding: 0 0 0 40px;
+                        padding:0 0 0 591px;
+                        position:absolute;
                         h1{
                             @include font-mask( $color_light, em( 35, 14 ), em( 35, 35 ), normal, $discover );
                             background: url("../../img/soona_img/images_soona/flores_titulo_producto.png") no-repeat scroll left top transparent;
@@ -3736,6 +3761,10 @@ box-shadow:none;
                             margin: 0;
                             padding: em( 33, 35 ) 0 0;
                             text-indent: em( 50, 35 );
+                            text-overflow:ellipsis;
+                            overflow:hidden;
+                            white-space: nowrap;
+                            width: 415px;
                             p{
                                 @include font-mask( $text_gray, em( 18, 35 ), em( 18, 18 ), normal, $futura_light );
                                 margin: 0;
@@ -3746,7 +3775,22 @@ box-shadow:none;
                             height: em( 390, 14 );
                             position: relative;
                             .product_attributes{
-                                
+                                position: relative;
+                                top:30px;
+                                #attributes{
+                                    
+                                    fieldset{
+                                        
+                                        label{ float: left; margin: 3px 0 0; }
+                                        .attribute_list{
+                                            float: left;
+                                            ul{
+                                                
+                                                li{ list-style: none inside; }
+                                            }
+                                        }
+                                    }
+                                }
                                 #product_reference{
                                     display: none;
                                     label{}
@@ -3770,7 +3814,7 @@ box-shadow:none;
                             .content_prices{
                                 @extend .clearfix;
                                 .offers_box{
-                                    
+
                                     #reduction_percent{
                                         display: none;
                                         #reduction_percent_display{}
@@ -3781,16 +3825,19 @@ box-shadow:none;
                                     }
                                 }
                                 .price{
-                                    
+
                                     .our_price_display{
-                                        
+
                                         #our_price_display{}
                                     }
                                 }
                                 .bottom_content{
-                                    
+
                                     #quantity_wanted_p{
                                         height: em( 38, 14 );
+                                        position: absolute;
+                                        right: 16em;
+                                        top: -37px;
                                         label{
                                             @include font-mask( $color_light, em( 19, 14 ), em( 38, 24 ), normal );
                                             background: url("../../img/soona_img/images_soona/sprite_numeros.png") no-repeat scroll 0 0 transparent;
@@ -3816,14 +3863,24 @@ box-shadow:none;
                                         .text{}
                                     }
                                     #add_to_cart{
-                                        
+
                                         span{}
+                                        .style_cart{}
+                                        .style_sale{
+                                            background: url("../../img/soona_img/images_soona/comprar.png") no-repeat scroll 0 0 transparent;
+                                            bottom: -475px;
+                                            display: block;
+                                            height: 88px;
+                                            position: absolute;
+                                            right: 76px;
+                                            width: 409px;
+                                        }
                                         .exclusive{}
                                     }
                                     .buttons_bottom_block{}
                                 }
                                 #add_to_cart.buttons_bottom_block{
-                                    
+
                                     span{}
                                     input.exclusive{}
                                 }
@@ -3839,18 +3896,22 @@ box-shadow:none;
                 #more_info_block{
                     @extend .clearfix;
                     float: left;
-                    padding: em( 20, 14 ) 0 0;
-                    width: em( 540, 14 );
+                    padding: 0.429em 0 0;
+                    position: absolute;
+                    right: 0;
+                    top: 20em;
+                    width: 29.571em;
+                    //width: em( 540, 14 );
                     #more_info_tabs{
                         border-bottom: 1px solid $color_border;
                         margin: 0;
                         padding: 0;
                     }
                     .idTabs.idTabsShort{
-                        
+
                         li{
                             background-color: transparent;
-                            a{ 
+                            a{
                                 @include font-mask( $text_gray, em( 15, 14 ), em( 40, 15 ), normal );
                                 background-color: transparent;
                                 border-radius: 0;
@@ -3858,7 +3919,7 @@ box-shadow:none;
                                 padding: em( 8, 15 ) em( 10, 15 ) 0;
                                 position: relative;
                             }
-                            .selected{ 
+                            .selected{
                                 background-color: #B572CE;
                                 color: #FFF;
                                 span{
@@ -3883,31 +3944,29 @@ box-shadow:none;
                     #more_info_sheets{
                         
                         > div, .rte{
-                            
+
                             p, ul li, ul li span, ul li p{
-                                @include font-mask( $text_gray, em( 11, 14 ), em( 11, 11 ), normal );
+                                @include font-mask( $text_gray, em( 15, 14 ), em( 15, 15 ), normal );
                             }
                         }
                         #idTab1{}
                         #idTab2{}
                         .bullet{
-                            
+
                             li{
                                 @include font-mask( $text_gray, em( 11, 14 ), em( 11, 11 ), normal );
                             }
                         }
                         .block_hidden_only_for_screen{
-                            
+
                             li{
-                                
+
                                 span{}
                             }
                         }
                     }
                     .sheets{}
-                    .align_justify{
-                        
-                    }
+                    .align_justify{}
                 }
             }
             #add_to_cart, #button_order_cart_product{
@@ -3950,7 +4009,7 @@ box-shadow:none;
                 }
             }
             #button_order_cart_product{
-                
+
                 span{
                     background: url("../../img/soona_img/images_soona/carrito_producto-big.png") no-repeat scroll right center transparent;
                 }
@@ -3969,11 +4028,47 @@ box-shadow:none;
                 .navigation-pipe{ color: $color_dark; }
                 .navigation_page{ color: $color_dark; }
             }
+            #soona_icons{
+                position: absolute;
+                top: 0;
+                right: 0;
+                ul{
+                    
+                    li{
+                        float: left;
+                        list-style: none inside;
+                    }
+                }
+            }
             h1, h2{
-                @include font-mask( $text_gray, em( 32, 14 ), em( 32, 32 ), normal, $futura_bold );
+                @include font-mask( $text_gray, em( 32, 14 ), em( 32, 32 ), normal, $discover );
             }
             h2{ font-size: em( 28, 14 ); line-height: em( 28, 28 ); }
             h3{ font-size: em( 25, 14 ); line-height: em( 25, 25 ); }
+            .titulo{
+                color: $color_light;
+                display: inline;
+                left: 80px;
+                position: absolute;
+                top: 0px;
+            }
+            #sello_galeria{
+                height:62px;
+                left:0;
+                margin:0 0 50px;
+                position:relative;
+                width:64px;
+            }
+            #txt{
+                color: #919191;
+                font-family: "Futura_Light",Arial,Helvetica;
+                font-size: 16px;
+                font-weight: normal;
+                line-height: 1.44em;
+                position:absolute;
+                top:80px !important;
+                left:90px !important;
+            }
             #order_step{}
             .step{
                 padding: 0;
@@ -3992,7 +4087,7 @@ box-shadow:none;
                         color: #FFF;
                     }
                 }
-                .step_current, 
+                .step_current,
                 .step_current_end{
                     background-color: $color_dark;
                     span{ color: #FFF; }
@@ -4002,42 +4097,44 @@ box-shadow:none;
                     }
                 }
                 .step_todo{
-                    
+
                     span{}
                     .leftarrow{}
                 }
                 #step_end{
-                    
+
                     span{}
                     .leftarrow{}
                 }
             }
             #emptyCartWarning.warning{}
             .cart_last_product{
-                
+
                 .cart_last_product_header{
-                    
+
                     .left{}
                 }
                 .cart_last_product_img{
-                    
+
                     img{}
                 }
                 .cart_last_product_content{
-                    
+
                     .s_title_block{
-                        
+
                         a{}
                     }
                 }
             }
             p{
-                @include font-mask( $text_gray, em( 18, 14 ), em( 18, 18 ), normal );
+                font-size:em( 18, 14 );
+                line-height:1em;
+                font-weight:normal;
                 span#summary_products_quantity{}
             }
             #order-detail-content{}
             .table_block{
-                
+
                 table{}
                 #cart_summary{}
                 .std{
@@ -4046,7 +4143,7 @@ box-shadow:none;
                     thead,tfoot,tbody{
                         background-color: transparent;
                         tr{
-                            
+
                             td,th{
                                 @include font-mask( $text_gray, em( 18, 14 ), em( 18, 18 ), normal, $futura_book );
                                 p,a{
@@ -4062,7 +4159,7 @@ box-shadow:none;
                     thead{
                         background-color: #EEE !important;
                         tr{
-                            
+
                             td{}
                             .cart_product{}
                             .first_item{}
@@ -4086,30 +4183,30 @@ box-shadow:none;
                             }
                         }
                         .cart_total_price{
-                            
+
                             td{}
                             .price-discount{}
                             .price{}
                             #total_wrapping{}
                         }
                         .cart_total_delivery{
-                            
+
                             .price{}
                             #total_shipping{}
                         }
                         .cart_total_voucher{
-                            
+
                             .price-discount{}
                             .price{}
                             #total_discount{}
                         }
                         .cart_total_price{
-                            
+
                             .price{}
                             #total_price_without_tax{}
                         }
                         .cart_total_tax{
-                            
+
                             td{
                                 border-bottom: 1px solid #C2C2C2;
                             }
@@ -4117,7 +4214,7 @@ box-shadow:none;
                             #total_tax{}
                         }
                         .cart_total_price{
-                            
+
                             #cart_voucher{}
                             .cart_voucher{}
                             .price{}
@@ -4151,16 +4248,16 @@ box-shadow:none;
                         }
                         #product_8_0_0_0{}
                         .cart_item{
-                            
+
                             .cart_product{
-                                
+
                                 a{
-                                    
+
                                     img{}
                                 }
                             }
                             .cart_description{
-                                
+
                                 .s_title_block{
                                     margin: 0;
                                     padding: 0;
@@ -4169,36 +4266,36 @@ box-shadow:none;
                             }
                             .cart_ref{}
                             .cart_unit{
-                                
+
                                 .price{}
                                 #product_price_8_0_0{}
                             }
                             .cart_quantity{
-                                
+
                                 .cart_quantity_button{
                                     padding:0px 12px 12px 40px;
                                     .cart_quantity_up{}
                                     #cart_quantity_up_8_0_0_0{
-                                        
+
                                         img{}
                                     }
                                     .cart_quantity_down{}
                                     #cart_quantity_down_8_0_0_0{
-                                        
+
                                         img{}
                                     }
                                 }
                                 .cart_quantity_input{}
                             }
                             .cart_total{
-                                
+
                                 .price{}
                                 #total_product_price_8_0_0{}
                             }
                             .cart_delete{
-                                
+
                                 div{
-                                    
+
                                     .cart_quantity_delete{
                                         background: url("../../img/icon/delete.gif") no-repeat scroll 0 center;
                                         text-indent: -2000em;
@@ -4215,9 +4312,9 @@ box-shadow:none;
                 }
             }
             .order_delivery{
-                
-                h2{ 
-                    @include font-mask( $text_gray, em( 28, 14 ), em( 28, 28 ), normal, $futura_bold ); 
+
+                h2{
+                    @include font-mask( $text_gray, em( 28, 14 ), em( 28, 28 ), normal, $futura_bold );
                     margin: 0;
                     padding: 0;
                 }
@@ -4231,7 +4328,7 @@ box-shadow:none;
                 .last_item{ float: right !important; padding-right: 100px; }
                 .alternate_item{}
                 .address{
-                    
+
                     li{
                         @include font-mask( $text_gray, em( 18, 14 ), em( 18, 18 ), normal );
                         list-style: none inside;
@@ -4261,7 +4358,7 @@ box-shadow:none;
             form{
                 //  Carro de compra 3er paso
                 .addresses{
-                    
+
                     .address_delivery,
                     .addressesAreEquals{
                         float: left;
@@ -4272,7 +4369,7 @@ box-shadow:none;
                     .address_delivery{}
                     .addressesAreEquals{}
                     .select{
-                        
+
                         label{}
                         select{
                             background-image: url("../../img/megnor/select_arrow.gif");
@@ -4282,10 +4379,10 @@ box-shadow:none;
                         a.button_large{}
                     }
                     .checkbox{
-                        
-                        .tm-checkbox{} 
+
+                        .tm-checkbox{}
                         .tm-checked{
-                            
+
                             #addressesAreEquals{}
                             .tm-hide{}
                         }
@@ -4316,7 +4413,7 @@ box-shadow:none;
                                 text-transform:uppercase;
                                 width:100%;
                             }
-                            .address_firstname{} 
+                            .address_firstname{}
                             .lastname{}
                             .address_company{}
                             .address_address1{}
@@ -4345,20 +4442,20 @@ box-shadow:none;
                         }
                     }
                     #ordermsg{
-                        
+
                         .txt{}
                         .textarea{
-                            
+
                             textarea{}
                         }
                     }
                 }
                 .cart_navigation{
-                    
+
                     .exclusive_large{ @extend .blue_button; }
                 }
                 .submit{
-                    
+
                     .button{}
                     .exclusive{}
                 }
@@ -4372,20 +4469,20 @@ box-shadow:none;
                         padding: 0;
                     }
                     #HOOK_BEFORECARRIER{
-                        
+
                         #dateofdelivery{
-                            
+
                             #minimal{}
                             #maximal{}
                             sup{}
                             span{
-                                
+
                                 sup{}
                             }
                         }
                     }
                     .delivery_options_address{
-                        
+
                         h3{
                             @include font-mask( $text_gray, em( 18, 14 ), em( 18, 18 ), normal );
                             background: transparent;
@@ -4402,19 +4499,19 @@ box-shadow:none;
                                 border-color: #EEE transparent #EEE transparent;
                                 border-width: 3px 0 3px 0;
                                 .tm-radio tm-selected{
-                                    
-                                    .delivery_option_radio{} 
+
+                                    .delivery_option_radio{}
                                     .tm-hide{}
                                     #delivery_option_8_0{}
                                 }
                                 label{
-                                    
+
                                     .resume{
-                                        
+
                                         tbody{
-                                            
+
                                             tr{
-                                                
+
                                                 td.delivery_option_logo{}
                                                 td{
                                                     @include font-mask( $text_gray, em( 15, 15 ), em( 15, 15 ), normal, $helvetica );
@@ -4428,11 +4525,11 @@ box-shadow:none;
                                     .delivery_option_carrier{}
                                     .selected{}
                                     .not-displayable{
-                                        
+
                                         tbody{
-                                            
+
                                             tr{
-                                                
+
                                                 td{}
                                                 .first_item{}
                                             }
@@ -4452,20 +4549,20 @@ box-shadow:none;
                     }
                     #gift_div{}
                     .textarea{
-                        
+
                         label{}
                         textarea#gift_message{}
                     }
                     .checkbox{
-                        
+
                         .tm-checkbox{
-                            
+
                             #gift{}
                             #cgv{}
                             .tm-hide{}
                         }
                         label{
-                            
+
                             a.iframe{}
                         }
                     }
@@ -4511,21 +4608,21 @@ box-shadow:none;
                     text-transform: uppercase;
                 }
                 .form_content{
-                    
+
                     .title_block{ color: $text_gray; }
                     .error{}
                     #create_account_error{}
                     .lost_password{
-                        
+
                         a{
                             color: $text_gray;
                         }
                     }
                     .text{
-                        
+
                         label{ min-width: em( 130, 18 ); }
                         span{
-                            
+
                             #email_create{}
                             #email{}
                             #passwd{}
@@ -4533,7 +4630,7 @@ box-shadow:none;
                         }
                     }
                     .submit{
-                        
+
                         #SubmitCreate{ @extend .blue_button; }
                         #SubmitLogin{ @extend .blue_button; }
                         .button_large{ }
@@ -4544,18 +4641,18 @@ box-shadow:none;
                 float: left;
                 padding-right: 20px;
                 width: 430px;
-                .radio span, 
-                .text label, 
-                .password label, 
-                .select label, 
-                .select span, 
+                .radio span,
+                .text label,
+                .password label,
+                .select label,
+                .select span,
                 .textarea label{
                     text-align: left !important;
                     width: em( 140, 18 ) !important;
                 }
-                .textarea textarea, 
-                .text input, 
-                .select input, 
+                .textarea textarea,
+                .text input,
+                .select input,
                 .password input{
                     width: em( 279, 18 ) !important;
                 }
@@ -4572,7 +4669,7 @@ box-shadow:none;
                     }
                 }
                 .required{
-                    
+
                     .top{}
                     span{}
                     #id_gender1{}
@@ -4586,9 +4683,9 @@ box-shadow:none;
                     #customer_privacy{}
                 }
                 .text{
-                    
+
                     label{
-                         
+
                         sup{}
                     }
                     .text{}
@@ -4608,7 +4705,7 @@ box-shadow:none;
                 }
                 #password{}
                 .select{
-                    
+
                     span{}
                     select{ background-image: url("../../img/megnor/select_arrow.gif"); }
                     #days{}
@@ -4622,27 +4719,27 @@ box-shadow:none;
                     label{ }
                 }
                 #vat_number{
-                    
+
                     .text{
-                        
+
                         label{ }
                         .text{}
                     }
                 }
                 .postcode{
-                    
+
                     #postcode{}
                 }
                 .id_state.select{
-                    
+
                     select#id_state{}
                 }
                 .select{
-                    
+
                     select#id_country{}
                 }
                 .textarea{
-                    
+
                     textarea{}
                 }
                 .inline-infos{
@@ -4653,7 +4750,7 @@ box-shadow:none;
                     width:100%;
                 }
                 #address_alias{
-                    
+
                     #alias{}
                 }
             }
@@ -4676,7 +4773,7 @@ box-shadow:none;
                 #submitAccount{}
                 .exclusive{}
                 span{
-                    
+
                     sup{}
                 }
             }

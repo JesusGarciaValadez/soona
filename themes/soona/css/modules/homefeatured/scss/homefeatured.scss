@@ -4,10 +4,10 @@
         background: url("../../img/bottom_pettern.png") repeat-x scroll left bottom transparent;
         display: block;
         height: 17px;
-        left: -16px;
+        left: -15px;
         position: relative;
         top: -17px;
-        width: 1008px;
+        width: 998px;
     }
     aside{}
     #left_disposition{
@@ -254,94 +254,92 @@
             }
             .love{}
         }
-        .catalog_list{
+    }
+}
+.catalog_list{
+    @extend .clearfix;
+    clear: both;
+    margin: 0 0 0 5px;
+    padding: 0;
+    li{
+        border-bottom: 4px solid #EDEDED;
+        border-right: 4px solid #EDEDED;
+        float: left;
+        height: em( 278, 14 );
+        list-style: none inside;
+        margin: 0 11px 0 0;
+        overflow: hidden;
+        padding: 0;
+        width: em( 228, 14 );
+        article{
             @extend .clearfix;
-            clear: both;
-            margin: 0 0 0 5px;
-            padding: 0;
-            li{
-                border-bottom: 4px solid #EDEDED;
-                border-right: 4px solid #EDEDED;
-                float: left;
-                height: em( 278, 14 );
-                list-style: none inside;
-                margin: 0 11px 0 0;
-                overflow: hidden;
-                padding: 0;
-                width: em( 228, 14 );
-                article{
-                    @extend .clearfix;
-                    height: 100%;
-                    position: relative;
-                    width: 100%;
-                    img{ position: relative; }
-                    .product_information_wrapper{
-                        background: url("../../img/soona_img/images_soona/bg_texto_modelos_relacionados.png") repeat scroll 0 0 transparent;
-                        bottom: -105px;
+            height: 100%;
+            position: relative;
+            width: 100%;
+            img{ position: relative; }
+            .product_information_wrapper{
+                background: url("../../img/soona_img/images_soona/bg_texto_modelos_relacionados.png") repeat scroll 0 0 transparent;
+                bottom: -105px;
+                display: block;
+                height: em( 87, 14 );
+                left: 0;
+                padding: 9px 20px 10px 23px;
+                position: absolute;
+                width: em( 186, 14 );
+                > div{ position: relative; }
+                .product_information{
+                    width: 137px;
+                    .product_name_catalog{
+                        @include font-mask( $color_light, em( 19, 14 ), em( 30, 19 ), normal, $discover );
+                        clear: both;
                         display: block;
-                        height: em( 87, 14 );
-                        left: 0;
-                        padding: 9px 20px 10px 23px;
-                        position: absolute;
-                        width: em( 186, 14 );
-                        > div{
-                            position: relative;
-                        }
-                        .product_information{
-                            width: 137px;
-                            .product_name_catalog{
-                                @include font-mask( $color_light, em( 19, 14 ), em( 30, 19 ), normal, $discover );
-                                clear: both;
-                                display: block;
-                                margin: 0;
-                                padding: 0;
-                            }
-                            .product_price_catalog{
-                                @include font-mask( $text_gray, em( 15, 14 ), 1em, lighter );
-                                clear: both;
-                                cursor: pointer;
-                                display: block;
-                                margin: 0;
-                                padding: 0 0 7px;
-                            }
-                        }
-                        .cart_link{
-                            @extend .clearfix;
-                            a{
-                                
-                                background: url("../../img/soona_img/images_soona/mas_carrito.png") no-repeat scroll center center transparent;
-                                display: block;
-                                height: em( 32, 14 );
-                                margin: 0;
-                                padding: 0;
-                                text-indent: -2000em;
-                                width: em( 48, 14 );
-                            }
-                        }
-                        .left{ float: left; }
-                        .right{ float: right; }
-                        hr{
-                            border-color: $color_light transparent transparent transparent;
-                            border-style: solid none none none;
-                            border-width: 1px 0 0 0;
-                            clear: both;
-                            display: block;
-                            height: em( 1, 14 );
-                        }
-                        a.to_know_more{
-                            @include font-mask( $text_gray, em( 11, 14 ), em( 29, 11 ), lighter );
-                            background: url("../../img/soona_img/images_soona/conoce_mas.png") no-repeat scroll right center transparent;
-                            display: block;
-                            float: right;
-                            height: em( 29, 11 );
-                            margin: 0;
-                            padding: 0;
-                            width: em( 95, 11 );
-                        }
+                        margin: 0;
+                        padding: 0;
+                    }
+                    .product_price_catalog{
+                        @include font-mask( $text_gray, em( 15, 14 ), 1em, lighter );
+                        clear: both;
+                        cursor: pointer;
+                        display: block;
+                        margin: 0;
+                        padding: 0 0 7px;
                     }
                 }
+                .cart_link{
+                    @extend .clearfix;
+                    a{
+                        
+                        background: url("../../img/soona_img/images_soona/mas_carrito.png") no-repeat scroll center center transparent;
+                        display: block;
+                        height: em( 32, 14 );
+                        margin: 0;
+                        padding: 0;
+                        text-indent: -2000em;
+                        width: em( 48, 14 );
+                    }
+                }
+                .left{ float: left; }
+                .right{ float: right; }
+                hr{
+                    border-color: $color_light transparent transparent transparent;
+                    border-style: solid none none none;
+                    border-width: 1px 0 0 0;
+                    clear: both;
+                    display: block;
+                    height: em( 1, 14 );
+                }
+                a.to_know_more{
+                    @include font-mask( $text_gray, em( 11, 14 ), em( 29, 11 ), lighter );
+                    background: url("../../img/soona_img/images_soona/conoce_mas.png") no-repeat scroll right center transparent;
+                    display: block;
+                    float: right;
+                    height: em( 29, 11 );
+                    margin: 0;
+                    padding: 0;
+                    width: em( 95, 11 );
+                }
             }
-            .last_item{ margin: 0; }
         }
     }
+    .last_item{ margin: 0; }
 }

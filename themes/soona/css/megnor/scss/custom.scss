@@ -30,6 +30,7 @@
 
 body,html{
     background: url($background) no-repeat scroll center top transparent;
+    background-size: 1906px 960px;
 }
 
 .tm-hide { opacity: 0; filter:alpha(opacity=0); cursor:pointer;}
@@ -65,7 +66,7 @@ body,html{
 .product-carousel{
     display: none;
     position: relative;
-    width: 100%; 
+    width: 76%; 
     //-ms-touch-action: pan-y;
     .slider-wrapper{
         display: none;
@@ -194,4 +195,4 @@ span.customSelect.changed { background-color: #f0dea4; }
 #productscategory_productlist .customNavigation a.next{right:30px;}
 #manufacturer_slider .customNavigation a.prev, #crossselling  .customNavigation a.prev , #productscategory_productlist .customNavigation a.prev {right:48px;}
 
-@import "responsive.scss";
+//@import "responsive.scss";

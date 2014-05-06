@@ -1,0 +1,72 @@
+/* block top search */
+#search_block_top {
+	position:absolute;
+	right:36%;
+    top:48px;
+	padding:4px;
+	background:#C0DAE0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width:215px;
+}
+#search_block_top p {padding:0;}
+#search_block_top #search_query_top {
+	width:188px;/* 310 */
+	background:none;
+	border:none;
+	float: left;
+	width:190px;
+	background:#FBFBFB;
+	float: left;
+	border: 1px solid #eee;
+/*	padding-right: 30px;*/
+	-moz-border-radius: 5px 0  0 5px ;
+	-webkit-border-radius:5px 0  0 5px;
+	border-radius: 5px 0  0 5px;
+}
+
+.ie7 #search_block_top #search_query_top	{ width:179px; }
+.ie7 #search_block_top .button{height:28px;}
+#search_block_top .button {
+	border:none;
+	border-radius:0;
+	color:#fff;
+	text-transform:uppercase;
+	background:url("../../../img/sprite.png") no-repeat scroll -174px -296px #DF476E;
+	float: left;
+	height:30px;
+	width:25px;
+	text-indent: -959px;
+	padding:0;
+	
+	position:absolute;
+	right:4px;
+	z-index:3;
+	overflow:hidden;
+		-moz-border-radius: 0 5px 5px 0;
+	-webkit-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+	top:4px;
+	
+}
+#search_block_top .button:active,
+#search_block_top .button:focus{ box-shadow:none; }
+form#searchbox
+{
+	/*width:200px;
+	background:#FBFBFB;
+	float: left;
+	border: 1px solid #eee;*/
+
+}
+form#searchbox label{color:#333;margin-bottom:1px}
+form#searchbox input#search_query_block{
+	-webkit-border-radius:3px !important;
+	-moz-border-radius:3px !important;
+	border-radius:3px !important;
+    height: 18px;
+	margin-top:10px;
+}
+form#searchbox input#search_button{padding: 1px 4px;}
+

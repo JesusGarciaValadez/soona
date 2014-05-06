@@ -46,20 +46,16 @@
     
     //  Botón de cierre de overlay
     if ( $( ".close" ).exists() ) {
-<<<<<<< HEAD
+        
         $( ".close" ).on( 'click', function ( e ) {
             
             e.preventDefault();
             e.stopPropagation();
             
-=======
-        $( ".close" ).on( 'click', function ( ) {
->>>>>>> 130ed9e65ece62706ded259214722de5b60bc19d
             Soona.closeAlert();
         } );
     }
     
-<<<<<<< HEAD
     if ( $( '#map_wrapper' ).exists() ) {
         
         Soona.makeMapForContact( 19.3518849, -99.1630739, $( '#map' ), '' );
@@ -68,11 +64,7 @@
     //  Validación del formulario y recolección de los datos para su envio
     if ( $( '#contact_wrapper' ).exists() ) {
         
-=======
-    if ( $( '#contact_wrapper' ).exists() ) {
-        
         //  Validación del formulario y recolección de los datos para su envio
->>>>>>> 130ed9e65ece62706ded259214722de5b60bc19d
         $( '#contact_form_wrapper form' ).on( 'submit', function ( e ) {
             
             e.preventDefault();
@@ -94,7 +86,6 @@
             Soona.validateFormsAlter( contact );
         } );
     }
-<<<<<<< HEAD
     
     if ( $( '#about_us_wrapper' ).exists() ) {
         
@@ -118,6 +109,3 @@
     }
     
 })( jQuery, window, document );
-=======
-} )();
->>>>>>> 130ed9e65ece62706ded259214722de5b60bc19d

@@ -99,11 +99,7 @@
         border-radius: 5px;
         display: none;
         height: 450px;
-<<<<<<< HEAD
         position: fixed;
-=======
-        position: absolute;
->>>>>>> 130ed9e65ece62706ded259214722de5b60bc19d
         top: 0;
         width: 300px;
         h3{
@@ -153,15 +149,10 @@
         }
         #map{
             @extend .clearfix;
-<<<<<<< HEAD
             display: block;
             height:  426px;
             width: 443px;
             img{
-=======
-            img{
-                display: block;
->>>>>>> 130ed9e65ece62706ded259214722de5b60bc19d
                 vertical-align: middle;
             }
         }

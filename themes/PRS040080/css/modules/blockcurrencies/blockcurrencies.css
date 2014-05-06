@@ -1,0 +1,75 @@
+/* block top currencies */
+#header_right #currencies_block_top {
+	float:left;
+	margin:7px 6px 0 0;
+	padding: 2px 6px;
+	-moz-border-radius:5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-right:2px;
+	background:#f4f4f4;
+	position:absolute;
+	top:136px;
+	right:0;
+	font-family:Belgrano;
+	color:#666;
+}
+
+
+#header_right #currencies_block_top p {
+	clear: left;
+/*	 padding: 0 7px;*/
+padding:0 3px;
+}
+#currencies_block_top  .top_downarrow {
+	
+	display: none;
+    height: 15px;
+    width: 4px;
+	
+}
+
+
+#currencies_block_top ul#first-currencies li {
+	margin-right: 3px
+}
+#currencies_block_top ul#first-currencies li.selected {
+	opacity: 1 !important;
+
+}
+#currencies_block_top ul#first-currencies li.selected a
+{
+	color:#000 ;
+}
+/*languages with jquery*/
+#setCurrency {
+	cursor: pointer;
+	position: relative;
+	top: 1px;
+}
+#setCurrency p {
+	position: relative;
+	top: 0;
+	margin:0;
+	padding: 0;
+}
+#setCurrency p img {
+	padding-left: 5px;
+}
+#setCurrency .currencies_ul{
+	display:none; 
+	list-style-type:none;
+	z-index: 5000;
+	position:absolute;
+	padding:5px 10px;
+	height:auto;
+	right:-7px;
+	text-align: left;
+    width:180px;
+
+	background:#f4f4f4;
+	border:1px solid #ededed;
+	border-radius:3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
