@@ -123,9 +123,9 @@
 #contact_wrapper{
     width: 960px;
     h1{
-        @include font-mask( $color_dark !important, em( 32, 14 ) !important, em( 70, 32 ) !important, normal !important, $discover !important );
+        @include font-mask( $color_dark !important, em( 32, 14 ) !important, em( 62, 32 ) !important, normal !important, $discover !important );
         background: url("../../img/soona_img/images_soona/contact.png") no-repeat scroll left center transparent;
-        height: 57px;
+        height: 62px !important;
         padding: 0 0 0 70px;
         text-align: left;
     }

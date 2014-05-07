@@ -51240,6 +51240,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/themes\/soona\/css\/megnor\/custom copia.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/soona\/css\/megnor\/custom copia.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/themes\/soona\/css\/megnor\/custom.carlos.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/soona\/css\/megnor\/custom.carlos.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/themes\/soona\/css\/megnor\/custom.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -51266,6 +51284,22 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/themes\/soona\/css\/megnor\/development.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/soona\/css\/megnor\/development.scss",
+		"outputAbbreviatedPath": "\/themes\/soona\/css\/development.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 0
 		},
 	"\/themes\/soona\/css\/megnor\/scss\/custom.scss": {
 		"createSourceMap": 1,
@@ -53449,7 +53483,7 @@
 		"outputAbbreviatedPath": "\/themes\/soona\/img\/soona_img\/images_soona\/background-spring.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/themes\/soona\/img\/soona_img\/images_soona\/background-suscriptions.jpg": {
 		"fileType": 16384,
@@ -53488,7 +53522,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 28043,
+		"initialSize": 59011,
 		"inputAbbreviatedPath": "\/themes\/soona\/img\/soona_img\/images_soona\/banners_home_diamadres.png",
 		"outputAbbreviatedPath": "\/themes\/soona\/img\/soona_img\/images_soona\/banners_home_diamadres.png",
 		"outputPathIsOutsideProject": 0,
@@ -53499,7 +53533,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.09275e+06,
+		"initialSize": 49686,
 		"inputAbbreviatedPath": "\/themes\/soona\/img\/soona_img\/images_soona\/banners_home_primavera.png",
 		"outputAbbreviatedPath": "\/themes\/soona\/img\/soona_img\/images_soona\/banners_home_primavera.png",
 		"outputPathIsOutsideProject": 0,
@@ -53510,7 +53544,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.61802e+06,
+		"initialSize": 71038,
 		"inputAbbreviatedPath": "\/themes\/soona\/img\/soona_img\/images_soona\/banners_home_suscripciones.png",
 		"outputAbbreviatedPath": "\/themes\/soona\/img\/soona_img\/images_soona\/banners_home_suscripciones.png",
 		"outputPathIsOutsideProject": 0,
@@ -53579,6 +53613,17 @@
 		"initialSize": 989,
 		"inputAbbreviatedPath": "\/themes\/soona\/img\/soona_img\/images_soona\/bg_texto_modelos_relacionados.png",
 		"outputAbbreviatedPath": "\/themes\/soona\/img\/soona_img\/images_soona\/bg_texto_modelos_relacionados.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/themes\/soona\/img\/soona_img\/images_soona\/Btn_basura.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1231,
+		"inputAbbreviatedPath": "\/themes\/soona\/img\/soona_img\/images_soona\/Btn_basura.png",
+		"outputAbbreviatedPath": "\/themes\/soona\/img\/soona_img\/images_soona\/Btn_basura.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -53689,6 +53734,17 @@
 		"initialSize": 1956,
 		"inputAbbreviatedPath": "\/themes\/soona\/img\/soona_img\/images_soona\/decoracion_producto.png",
 		"outputAbbreviatedPath": "\/themes\/soona\/img\/soona_img\/images_soona\/decoracion_producto.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/themes\/soona\/img\/soona_img\/images_soona\/df.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10037,
+		"inputAbbreviatedPath": "\/themes\/soona\/img\/soona_img\/images_soona\/df.jpg",
+		"outputAbbreviatedPath": "\/themes\/soona\/img\/soona_img\/images_soona\/df.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
