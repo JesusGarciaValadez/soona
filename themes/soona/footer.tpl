@@ -64,111 +64,46 @@
                     </ul>
                     <section id="first_footer_column">
                         <article id="soona_footer">
-                            <h5>Sooná</h5>
+                            <h5>Suscripciones</h5>
                             <ul>
                                 <li>
-                                    <a href="{$base_dir}content/7-soona" title="Información De Soona" target="_self">Información De Soona</a>
-                                </li>
-                                <li>
-                                    <a href="{$base_dir}content/7-soona" title="Información Y Formas de Pago" target="_self">Información Y Formas de Pago</a>
-                                </li>
-                                <li>
-                                    <a href="{$base_dir}content/6-preguntas-frecuentes" title="¿Cómo Comprar?" target="_self">¿Cómo Comprar?</a>
-                                </li>
-                                <li>
-                                    <a href="{$base_dir}content/7-soona" title="Entrega a Domicilio" target="_self">Entrega a Domicilio</a>
-                                </li>
-                                <li>
-                                    <a href="{$base_dir}content/7-soona" title="Zonas de Cobertura" target="_self">Zonas de Cobertura</a>
+                                    <a href="{$base_dir}11-suscripcion.html" title="Recibe flores en tu casa" target="_self">Recibe flores en tu casa</a>
                                 </li>
                             </ul>
                         </article>
                         <article id="occasions">
-                            <h5>Ocasiones</h5>
+                            <h5>Catálogo</h5>
                             <ul>
                                 <li>
-                                    <a href="" title="Catálogo de Flores" target="_self">Catálogo de Flores</a>
-                                </li>
-                                <li>
-                                    <a href="" title="Eventos" target="_self">Eventos</a>
-                                    <ul>
-                                        <li>
-                                            <a href="" title="Bodas" target="_self">Bodas</a>
-                                        </li>
-                                        <li>
-                                            <a href="" title="Celebraciones" target="_self">Celebraciones</a>
-                                        </li>
-                                    </ul>
+                                    <a href="{$base_dir}4-catalogo" title="Catálogo de Flores" target="_self">Catálogo de Flores</a>
                                 </li>
                             </ul>
                         </article>
                     </section>
                     <section id="second_footer_column">
                         <article id="photo_gallery">
-                            <h5>Galería De Fotos</h5>
+                            <h5>Galería</h5>
                             <ul>
                                 <li>
-                                    <a href="" title="Arreglos Florales Especiales" target="_self">Arreglos Florales Especiales</a>
-                                    <ul>
-                                        <li>
-                                            <a href="" title="Solicitar Pedido Especial" target="_self">Solicitar Pedido Especial</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="" title="" target="_self">Catálogo De Arreglos O Flores</a>
-                                </li>
-                                <li>
-                                    <a href="" title="Ya Realizados" target="_self">Ya Realizados</a>
-                                    <ul>
-                                        <li>
-                                            <a href="" title="" target="_self">Galería de Fotos Con Descripción Y Sugerencia De Uso.</a>
-                                        </li>
-                                    </ul>
+                                    <a href="{$base_dir}index.php?fc=module&module=gogallery&controller=showgal" title="Arreglos Florales" target="_self">Arreglos Florales</a>
                                 </li>
                             </ul>
                         </article>
                         <article id="associated">
-                            <h5>Asociados</h5>
+                            <h5>Eventos y Fiestas</h5>
                             <ul>
                                 <li>
-                                    <a href="" title="Empresas Afiliadas" target="_self">Empresas Afiliadas</a>
-                                    <ul>
-                                        <li>
-                                            <a href="" title="Comprar" target="_self">Comprar</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="" title="Personas Afiliadas" target="_self">Personas Afiliadas</a>
-                                    <ul>
-                                        <li>
-                                            <a href="" title="Comprar" target="_self">Comprar</a>
-                                        </li>
-                                    </ul>
+                                    <a href="{$base_dir}content/4-eventos-y-fiestas" title="Arreglos Florales Especiales" target="_self">Arreglos Florales Especiales</a>
                                 </li>
                             </ul>
                         </article>
                     </section>
                     <section id="third_footer_column">
                         <article id="accesories">
-                            <h5>Accesorios</h5>
+                            <h5>Sooná</h5>
                             <ul>
                                 <li>
-                                    <a href="" title="Floreros" target="_self">Floreros</a>
-                                    <ul>
-                                        <li>
-                                            <a href="" title="Comprar" target="_self">Comprar</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="" title="Macetas" target="_self">Macetas</a>
-                                    <ul>
-                                        <li>
-                                            <a href="" title="Comprar" target="_self">Comprar</a>
-                                        </li>
-                                    </ul>
+                                    <a href="{$base_dir}content/7-soona" title="Información de Sooná" target="_self">Información de Sooná</a>
                                 </li>
                             </ul>
                         </article>
@@ -176,10 +111,7 @@
                             <h5>Contacto</h5>
                             <ul>
                                 <li>
-                                    <a href="{$base_dir}contactenos" title="Formulario de Contacto" target="_self">Formulario de Contacto</a>
-                                </li>
-                                <li>
-                                    <a href="{$base_dir}contactenos" title="Ubicación" target="_self">Ubicación</a>
+                                    <a href="{$base_dir}contacto" title="Contáctanos" target="_self">Contáctanos</a>
                                 </li>
                             </ul>
                         </article>
@@ -188,9 +120,11 @@
                         <article id="coverage_areas">
                             <h5>Zonas de Cobertura</h5>
                             <p>
-                                <a href="{$base_dir}contactenos" title="Conoce nuestras zonas de cobertura" target="_self">Conoce nuestras zonas de cobertura</a>
+                                <a href="{$base_dir}content/7-soona" title="Conoce nuestras zonas de cobertura" target="_self">
+                                    Conoce nuestras zonas de cobertura
+                                    <img src="{$img_dir}soona_img/images_soona/mapa_df_footer.png" alt="Mapa del Distrito Federal" width="97" height="133" />
+                                </a>
                             </p>
-                            <img src="{$img_dir}soona_img/images_soona/mapa_df_footer.png" alt="Mapa del Distrito Federal" width="97" height="133" />
                         </article>
                     </section>
                     {*$HOOK_FOOTER*}
@@ -204,7 +138,20 @@
                     {/if*}
                 </div>
                 <div class="footer_bottom">
-                    <p>&copy; 2003 - 2014 Soona Reservados todos los derechos.</p>
+                    <div id="footer_wrapper">
+                        <p>&copy; 2003 - 2014 Soona Reservados todos los derechos.</p>
+                        <ul>
+                            <li>
+                                <a href="{$base_dir}content/3-condiciones-de-uso" title="Términos y Condiciones" target="_self">Términos y Condiciones</a>
+                            </li>
+                            <li>
+                                <a href="{$base_dir}content/2-aviso-legal" title="Aviso Legal" target="_self">Aviso Legal</a>
+                            </li>
+                            <li>
+                                <a href="{$base_dir}content/6-preguntas-frecuentes" title="Preguntas Frecuentes" target="_self">Preguntas Frecuentes</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </footer>
         </div>

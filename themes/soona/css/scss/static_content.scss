@@ -4,7 +4,7 @@
     h1{
         @include font-mask( $color_dark !important, em( 39, 16 ) !important, em( 95, 39 ) !important, normal !important, $discover !important );
         background: url("../../img/soona_img/images_soona/faq.png") no-repeat scroll 150px center transparent;
-        height: 77px;
+        height: 77px !important;
         text-align: center;
     }
     #faqs{
@@ -12,7 +12,7 @@
         div{
             border-bottom: 1px solid #E5E5E5;
             h2{
-                @include font-mask( $color_light, em( 22, 16 ), em( 22, 22 ), bold );
+                @include font-mask( $color_dark !important, em( 22, 16 ), em( 22, 22 ), normal, $futura_bold );
                 padding: 0;
             }
             p{
@@ -40,16 +40,16 @@
     }
     h1{
         @include font-mask( $color_dark !important, em( 39, 16 ) !important, em( 78, 39 ) !important, normal !important, $discover !important );
-        padding: 0 0 0 50px;
-        text-align: left;
+        background: url("../../img/soona_img/images_soona/featured_products_title_background.png") no-repeat scroll left center transparent;
+        margin: 0 !important;
+        padding: 0 0 0 70px !important;
+        text-indent: 0 !important;
     }
-    p{
-        @include font-mask( $text_gray, em( 18, 16 ), em( 18, 18 ), normal );
-    }
+    p{ @include font-mask( $text_gray, em( 18, 16 ), em( 18, 18 ), normal ); }
     .about_us{
         float: left;
         padding: 0;
-        width: 35%;
+        width: 42%;
         h2{
             @include font-mask( $color_dark !important, em( 27, 14 ) !important, em( 35, 27 ) !important, normal !important, $futura_light !important );
             @extend .sello_num2;
@@ -78,7 +78,7 @@
             li{
                 float: left;
                 list-style: none inside;
-                margin: 20px 15px;
+                margin: 20px 5px;
                 img{
                     display: block;
                     margin: 0 auto;
@@ -88,10 +88,8 @@
         }
     }
     .first{
-        width: 65%;
-        h2{
-            @extend .sello_num1;
-        }
+        width: 58%;
+        h2{ @extend .sello_num1; }
     }
     .about_us_overlay{
         background: #F7F7F7;
@@ -123,10 +121,11 @@
 #contact_wrapper{
     width: 960px;
     h1{
-        @include font-mask( $color_dark !important, em( 32, 14 ) !important, em( 62, 32 ) !important, normal !important, $discover !important );
+        @include font-mask( $color_dark !important, em( 32, 14 ) !important, em( 77, 32 ) !important, normal !important, $discover !important );
         background: url("../../img/soona_img/images_soona/contact.png") no-repeat scroll left center transparent;
         height: 62px !important;
-        padding: 0 0 0 70px;
+        margin: 0 !important;
+        padding: 0 0 0 30px;
         text-align: left;
     }
     >div{

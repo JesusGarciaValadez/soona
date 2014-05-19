@@ -52,7 +52,7 @@
                             <article id="testimonial_square">
                                 <h3>Testimoniales</h3>
                                 <p>
-                                    <span>@LoremIpsum:</span> Quisque eget magna sed lorem rhoncus molestie. Nunc felis nibh, locinia a arcu
+                                    “<span>Rogelio Rodríguez</span>. Un excelente servicio, encontré las flores que le gustan a mi esposa y pude hacer el pedido desde E.U., quedamos muy contentos”
                                 </p>
                             </article>
                         </aside>
