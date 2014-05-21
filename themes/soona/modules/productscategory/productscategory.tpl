@@ -25,7 +25,7 @@
 
 {if count($categoryProducts) > 0 && $categoryProducts !== false}
 <div class="clearfix blockproductscategory block products_block">
-	<p class="productscategory_h2 title_block">{$categoryProducts|@count} {l s='other products in the same category:' mod='productscategory'}</p>
+	<span class="title_block2">{l s='Otros Articulos:' mod='productscategory'}</span>
 	<div id="productscategory_productblock">
 	<div id="productscategory_productlist">
 
@@ -42,7 +42,7 @@
 	
 		<ul id="{if $productCount >= $sliderFor}productscategory-carousel{else}productscategory-grid{/if}" class="{if $productCount >= $sliderFor}product-carousel{else}product_list{/if} clearfix">
 			{foreach from=$categoryProducts item='categoryProduct' name=categoryProduct}
-			<li  class="{if $productCount >= $sliderFor}slider-item{/if}">
+			<li  class="{if $productCount >= $sliderFor}slider-item{/if}" style="width: 145px; margin: -35px;">
 <!-- Megnor Start -->
 	<div class="product-block">
 		<div class="product-inner">
@@ -50,7 +50,7 @@
 				<a href="{$link->getProductLink($categoryProduct.id_product, $categoryProduct.link_rewrite, $categoryProduct.category, $categoryProduct.ean13)}" class="lnk_img" title="{$categoryProduct.name|htmlspecialchars}"><img src="{$link->getImageLink($categoryProduct.link_rewrite, $categoryProduct.id_image, 'home_default')|escape:'html'}" alt="{$categoryProduct.name|htmlspecialchars}" />
 				</a>
 				<p class="product_name">
-					<a href="{$link->getProductLink($categoryProduct.id_product, $categoryProduct.link_rewrite, $categoryProduct.category, $categoryProduct.ean13)|escape:'html'}" title="{$categoryProduct.name|htmlspecialchars}">{$categoryProduct.name|truncate:14:'...'|escape:'htmlall':'UTF-8'}</a>
+					<a href="{$link->getProductLink($categoryProduct.id_product, $categoryProduct.link_rewrite, $categoryProduct.category, $categoryProduct.ean13)|escape:'html'}" title="{$categoryProduct.name|htmlspecialchars}" style="font-size:9px">{$categoryProduct.name|truncate:14:'...'|escape:'htmlall':'UTF-8'}</a>
 				</p>
 				{if $ProdDisplayPrice AND $categoryProduct.show_price == 1 AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}
 				<p class="price_display">

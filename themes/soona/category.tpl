@@ -28,7 +28,7 @@
 
 {if isset($category)}
 	{if $category->id AND $category->active}
-		<h1>
+		<h1 class="titulo">
 			{strip}
 				{$category->name|escape:'htmlall':'UTF-8'}
 				{if isset($categoryNameComplement)}
@@ -37,6 +37,21 @@
 			{/strip}
 		</h1>
 		
+        <div id="sello_catalogo"><img src="{$img_dir}soona_img/images_soona/sello_catalogo.png"/></div>
+        
+        <div id="soona_icons">
+ <ul>
+  <li><img src="{$img_dir}soona_img/iconos/amistad.png" class="img" /></li>
+  <li><img src="{$img_dir}soona_img/iconos/amor.png" class="img" /></li>
+  <li><img src="{$img_dir}soona_img/iconos/compromiso.png" class="img" /></li>
+  <li><img src="{$img_dir}soona_img/iconos/corporativo.png" class="img" /></li>
+  <li><img src="{$img_dir}soona_img/iconos/hogar.png" class="img" /></li>
+  <li><img src="{$img_dir}soona_img/iconos/nacimiento.png" class="img" /></li>
+  <li><img src="{$img_dir}soona_img/iconos/reconciliacion.png" class="img" /></li>
+  <li><img src="{$img_dir}soona_img/iconos/salud.png" class="img" /></li>
+ </ul>
+</div>
+<div style="display:block; min-height:5em">&nbsp;</div>
 		
 		{if $scenes || $category->description || $category->id_image}
 		<div class="content_scene_cat">
@@ -98,26 +113,21 @@
 		{/if}
 
 		<!--<div class="resumecat category-product-count">-->
-		{include file="$tpl_dir./category-count.tpl"}
+		{*include file="$tpl_dir./category-count.tpl"*}
 		<!--</div>-->
 
 		{if $products}
-			<div class="content_sortPagiBar">
+			<!--<div class="content_sortPagiBar">
 				<div class="sortPagiBar">
-					{include file="./product-sort.tpl"}
-					{include file="./nbr-product-page.tpl"}
+					{*include file="./product-sort.tpl"*}
+					{*include file="./nbr-product-page.tpl"*}
 				</div>
 				
-			</div>
+			</div>-->
 			
 			{include file="./product-list.tpl" products=$products}
 			
-			<div class="content_sortPagiBar">
-				<div class="sortPagiBar_bottom">
-					{include file="./product-compare.tpl" paginationId='bottom'}
-					{include file="$tpl_dir./pagination.tpl" paginationId='bottom'}
-				</div>
-			</div>
+			
 			
 		{/if}
 		

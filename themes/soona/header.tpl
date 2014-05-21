@@ -32,6 +32,7 @@
         {if isset($meta_description) AND $meta_description}
         <meta name="description" content="{$meta_description|escape:html:'UTF-8'}" />
         {/if}
+        <meta http-equiv="pragma" content="no-cache" />
         {*if isset($meta_keywords) AND $meta_keywords}
         <meta name="keywords" content="{$meta_keywords|escape:html:'UTF-8'}" />
         {/if*}
@@ -63,6 +64,7 @@
         
         <!-- ================ Additional Links By Tempaltemela : START  ============= -->
         <link rel="stylesheet" type="text/css" href="{$css_dir}megnor/custom.css" />
+        <link rel="stylesheet" type="text/css" href="{$css_dir}jquery.lightbox-0.5.css" />
         <!--[if lt IE 9]><script type="text/javascript" src="{$js_dir}megnor/html5.js"></script><![endif]-->
         <!-- ================ Additional Links By Tempaltemela : END  ============= -->
         
@@ -83,6 +85,7 @@
         <script type="text/javascript" src="{$js_dir}megnor/jquery.custom.min.js"></script>
         <script type="text/javascript" src="{$js_dir}megnor/scrolltop.min.js"></script>
         <script type="text/javascript" src="{$js_dir}megnor/jquery.formalize.min.js"></script> 
+        <script type="text/javascript" src="{$js_dir}jquery.lightbox-0.5s.js"></script> 
         <!--[if lt IE 9]><script type="text/javascript" src="{$js_dir}megnor/respond.min.js"></script><![endif]-->
         <!-- ================ By Tempaltemela : END  ============= -->  
     </head>
