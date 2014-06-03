@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>gogallery</name>
+            <displayName><![CDATA[Go Gallery]]></displayName>
+            <version><![CDATA[1.0]]></version>
+            <description><![CDATA[Galeria de Imagenes]]></description>
+            <author><![CDATA[GE-MXS]]></author>
+            <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall>Esta seguro que desea eliminarlo ?</confirmUninstall>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>
